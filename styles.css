@@ -1,13 +1,29 @@
 /* Variables for colors */
-:root{
-    --clr-primary:#000000;
-    --clr-secondary:#a9a9a9;
-    --clr-accent:var(--clr-secondary);
-    --clr-light:#d3d3d3;
-    --clr-white:#ffffff;
+:root {
+  --clr-primary: #000000;
+  --clr-secondary: #a9a9a9;
+  --clr-accent: var(--clr-secondary);
+  --clr-light: #d3d3d3;
+  --clr-white: #ffffff;
 }
 
 /* CSS reset */
+
+/* Border box fix */
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
