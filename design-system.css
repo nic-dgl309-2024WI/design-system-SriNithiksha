@@ -1,11 +1,26 @@
 /* Style for Top navbar */
 .topnav {
-    background-color: var(--clr-light);
-    overflow: hidden;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--clr-light);
+  overflow: hidden;
+}
 
+.topnav__link--logo {
+  color: var(--clr-primary);
+  font-weight: bold;
+}
 
+.topnav__link {
+  color: var(--clr-primary);
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.topnav__link:hover {
+  color: var(--clr-primary);
+  background-color: var(--clr-white);
+}
 
 /* Styles for the hamburger icon */
 .hamburger {
