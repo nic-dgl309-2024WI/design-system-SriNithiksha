@@ -1,4 +1,4 @@
-/* Style for Top navbar */
+/* Styles for Top navbar */
 .topnav {
   display: flex;
   justify-content: space-between;
@@ -8,7 +8,7 @@
 
 .topnav__link--logo {
   color: var(--clr-primary);
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .topnav__link {
@@ -22,6 +22,37 @@
   background-color: var(--clr-white);
 }
 
+/* Styles for Side navbar */
+.sidenav {
+  display: block;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 40px;
+  background-color: var(--clr-light);
+  z-index: 1;
+}
+
+.sidenav p {
+  color: var(--clr-primary);
+}
+
+.sidenav__list {
+  list-style-type: none;
+}
+
+.sidenav__link {
+  padding: 1px 8px 3px 22px;
+  text-decoration: none;
+  font-size: 15px;
+  color: var(--clr-primary);
+  display: block;
+}
+
+.sidenav__link:hover {
+  color: var(--clr-secondary);
+}
 /* Styles for the hamburger icon */
 .hamburger {
   display: none; /* Hide by default */
