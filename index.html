@@ -3,17 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="design-system.css" />
     <title>Design System</title>
   </head>
   <body>
-    <!--TOPNAV-->
+    <!--Top navbar-->
     <div class="topnav" id="myTopnav">
       <a href="#" class="topnav__link topnav__link--logo">Design System</a>
+
+      <!-- Hamburger icon -->
+      <span class="toggle-nav" onclick="toggleNav()">
+        <span class="hamburger">&#9776;</span>
+        <!-- Cancel icon initially hidden -->
+        <span class="cancel" style="display: none">&#10006;</span>
+      </span>
+
+    <!--Other pages-->
       <a href="#" class="topnav__link">About Me</a>
       <a href="#" class="topnav__link">Demo Site</a>
     </div>
 
-    <!--SIDENAV-->
+    <!--Side navbar-->
     <div class="sidenav" id="mySidenav">
       <ul class="sidenav__list">
         <p>Branding</p>
@@ -42,8 +53,7 @@
         <li><a href="#" class="sidenav__link">19 lists</a></li>
       </ul>
     </div>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="design-system.css" />
+
     <script src="design-system.js"></script>
   </body>
 </html>

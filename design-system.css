@@ -1,0 +1,5 @@
+/* Styles for the hamburger icon */
+.hamburger {
+  display: none; /* Hide by default */
+  cursor: pointer;
+}
