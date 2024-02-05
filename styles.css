@@ -1,0 +1,8 @@
+/* Variables for colors */
+:root{
+    --clr-primary:#000000;
+    --clr-secondary:#a9a9a9;
+    --clr-accent:var(--clr-secondary);
+    --clr-light:#d3d3d3;
+    --clr-white:#ffffff;
+}
