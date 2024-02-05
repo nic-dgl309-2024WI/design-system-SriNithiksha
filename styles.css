@@ -6,3 +6,8 @@
     --clr-light:#d3d3d3;
     --clr-white:#ffffff;
 }
+
+/* CSS reset */
+* {
+    box-sizing: border-box;
+  }
