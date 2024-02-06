@@ -7,12 +7,12 @@
 }
 
 .topnav__link--logo {
-  color: var(--clr-primary);
+  color: var(--clr-primary-text);
   font-weight: lighter;
 }
 
 .topnav__link {
-  color: var(--clr-primary);
+  color: var(--clr-primary-text);
   text-decoration: none;
   padding: 14px 16px;
 }
