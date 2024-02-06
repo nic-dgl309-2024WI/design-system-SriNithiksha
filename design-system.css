@@ -2,7 +2,7 @@
 .topnav {
   display: flex;
   justify-content: space-between;
-  background-color: var(--clr-light);
+  background-color: var(--clr-primary-100);
   overflow: hidden;
 }
 
