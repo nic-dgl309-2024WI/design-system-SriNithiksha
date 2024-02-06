@@ -29,7 +29,7 @@
 /* Styles for Side navbar */
 .sidenav {
   display: none;
-  background-color: var(--clr-light);
+  background-color: var(--clr-primary-100);
   padding-top: 20px;
 }
 
@@ -78,7 +78,7 @@
     top: 46px;
     left: 0;
     z-index: 1;
-    background-color: var(--clr-light);
+    background-color: var(--clr-primary-100);
   }
 
   .sidenav__link {
