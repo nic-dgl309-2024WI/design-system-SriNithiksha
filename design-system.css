@@ -34,7 +34,7 @@
 }
 
 .sidenav p {
-  color: var(--clr-primary);
+  color: var(--clr-secondary-text);
 }
 
 .sidenav__list {
@@ -42,7 +42,7 @@
 }
 
 .sidenav__link {
-  color: var(--clr-primary);
+  color: var(--clr-primary-text);
   text-decoration: none;
   display: block;
   margin-bottom: 5px;
@@ -51,7 +51,7 @@
 .sidenav__links {
   text-decoration: none;
   display: block;
-  color: var(--clr-primary);
+  color: var(--clr-primary-text);
 }
 .sidenav__link:hover {
   color: var(--clr-secondary);
