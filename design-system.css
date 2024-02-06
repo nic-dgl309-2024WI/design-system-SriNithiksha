@@ -26,13 +26,11 @@
   background-color: var(--clr-white);
 }
 
-.topnav__links a:hover {
-  text-decoration: none;
-}
-
 /* Styles for Side navbar */
 .sidenav {
   display: none;
+  background-color: var(--clr-light);
+  padding-top: 20px;
 }
 
 .sidenav p {

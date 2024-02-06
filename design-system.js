@@ -1,5 +1,17 @@
 // Reference: Chatgpt
 // Made changes according to my code
+// design-system.js
+document.addEventListener("DOMContentLoaded", function () {
+  // Add 'active' class to the current page link
+  var currentPage = window.location.href;
+  var links = document.querySelectorAll(".topnav__link, .sidenav__link");
+
+  links.forEach(function (link) {
+    if (link.href === currentPage) {
+      link.classList.add("active");
+    }
+  });
+});
 
 function toggleNav() {
   var sidenav = document.getElementById("mySidenav");
