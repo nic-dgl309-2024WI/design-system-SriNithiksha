@@ -2,17 +2,17 @@
 .topnav {
   display: flex;
   justify-content: space-between;
-  background-color: var(--clr-primary-100);
+  background-color: var(--clr-light);
   overflow: hidden;
 }
 
 .topnav__link--logo {
-  color: var(--clr-primary-text);
+  color: var(--clr-primary);
   font-weight: lighter;
 }
 
 .topnav__link {
-  color: var(--clr-primary-text);
+  color: var(--clr-primary);
   text-decoration: none;
   padding: 14px 16px;
 }
@@ -22,19 +22,19 @@
 }
 
 .topnav__link:hover {
-  color: var(--clr-secondary-text);
-  background-color: var(--clr-accent-100);
+  color: var(--clr-primary);
+  background-color: var(--clr-white);
 }
 
 /* Styles for Side navbar */
 .sidenav {
   display: none;
-  background-color: var(--clr-primary-100);
+  background-color: var(--clr-light);
   padding-top: 20px;
 }
 
 .sidenav p {
-  color: var(--clr-secondary-text);
+  color: var(--clr-primary);
 }
 
 .sidenav__list {
@@ -42,7 +42,7 @@
 }
 
 .sidenav__link {
-  color: var(--clr-primary-text);
+  color: var(--clr-primary);
   text-decoration: none;
   display: block;
   margin-bottom: 5px;
@@ -51,10 +51,10 @@
 .sidenav__links {
   text-decoration: none;
   display: block;
-  color: var(--clr-primary-text);
+  color: var(--clr-primary);
 }
 .sidenav__link:hover {
-  color: var(--clr-secondary-text);
+  color: var(--clr-secondary);
 }
 
 /* Styles for the hamburger icon */
@@ -78,7 +78,7 @@
     top: 46px;
     left: 0;
     z-index: 1;
-    background-color: var(--clr-primary-100);
+    background-color: var(--clr-light);
   }
 
   .sidenav__link {
