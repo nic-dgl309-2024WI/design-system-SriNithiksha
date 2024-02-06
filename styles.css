@@ -16,6 +16,10 @@
   /* Secondary Colors */
   --clr-secondary-bg: #00312e; /* Secondary background color */
   --clr-secondary-text: #fad3d8; /* Secondary text color */
+
+  /* Accent Colors */
+  --clr-accent-100: #937398;
+  --clr-accent-200: #aabf96;
 }
 
 /* CSS reset */
