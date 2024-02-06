@@ -54,7 +54,7 @@
   color: var(--clr-primary-text);
 }
 .sidenav__link:hover {
-  color: var(--clr-secondary);
+  color: var(--clr-secondary-text);
 }
 
 /* Styles for the hamburger icon */
