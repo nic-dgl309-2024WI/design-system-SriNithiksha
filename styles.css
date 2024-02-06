@@ -20,6 +20,10 @@
   /* Accent Colors */
   --clr-accent-100: #937398;
   --clr-accent-200: #aabf96;
+
+  /* Neutrals */
+  --clr-white: #ffffff;
+  --clr-gray: #323737;
 }
 
 /* CSS reset */
