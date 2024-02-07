@@ -73,9 +73,14 @@
 
 .text {
   font-size: 16px;
-}.u-primary{
+}
+
+/* Primary color swatches */
+.u-primary{
   display: flex;
   flex-direction: column;
+  padding: 20px;
+  padding-bottom: 15px;
 }
 
 .c-color1{
@@ -96,6 +101,25 @@
   height:100px;
 }
 
+/* Secondary color swatches */
+.u-secondary{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-bottom: 15px;
+}
+
+.c-color4{
+    background-color: var(--clr-secondary-bg);
+    width:200px;
+    height:100px;
+}
+
+.c-color5{
+  background-color: var(--clr-secondary-text);
+  width:200px;
+  height:100px;
+}
 
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
