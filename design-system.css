@@ -1,9 +1,13 @@
 /* Styles for Top navbar */
 .topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: var(--clr-light);
   overflow: hidden;
+  z-index: 1000;
 }
 
 .topnav__link--logo {
@@ -66,8 +70,8 @@
 /* Active Link */
 
 .sidenav__link.active {
-  color: var(--clr-secondary); 
-  background-color: var(--clr-primary); 
+  color: var(--clr-secondary);
+  background-color: var(--clr-primary);
 }
 
 /* Style Swatch Pannel */
@@ -84,90 +88,90 @@
 }
 
 /* Primary color swatches */
-.u-primary{
+.u-primary {
   display: flex;
   flex-direction: column;
   padding: 20px;
   padding-bottom: 15px;
 }
 
-.c-color1{
-    background-color: var(--clr-primary-100);
-    width:200px;
-    height:100px;
+.c-color1 {
+  background-color: var(--clr-primary-100);
+  width: 200px;
+  height: 100px;
 }
 
-.c-color2{
+.c-color2 {
   background-color: var(--clr-primary-light);
-  width:200px;
-  height:100px;
+  width: 200px;
+  height: 100px;
 }
 
-.c-color3{
+.c-color3 {
   background-color: var(--clr-primary-text);
-  width:200px;
-  height:100px;
+  width: 200px;
+  height: 100px;
 }
 
 /* Secondary color swatches */
-.u-secondary{
+.u-secondary {
   display: flex;
   flex-direction: column;
   padding: 20px;
   padding-bottom: 15px;
 }
 
-.c-color4{
-    background-color: var(--clr-secondary-bg);
-    width:200px;
-    height:100px;
+.c-color4 {
+  background-color: var(--clr-secondary-bg);
+  width: 200px;
+  height: 100px;
 }
 
-.c-color5{
+.c-color5 {
   background-color: var(--clr-secondary-text);
-  width:200px;
-  height:100px;
+  width: 200px;
+  height: 100px;
 }
 
 /* Accent color swatches */
-.u-accent{
+.u-accent {
   display: flex;
   flex-direction: column;
   padding: 20px;
   padding-bottom: 15px;
 }
 
-.c-color6{
-    background-color: var(--clr-accent-100);
-    width:200px;
-    height:100px;
+.c-color6 {
+  background-color: var(--clr-accent-100);
+  width: 200px;
+  height: 100px;
 }
 
-.c-color7{
+.c-color7 {
   background-color: var(--clr-accent-200);
-  width:200px;
-  height:100px;
+  width: 200px;
+  height: 100px;
 }
 
 /* Neutral color swatches */
-.u-neutrals{
+.u-neutrals {
   display: flex;
   flex-direction: column;
   padding: 20px;
   padding-bottom: 15px;
 }
 
-.c-color8{
-    background-color: var(--clr-white);
-    border: black 2px;
-    width:200px;
-    height:100px;
+.c-color8 {
+  background-color: var(--clr-white);
+  border: black 2px;
+  width: 200px;
+  height: 100px;
 }
 
-.c-color9{
+.c-color9 {
   background-color: var(--clr-gray);
-  width:200px;
-  height:100px;
+  width: 200px;
+  height: 100px;
 }
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
