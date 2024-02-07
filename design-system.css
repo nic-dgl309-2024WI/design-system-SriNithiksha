@@ -68,11 +68,12 @@
 .swatches {
   display: flex;
   flex-direction: column;
-  margin-left: 300px;
+  margin-left: 500px;
 }
 
 .text {
   font-size: 16px;
+  padding: 10px;
 }
 
 /* Primary color swatches */
@@ -122,21 +123,42 @@
 }
 
 /* Accent color swatches */
-.u-secondary{
+.u-accent{
   display: flex;
   flex-direction: column;
   padding: 20px;
   padding-bottom: 15px;
 }
 
-.c-color4{
+.c-color6{
     background-color: var(--clr-accent-100);
     width:200px;
     height:100px;
 }
 
-.c-color5{
+.c-color7{
   background-color: var(--clr-accent-200);
+  width:200px;
+  height:100px;
+}
+
+/* Neutral color swatches */
+.u-neutrals{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-bottom: 15px;
+}
+
+.c-color8{
+    background-color: var(--clr-white);
+    border: black 2px;
+    width:200px;
+    height:100px;
+}
+
+.c-color9{
+  background-color: var(--clr-gray);
   width:200px;
   height:100px;
 }
