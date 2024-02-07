@@ -164,7 +164,7 @@
 
 .c-color8 {
   background-color: var(--clr-white);
-  border: black 2px;
+  border: 1px solid black;
   width: 250px;
   height: 80px;
 }
