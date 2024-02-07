@@ -121,6 +121,25 @@
   height:100px;
 }
 
+/* Accent color swatches */
+.u-secondary{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-bottom: 15px;
+}
+
+.c-color4{
+    background-color: var(--clr-accent-100);
+    width:200px;
+    height:100px;
+}
+
+.c-color5{
+  background-color: var(--clr-accent-200);
+  width:200px;
+  height:100px;
+}
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
