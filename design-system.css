@@ -80,6 +80,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 500px;
+  padding: 25px;
 }
 
 .text {
@@ -97,20 +98,20 @@
 
 .c-color1 {
   background-color: var(--clr-primary-100);
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 80px;
 }
 
 .c-color2 {
   background-color: var(--clr-primary-light);
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 80px;
 }
 
 .c-color3 {
   background-color: var(--clr-primary-text);
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 80px;
 }
 
 /* Secondary color swatches */
@@ -123,14 +124,14 @@
 
 .c-color4 {
   background-color: var(--clr-secondary-bg);
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 80px;
 }
 
 .c-color5 {
   background-color: var(--clr-secondary-text);
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 80px;
 }
 
 /* Accent color swatches */
@@ -143,14 +144,14 @@
 
 .c-color6 {
   background-color: var(--clr-accent-100);
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 80px;
 }
 
 .c-color7 {
   background-color: var(--clr-accent-200);
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 80px;
 }
 
 /* Neutral color swatches */
@@ -164,14 +165,14 @@
 .c-color8 {
   background-color: var(--clr-white);
   border: black 2px;
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 80px;
 }
 
 .c-color9 {
   background-color: var(--clr-gray);
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 80px;
 }
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
