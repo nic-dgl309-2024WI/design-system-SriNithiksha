@@ -63,6 +63,13 @@
   cursor: pointer;
 }
 
+/* Active Link */
+
+.sidenav__link.active {
+  color: var(--clr-secondary); 
+  background-color: var(--clr-primary); 
+}
+
 /* Style Swatch Pannel */
 
 .swatches {
