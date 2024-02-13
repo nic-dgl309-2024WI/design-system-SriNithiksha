@@ -26,13 +26,27 @@
   --clr-gray: #323737;
 
   /*font variables*/
-  /* Heading */
+  /* Font family for Heading and body */
   --heading-font-family:"Merriweather", serif;
   --subheading-font:"Merriweather", serif;
 
-  /* Body */
-  --body-head-font: 'Roboto', sans-serif;
-  --body-context-font: 'Roboto', sans-serif;
+  --body-title: 'Roboto', sans-serif;
+  --body-context: 'Roboto', sans-serif;
+
+  /* Font size */
+  --fs-heading: 2.5rem;
+  --fs-subheading: 2rem;
+  --fs-body-title: 1.5rem;
+  --fs-body-context: 1rem;
+
+
+
+
+
+
+
+  
+
 
 }
 
