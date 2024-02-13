@@ -42,10 +42,11 @@
   /* Font weight */
   --fw-heading: bold;
   --fw-subheading: bold;
-  --fw--body-title: normal;
-  --fs-body-context: normal;
+  --fw--body-title: bold;
+  --fw-body-context: normal;
 
   /* Line height */
+  --ht-head-line: 3rem;
   --ht-line: 1.6rem;
 
   /* letter spacing */

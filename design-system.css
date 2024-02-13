@@ -177,6 +177,53 @@
   width: 250px;
   height: 80px;
 }
+
+/* Utilities classes for the typography */
+
+.u-Merriweather{
+font-size: var(--fs-heading);
+color: var(--clr-primary-100);
+}
+
+/* Heading and subheading */
+.u-heading{
+  font-family: var(--heading-font-family);
+  font-size: var(--fs-heading);
+  font-weight: var(--fw-heading);
+  line-height: var(--ht-line);
+  letter-spacing: var(--letter-space);
+}
+
+.u-subheading{
+  font-family: var(--subheading-font);
+  font-size: var(--fs-subheading);
+  font-weight: var(--fw-subheading);
+  line-height: var(--ht-line);
+  letter-spacing: var(--letter-space);
+}
+
+/* Body title and context */
+
+.u-Roboto{
+  font-size: var(--fs-heading);
+  color: var(--clr-primary-100);
+}
+
+.u-body-title{
+  font-family: var(--body-title);
+  font-size: var(--fs-body-title);
+  font-weight: var(--fw-body-title);
+  line-height: var(--ht-line);
+  letter-spacing: var(--letter-space);
+}
+
+.u-body-context{
+  font-family: var(--body-context);
+  font-size: var(--fs-body-context);
+  font-weight: var(--fw-body-context);
+  line-height: var(--ht-line);
+  letter-spacing: var(--letter-space);
+}
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
