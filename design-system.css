@@ -180,17 +180,17 @@
 
 /* Utilities classes for the typography */
 
-.u-Merriweather{
-font-size: var(--fs-heading);
-color: var(--clr-primary-100);
-display: flex;
-flex-direction: column;
-margin-left: 300px;
-padding: 80px;
+.u-Merriweather {
+  font-size: var(--fs-heading);
+  color: var(--clr-primary-100);
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  padding: 80px;
 }
 
 /* Heading and subheading */
-.u-heading{
+.u-heading {
   font-family: var(--heading-font-family);
   font-size: var(--fs-heading);
   font-weight: var(--fw-heading);
@@ -199,7 +199,7 @@ padding: 80px;
   color: var(--clr-primary-text);
 }
 
-.u-subheading{
+.u-subheading {
   font-family: var(--subheading-font);
   font-size: var(--fs-subheading);
   font-weight: var(--fw-subheading);
@@ -210,21 +210,25 @@ padding: 80px;
 
 /* Body title and context */
 
-.u-Roboto{
+.u-Roboto {
   font-size: var(--fs-heading);
   color: var(--clr-primary-100);
-
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  padding: 80px;
 }
 
-.u-body-title{
+.u-body-title {
   font-family: var(--body-title);
   font-size: var(--fs-body-title);
   font-weight: var(--fw-body-title);
   line-height: var(--ht-line);
   letter-spacing: var(--letter-space);
+  color: var(--clr-primary-text);
 }
 
-.u-body-context{
+.u-body-context {
   font-family: var(--body-context);
   font-size: var(--fs-body-context);
   font-weight: var(--fw-body-context);
@@ -257,10 +261,10 @@ padding: 80px;
   }
   /* Hamburger icon */
   .hamburger {
-    display: none; 
+    display: none;
   }
 
-  .cancel{
+  .cancel {
     display: none;
   }
 
