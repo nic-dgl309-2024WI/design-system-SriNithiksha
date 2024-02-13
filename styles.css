@@ -24,6 +24,16 @@
   /* Neutrals */
   --clr-white: #ffffff;
   --clr-gray: #323737;
+
+  /*font variables*/
+  /* Heading */
+  --heading-font-family:"Merriweather", serif;
+  --subheading-font:"Merriweather", serif;
+
+  /* Body */
+  --body-head-font: 'Roboto', sans-serif;
+  --body-context-font: 'Roboto', sans-serif;
+
 }
 
 /* CSS reset */
