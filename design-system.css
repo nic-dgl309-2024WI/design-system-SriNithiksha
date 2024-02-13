@@ -183,6 +183,10 @@
 .u-Merriweather{
 font-size: var(--fs-heading);
 color: var(--clr-primary-100);
+display: flex;
+flex-direction: column;
+margin-left: 300px;
+padding: 80px;
 }
 
 /* Heading and subheading */
@@ -190,8 +194,9 @@ color: var(--clr-primary-100);
   font-family: var(--heading-font-family);
   font-size: var(--fs-heading);
   font-weight: var(--fw-heading);
-  line-height: var(--ht-line);
+  line-height: var(--ht-head-line);
   letter-spacing: var(--letter-space);
+  color: var(--clr-primary-text);
 }
 
 .u-subheading{
@@ -207,6 +212,7 @@ color: var(--clr-primary-100);
 .u-Roboto{
   font-size: var(--fs-heading);
   color: var(--clr-primary-100);
+
 }
 
 .u-body-title{
