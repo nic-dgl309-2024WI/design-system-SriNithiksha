@@ -45,8 +45,11 @@
   --fw--body-title: normal;
   --fs-body-context: normal;
 
+  /* Line height */
+  --ht-line: 1.6rem;
 
-
+  /* letter spacing */
+  --letter-space: normal;
 
 }
 
