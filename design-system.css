@@ -203,8 +203,9 @@ padding: 80px;
   font-family: var(--subheading-font);
   font-size: var(--fs-subheading);
   font-weight: var(--fw-subheading);
-  line-height: var(--ht-line);
+  line-height: var(--ht-head-lineline);
   letter-spacing: var(--letter-space);
+  color: var(--clr-primary-text);
 }
 
 /* Body title and context */
