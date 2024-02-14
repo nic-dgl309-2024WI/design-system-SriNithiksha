@@ -182,8 +182,7 @@
 .typeface {
   display: flex;
   flex-direction: column;
-  margin-left: 150px;
-  padding: 25px;
+  margin-left: 0;
 }
 
 .typeface p{
@@ -290,5 +289,6 @@
   .typeface{
     margin-right: 0;
     margin-left: 250px;
+    padding-top: 25px;
   }
 }
