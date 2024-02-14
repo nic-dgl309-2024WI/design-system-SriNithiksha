@@ -234,6 +234,7 @@
   font-weight: var(--fw-body-context);
   line-height: var(--ht-line);
   letter-spacing: var(--letter-space);
+  color: var(--clr-primary-text);
 }
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {

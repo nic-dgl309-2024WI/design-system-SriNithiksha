@@ -36,8 +36,8 @@
   /* Font size */
   --fs-heading: 2.5rem;
   --fs-subheading: 2rem;
-  --fs-body-title: 1.5rem;
-  --fs-body-context: 1rem;
+  --fs-body-title: 2rem;
+  --fs-body-context: 1.5rem;
 
   /* Font weight */
   --fw-heading: bold;
