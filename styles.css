@@ -9,21 +9,21 @@
   --clr-white: #ffffff;
 
   /* Primary Colors */
-  --clr-primary-100: #2b2b2b; /* Base color */
-  --clr-primary-light: #039f9b; /* Light tone */
-  --clr-primary-text: #e46a96; /* Dark tone */
+  --primary-bg: #4A7295;
+  --primary-bg-light: #286486;
+  --primary-text: #fff;
 
   /* Secondary Colors */
-  --clr-secondary-bg: #00312e; /* Secondary background color */
-  --clr-secondary-text: #fad3d8; /* Secondary text color */
+  --secondary-bg: #fff;
+  --secondary-text: #000;
+  
+  /* Accent colors */
+  --clr-card: #8A9CAB;
+  --clr-button: #F87C7C;
+  --clr-button-hover: #F8BCBC;
+  --text-hover-100: #F87C7C;
+  --text-hover-200: #4A7295;
 
-  /* Accent Colors */
-  --clr-accent-100: #937398;
-  --clr-accent-200: #aabf96;
-
-  /* Neutrals */
-  --clr-white: #ffffff;
-  --clr-gray: #323737;
 
   /*font variables*/
   /* Font family for Heading and body */
@@ -37,7 +37,7 @@
   --fs-heading: 2.5rem;
   --fs-subheading: 2rem;
   --fs-body-title: 2rem;
-  --fs-body-context: 1.5rem;
+  --fs-body-context: 1rem;
 
   /* Font weight */
   --fw-heading: bold;
