@@ -24,6 +24,8 @@
   --text-hover-100: #F87C7C;
   --text-hover-200: #4A7295;
 
+  
+
 
   /*font variables*/
   /* Font family for Heading and body */
@@ -80,3 +82,48 @@ ul,
 ol {
   padding: 0;
 }
+/* Utilities Classes for the swatches */
+/* Primary colors*/
+.u-primary-bg{
+  background-color: var(--primary-bg);
+}
+.u-bg-primary-light {
+  background-color: var(--primary-bg-light);
+}
+.u-primary-text {
+  color: var(--primary-text);
+}
+
+/* Secondary Colors */
+.u-secondary-bg {
+  background-color: var(--secondary-bg);
+}
+
+.u-secondary-text {
+  color: var(--secondary-text);
+}
+
+/* Accent Colors */
+.u-card {
+  background-color: var(--clr-card);
+}
+
+.u-button {
+  background-color: var(--clr-button);
+  color: var(--primary-text);
+}
+
+.u-button-hover {
+  background-color: var(--clr-button-hover);
+  color: var(--primary-text);
+}
+
+/* Text Hover Colors */
+.u-text-hover-100 {
+  color: var(--text-hover-100);
+}
+
+.u-text-hover-200 {
+  color: var(--text-hover-200);
+}
+

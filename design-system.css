@@ -82,23 +82,23 @@
 .swatches {
   display: flex;
   flex-direction: column;
+  background-color: var(--clr-secondary);
   margin:0;
   padding: 25px;
 }
 
 /* Primary color swatches */
 .u-primary {
-  background-color: var(--clr-card);
   display: flex;
   flex-direction: column;
   width: 700px;
   height: auto;
   padding: 20px;
   padding-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .c-color1 {
-  background-color: var(--primary-bg);
   color: var(--secondary-bg) ;
   display: flex;
   flex-direction: column;
@@ -109,7 +109,6 @@
 }
 
 .c-color2 {
-  background-color: var(--primary-bg-light);
   color: var(--secondary-bg) ;
   display: flex;
   flex-direction: column;
@@ -120,7 +119,6 @@
 }
 
 .c-color3 {
-  background-color: var(--primary-text);
   color: var(--primary-bg) ;
   display: flex;
   flex-direction: column;
@@ -132,17 +130,16 @@
 
 /* Secondary color swatches */
 .u-secondary {
-  background-color: var(--clr-card);
   display: flex;
   flex-direction: column;
   width: 700px;
   height: auto;
   padding: 20px;
   padding-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .c-color4 {
-  background-color: var(--secondary-bg);
   color: var(--secondary-text) ;
   display: flex;
   flex-direction: column;
@@ -165,17 +162,16 @@
 
 /* Accent color swatches */
 .u-accent {
-  background-color: var(--clr-light);
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: auto;
   height: auto;
   padding: 20px;
   padding-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .c-color6 {
-  background-color: var(--clr-card);
   color: var(--secondary-text) ;
   display: flex;
   flex-direction: column;
@@ -186,7 +182,6 @@
 }
 
 .c-color7 {
-  background-color: var(--clr-button);
   color: var(--primary-text) ;
   display: flex;
   flex-direction: column;
@@ -197,7 +192,6 @@
 }
 
 .c-color8 {
-  background-color: var(--clr-button-hover);
   color: var(--primary-text) ;
   display: flex;
   flex-direction: column;
@@ -334,7 +328,7 @@
   /* Swatches */
   .swatches {
     margin-right: 0;
-    margin-left: 450px; /* Add spacing to the right */
+    margin-left: 220px; 
   }
   /* Typography */
   .typeface{
