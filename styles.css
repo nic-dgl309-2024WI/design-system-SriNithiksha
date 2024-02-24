@@ -10,7 +10,7 @@
 
   /* Primary Colors */
   --primary-bg: #4A7295;
-  --primary-bg-light: #286486;
+  --primary-bg-light: rgba(40, 100, 134, 34%);
   --primary-text: #fff;
 
   /* Secondary Colors */

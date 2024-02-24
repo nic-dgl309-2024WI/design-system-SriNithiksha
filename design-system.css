@@ -165,22 +165,57 @@
 
 /* Accent color swatches */
 .u-accent {
+  background-color: var(--clr-light);
   display: flex;
   flex-direction: column;
+  width: 700px;
+  height: auto;
   padding: 20px;
   padding-bottom: 15px;
 }
 
 .c-color6 {
-  background-color: var(--clr-accent-100);
-  width: 250px;
-  height: 80px;
+  background-color: var(--clr-card);
+  color: var(--secondary-text) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
 }
 
 .c-color7 {
-  background-color: var(--clr-accent-200);
-  width: 250px;
-  height: 80px;
+  background-color: var(--clr-button);
+  color: var(--primary-text) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+}
+
+.c-color8 {
+  background-color: var(--clr-button-hover);
+  color: var(--primary-text) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+}
+
+.c-color9 {
+  background-color: var(--clr-button-hover);
+  color: var(--primary-text) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
 }
 
 /* Neutral color swatches */
@@ -191,18 +226,7 @@
   padding-bottom: 15px;
 }
 
-.c-color8 {
-  background-color: var(--clr-white);
-  border: 1px solid black;
-  width: 250px;
-  height: 80px;
-}
 
-.c-color9 {
-  background-color: var(--clr-gray);
-  width: 250px;
-  height: 80px;
-}
 
 /* Typography */
 .typeface {
