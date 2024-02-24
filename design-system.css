@@ -82,13 +82,8 @@
 .swatches {
   display: flex;
   flex-direction: column;
-  margin-left: 150px;
+  margin:0;
   padding: 25px;
-}
-
-.text {
-  font-size: 16px;
-  padding: 10px;
 }
 
 /* Primary color swatches */
@@ -137,22 +132,35 @@
 
 /* Secondary color swatches */
 .u-secondary {
+  background-color: var(--clr-card);
   display: flex;
   flex-direction: column;
+  width: 700px;
+  height: auto;
   padding: 20px;
   padding-bottom: 15px;
 }
 
 .c-color4 {
-  background-color: var(--clr-secondary-bg);
-  width: 250px;
-  height: 80px;
+  background-color: var(--secondary-bg);
+  color: var(--secondary-text) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
 }
 
 .c-color5 {
-  background-color: var(--clr-secondary-text);
-  width: 250px;
-  height: 80px;
+  background-color: var(--secondary-text);
+  color: var(--secondary-bg) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
 }
 
 /* Accent color swatches */
