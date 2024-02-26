@@ -18,6 +18,12 @@ function toggleNav() {
   var hamburger = document.querySelector(".hamburger");
   var cancel = document.querySelector(".cancel");
 
+  // Remove 'active' class from all links
+  var links = document.querySelectorAll(".topnav__link, .sidenav__link");
+  links.forEach(function (link) {
+    link.classList.remove("active");
+  });
+
   // Toggle the side navbar
   sidenav.style.display = sidenav.style.display === "block" ? "none" : "block";
 
@@ -26,4 +32,10 @@ function toggleNav() {
     hamburger.style.display === "none" ? "inline-block" : "none";
   cancel.style.display =
     cancel.style.display === "none" ? "inline-block" : "none";
+
+  // Add 'active' class to the clicked link
+  var clickedLink = document.querySelector(".topnav__link.active, .sidenav__link.active");
+  if (clickedLink) {
+    clickedLink.classList.add("active");
+  }
 }

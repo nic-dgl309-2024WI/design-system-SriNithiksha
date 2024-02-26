@@ -13,6 +13,10 @@
   font-weight: lighter;
 }
 
+.topnav__link--logo.active{
+  color: var(--text-hover-100);
+}
+
 .topnav__link {
   text-decoration: none;
   padding: 14px 16px;
@@ -23,8 +27,7 @@
 }
 
 .topnav__link:hover {
-  color: var(--clr-primary);
-  background-color: var(--clr-white);
+  color: var(--text-hover-100);
 }
 
 /* Styles for Side navbar */
@@ -33,20 +36,24 @@
   padding-top: 30px;
 }
 
+.sidenav:hover{
+  color: var(--text-hover-100);
+}
+
 .sidenav__list {
   list-style-type: none;
 }
 
 .sidenav__link {
   text-decoration: none;
-  display: block;
+  display: flex;
   margin-bottom: 5px;
 }
 
 .sidenav__links {
   text-decoration: none;
-  display: block;
-  padding-top: 15px;
+  display: flex;
+  padding-top: 8px;
 }
 .sidenav__link:hover {
   color: var(--text-hover-100);
@@ -57,13 +64,16 @@
   display: block;
   cursor: pointer;
   padding: 5px;
-  margin-right: 5px;
+}
+
+.hamburger:hover{
+  color: var(--text-hover-100);
 }
 
 /* Active Link */
 
 .sidenav__link.active {
-  color: var(--clr-secondary);
+  color: var(--text-hover-100);
 }
 
 /* Style Swatch Pannel */
@@ -71,9 +81,11 @@
 .swatches {
   display: flex;
   flex-direction: column;
-  background-color: var(--clr-secondary);
+  background-color: var(--clr-light);
   margin: 0;
-  padding: 25px;
+  padding: 20px;
+  width: auto;
+  height: auto;
 }
 
 /* Primary color swatches */
