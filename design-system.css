@@ -5,18 +5,15 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: var(--clr-light);
   overflow: hidden;
   z-index: 1000;
 }
 
 .topnav__link--logo {
-  color: var(--clr-primary);
   font-weight: lighter;
 }
 
 .topnav__link {
-  color: var(--clr-primary);
   text-decoration: none;
   padding: 14px 16px;
 }
@@ -33,12 +30,7 @@
 /* Styles for Side navbar */
 .sidenav {
   display: none;
-  background-color: var(--clr-light);
   padding-top: 30px;
-}
-
-.sidenav p {
-  color: var(--clr-primary);
 }
 
 .sidenav__list {
@@ -46,7 +38,6 @@
 }
 
 .sidenav__link {
-  color: var(--clr-primary);
   text-decoration: none;
   display: block;
   margin-bottom: 5px;
@@ -55,11 +46,10 @@
 .sidenav__links {
   text-decoration: none;
   display: block;
-  color: var(--clr-primary);
   padding-top: 15px;
 }
 .sidenav__link:hover {
-  color: var(--clr-secondary);
+  color: var(--text-hover-100);
 }
 
 /* Styles for the hamburger icon */
@@ -74,7 +64,6 @@
 
 .sidenav__link.active {
   color: var(--clr-secondary);
-  background-color: var(--clr-primary);
 }
 
 /* Style Swatch Pannel */
@@ -83,7 +72,7 @@
   display: flex;
   flex-direction: column;
   background-color: var(--clr-secondary);
-  margin:0;
+  margin: 0;
   padding: 25px;
 }
 
@@ -99,7 +88,7 @@
 }
 
 .c-color1 {
-  color: var(--secondary-bg) ;
+  color: var(--secondary-bg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,7 +98,7 @@
 }
 
 .c-color2 {
-  color: var(--secondary-bg) ;
+  color: var(--secondary-bg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,7 +108,7 @@
 }
 
 .c-color3 {
-  color: var(--primary-bg) ;
+  color: var(--primary-bg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,7 +129,7 @@
 }
 
 .c-color4 {
-  color: var(--secondary-text) ;
+  color: var(--secondary-text);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,7 +140,7 @@
 
 .c-color5 {
   background-color: var(--secondary-text);
-  color: var(--secondary-bg) ;
+  color: var(--secondary-bg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -172,7 +161,7 @@
 }
 
 .c-color6 {
-  color: var(--secondary-text) ;
+  color: var(--secondary-text);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -182,7 +171,7 @@
 }
 
 .c-color7 {
-  color: var(--primary-text) ;
+  color: var(--primary-text);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,7 +181,7 @@
 }
 
 .c-color8 {
-  color: var(--primary-text) ;
+  color: var(--primary-text);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,7 +192,7 @@
 
 .c-color9 {
   background-color: var(--clr-button-hover);
-  color: var(--primary-text) ;
+  color: var(--primary-text);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -220,8 +209,6 @@
   padding-bottom: 15px;
 }
 
-
-
 /* Typography */
 .typeface {
   display: flex;
@@ -230,8 +217,8 @@
   margin-top: 35px;
 }
 
-.typeface p{
-    color: var(--clr-primary-light);
+.typeface p {
+  color: var(--clr-primary-light);
 }
 
 /* Utilities classes for the typography */
@@ -307,7 +294,6 @@
     top: 46px;
     left: 0;
     z-index: 1;
-    background-color: var(--clr-light);
   }
 
   .sidenav__link {
@@ -328,10 +314,10 @@
   /* Swatches */
   .swatches {
     margin-right: 0;
-    margin-left: 220px; 
+    margin-left: 220px;
   }
   /* Typography */
-  .typeface{
+  .typeface {
     margin-right: 0;
     margin-left: 250px;
     padding-top: 25px;
