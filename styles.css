@@ -9,31 +9,28 @@
   --clr-white: #ffffff;
 
   /* Primary Colors */
-  --primary-bg: #4A7295;
-  --primary-bg-light: rgba(40, 100, 134, 34%);
+  --primary-bg: #4a7295;
+  --primary-bg-light: rgba(74, 114, 149, 35%);
   --primary-text: #fff;
 
   /* Secondary Colors */
   --secondary-bg: #fff;
   --secondary-text: #000;
-  
+
   /* Accent colors */
-  --clr-card: #8A9CAB;
-  --clr-button: #F87C7C;
-  --clr-button-hover: #F8BCBC;
-  --text-hover-100: #F87C7C;
-  --text-hover-200: #4A7295;
-
-  
-
+  --clr-card: rgba(135, 155, 170, 25%);
+  --clr-button: #f87c7c;
+  --clr-button-hover: #f8bcbc;
+  --text-hover-100: #f87c7c;
+  --text-hover-200: #4a7295;
 
   /*font variables*/
   /* Font family for Heading and body */
-  --heading-font-family:"Merriweather", serif;
-  --subheading-font:"Merriweather", serif;
+  --heading-font-family: "Merriweather", serif;
+  --subheading-font: "Merriweather", serif;
 
-  --body-title: 'Roboto', sans-serif;
-  --body-context: 'Roboto', sans-serif;
+  --body-title: "Roboto", sans-serif;
+  --body-context: "Roboto", sans-serif;
 
   /* Font size */
   --fs-heading: 2.5rem;
@@ -53,7 +50,6 @@
 
   /* letter spacing */
   --letter-space: normal;
-
 }
 
 /* CSS reset */
@@ -84,7 +80,7 @@ ol {
 }
 /* Utilities Classes for the swatches */
 /* Primary colors*/
-.u-primary-bg{
+.u-primary-bg {
   background-color: var(--primary-bg);
 }
 .u-bg-primary-light {
@@ -126,4 +122,3 @@ ol {
 .u-text-hover-200 {
   color: var(--text-hover-200);
 }
-

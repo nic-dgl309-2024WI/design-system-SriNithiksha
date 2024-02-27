@@ -13,7 +13,7 @@
   font-weight: lighter;
 }
 
-.topnav__link--logo.active{
+.topnav__link--logo.active {
   color: var(--text-hover-100);
 }
 
@@ -36,7 +36,7 @@
   padding-top: 30px;
 }
 
-.sidenav:hover{
+.sidenav:hover {
   color: var(--text-hover-100);
 }
 
@@ -66,7 +66,7 @@
   padding: 5px;
 }
 
-.hamburger:hover{
+.hamburger:hover {
   color: var(--text-hover-100);
 }
 
@@ -81,7 +81,7 @@
 .swatches {
   display: flex;
   flex-direction: column;
-  background-color: var(--clr-light);
+  align-items: center;
   margin: 0;
   padding: 20px;
   width: auto;
@@ -92,6 +92,7 @@
 .u-primary {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 700px;
   height: auto;
   padding: 20px;
@@ -133,6 +134,7 @@
 .u-secondary {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 700px;
   height: auto;
   padding: 20px;
@@ -165,6 +167,7 @@
 .u-accent {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: auto;
   height: auto;
   padding: 20px;
@@ -211,14 +214,6 @@
   justify-content: center;
   width: 500px;
   height: 200px;
-}
-
-/* Neutral color swatches */
-.u-neutrals {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  padding-bottom: 15px;
 }
 
 /* Typography */
