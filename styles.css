@@ -26,16 +26,16 @@
 
   /*font variables*/
   /* Font family for Heading and body */
-  --heading-font-family: "Merriweather", serif;
+  --heading-font: "Merriweather", serif;
   --subheading-font: "Merriweather", serif;
 
   --body-title: "Roboto", sans-serif;
   --body-context: "Roboto", sans-serif;
 
   /* Font size */
-  --fs-heading: 2.5rem;
+  --fs-heading: 3rem;
   --fs-subheading: 2rem;
-  --fs-body-title: 2rem;
+  --fs-body-title: 1.8rem;
   --fs-body-context: 1rem;
 
   /* Font weight */
@@ -45,8 +45,8 @@
   --fw-body-context: normal;
 
   /* Line height */
-  --ht-head-line: 3rem;
-  --ht-line: 2rem;
+  --ht-head: 2.5rem;
+  --ht-context: 1.5rem;
 
   /* letter spacing */
   --letter-space: normal;
@@ -121,4 +121,63 @@ ol {
 
 .u-text-hover-200 {
   color: var(--text-hover-200);
+}
+
+/* Utilities Classes for Typography */
+/* Head and subhead */
+.u-head-ff {
+  font-family: var(--heading-font);
+}
+
+.u-subhead-ff {
+  font-family: var(--subheading-font);
+}
+
+.u-head-size {
+  font-size: var(--fs-heading);
+}
+
+.u-subhead-size {
+  font-size: var(--fs-subheading);
+}
+
+.u-head-weight {
+  font-weight: var(--fw-heading);
+}
+
+.u-subhead-weight {
+  font-weight: var(--fw-subheading);
+}
+
+.u-head-height {
+  line-height: var(--ht-head);
+}
+
+/* Title and Context */
+.u-title-100 {
+  font-family: var(--body-title);
+}
+
+.u-context-100 {
+  font-family: var(--body-context);
+}
+
+.u-title-size {
+  font-size: var(--fs-body-title);
+}
+
+.u-context-size {
+  font-size: var(--fs-body-context);
+}
+
+.u-titile-weight {
+  font-size: var(--fw--body-title);
+}
+
+.u-context-weight {
+  font-size: var(--fw-body-context);
+}
+
+.u-context-height {
+  line-height: var(--ht-context);
 }
