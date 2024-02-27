@@ -125,59 +125,59 @@ ol {
 
 /* Utilities Classes for Typography */
 /* Head and subhead */
-.u-head-ff {
+.u-head__ff {
   font-family: var(--heading-font);
 }
 
-.u-subhead-ff {
+.u-subhead__ff {
   font-family: var(--subheading-font);
 }
 
-.u-head-size {
+.u-head__size {
   font-size: var(--fs-heading);
 }
 
-.u-subhead-size {
+.u-subhead__size {
   font-size: var(--fs-subheading);
 }
 
-.u-head-weight {
+.u-head__weight {
   font-weight: var(--fw-heading);
 }
 
-.u-subhead-weight {
+.u-subhead__weight {
   font-weight: var(--fw-subheading);
 }
 
-.u-head-height {
+.u-head__height {
   line-height: var(--ht-head);
 }
 
 /* Title and Context */
-.u-title-100 {
+.u-title__100 {
   font-family: var(--body-title);
 }
 
-.u-context-100 {
+.u-context__100 {
   font-family: var(--body-context);
 }
 
-.u-title-size {
+.u-title__size {
   font-size: var(--fs-body-title);
 }
 
-.u-context-size {
+.u-context__size {
   font-size: var(--fs-body-context);
 }
 
-.u-titile-weight {
+.u-titile__weight {
   font-size: var(--fw--body-title);
 }
 
-.u-context-weight {
+.u-context__weight {
   font-size: var(--fw-body-context);
 }
 
-.u-context-height {
+.u-context__height {
   line-height: var(--ht-context);
 }
