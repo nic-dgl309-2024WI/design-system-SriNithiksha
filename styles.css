@@ -35,13 +35,13 @@
   /* Font size */
   --fs-heading: 3rem;
   --fs-subheading: 2rem;
-  --fs-body-title: 1.5rem;
+  --fs-body-title: 2rem;
   --fs-body-context: 1rem;
 
   /* Font weight */
-  --fw-heading: 800;
+  --fw-heading: 700;
   --fw-subheading: 600;
-  --fw--body-title: 500;
+  --fw--body-title: 400;
   --fw-body-context: normal;
 
   /* Line height */
@@ -124,7 +124,7 @@ ol {
 }
 
 /* Utilities Classes for Typography */
-/* Head and subhead */
+/* Font family */
 .u-head__ff {
   font-family: var(--heading-font);
 }
@@ -133,33 +133,21 @@ ol {
   font-family: var(--subheading-font);
 }
 
+.u-subhead__100 {
+  font-family: var(--body-title);
+}
+
+.u-context__font {
+  font-family: var(--body-context);
+}
+
+/* Font Size */
 .u-head__size {
   font-size: var(--fs-heading);
 }
 
 .u-subhead__size {
   font-size: var(--fs-subheading);
-}
-
-.u-head__weight {
-  font-weight: var(--fw-heading);
-}
-
-.u-subhead__weight {
-  font-weight: var(--fw-subheading);
-}
-
-.u-head__height {
-  line-height: var(--ht-head);
-}
-
-/* Title and Context */
-.u-subhead__200 {
-  font-family: var(--body-title);
-}
-
-.u-context__font {
-  font-family: var(--body-context);
 }
 
 .u-title__size {
@@ -170,12 +158,26 @@ ol {
   font-size: var(--fs-body-context);
 }
 
+/* Font Weight */
+.u-head__weight {
+  font-weight: var(--fw-heading);
+}
+
+.u-subhead__weight {
+  font-weight: var(--fw-subheading);
+}
+
 .u-titile__weight {
   font-size: var(--fw--body-title);
 }
 
 .u-context__weight {
   font-size: var(--fw-body-context);
+}
+
+/* Line height */
+.u-head__height {
+  line-height: var(--ht-head);
 }
 
 .u-context__height {
