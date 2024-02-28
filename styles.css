@@ -35,18 +35,18 @@
   /* Font size */
   --fs-heading: 3rem;
   --fs-subheading: 2rem;
-  --fs-body-title: 1.8rem;
+  --fs-body-title: 1.5rem;
   --fs-body-context: 1rem;
 
   /* Font weight */
-  --fw-heading: bold;
-  --fw-subheading: bold;
-  --fw--body-title: bold;
+  --fw-heading: 800;
+  --fw-subheading: 600;
+  --fw--body-title: 500;
   --fw-body-context: normal;
 
   /* Line height */
-  --ht-head: 2.5rem;
-  --ht-context: 1.5rem;
+  --ht-head: 2rem;
+  --ht-context: 1.1rem;
 
   /* letter spacing */
   --letter-space: normal;
@@ -154,11 +154,11 @@ ol {
 }
 
 /* Title and Context */
-.u-title__100 {
+.u-subhead__200 {
   font-family: var(--body-title);
 }
 
-.u-context__100 {
+.u-context__font {
   font-family: var(--body-context);
 }
 
