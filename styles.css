@@ -242,3 +242,26 @@ ol {
 .l-mb-300{
   margin-bottom: 2rem;
 }
+
+/* Margin X and Y axis */
+/* Margin X-axis */
+.l-mx-100 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.l-mx-200 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* Margin Y-axis */
+.l-my-100 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.l-my-200 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
