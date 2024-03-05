@@ -186,9 +186,18 @@ ol {
 
 /* Utility Classes for Margins */
 /* Margin for all four sides */
-.l-m{
+.l-m-100{
   margin: 1rem;
 }
+
+.l-m-200{
+  margin: 1.5rem;
+}
+
+.l-m-300{
+  margin: 2rem;
+}
+
 
 /* margin for right, left, top and bottom separately */
 /* Margin left */
