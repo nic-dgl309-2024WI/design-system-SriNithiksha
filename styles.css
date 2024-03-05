@@ -203,3 +203,16 @@ ol {
 .l-ml-300{
   margin-left: 2rem;
 }
+
+/* Margin Right */
+.l-mr-100{
+  margin-right: 1rem;
+}
+
+.l-mr-200{
+  margin-right: 1.5rem;
+}
+
+.l-mr-300{
+  margin-right: 2rem;
+}
