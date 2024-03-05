@@ -229,3 +229,16 @@ ol {
 .l-mt-300{
   margin-top: 2rem;
 }
+
+/* Margin Bottom */
+.l-mb-100{
+  margin-bottom: 1rem;
+}
+
+.l-mb-200{
+  margin-bottom: 1.5rem;
+}
+
+.l-mb-300{
+  margin-bottom: 2rem;
+}
