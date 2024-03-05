@@ -183,3 +183,23 @@ ol {
 .u-context__height {
   line-height: var(--ht-context);
 }
+
+/* Utility Classes for Margins */
+/* Margin for all four sides */
+.l-m{
+  margin: 1rem;
+}
+
+/* margin for right, left, top and bottom separately */
+/* Margin left */
+.l-ml-100{
+  margin-left: 1rem;
+}
+
+.l-ml-200{
+  margin-left: 1.5rem;
+}
+
+.l-ml-300{
+  margin-left: 2rem;
+}
