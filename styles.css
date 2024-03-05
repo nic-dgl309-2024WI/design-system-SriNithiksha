@@ -341,3 +341,26 @@ ol {
 .l-pb-300{
   padding-bottom: 2rem;
 }
+
+/* padding X and Y axis */
+/* padding X-axis */
+.l-px-100 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.l-px-200 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* padding Y-axis */
+.l-py-100 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.l-py-200 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
