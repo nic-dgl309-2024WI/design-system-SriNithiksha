@@ -274,3 +274,17 @@ ol {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+/* Utility Classes for Padding */
+/* Padding for all four sides */
+.l-p-100{
+  padding: 1rem;
+}
+
+.l-p-200{
+  padding: 1.5rem;
+}
+
+.l-p-300{
+  padding: 2rem;
+}
