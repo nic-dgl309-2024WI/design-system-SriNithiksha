@@ -415,3 +415,20 @@ ol {
 .l-align-stretch {
   align-items: stretch;
 }
+
+/* Flex Direction */
+.l-flex-row {
+  flex-direction: row;
+}
+
+.l-flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.l-flex-column {
+  flex-direction: column;
+}
+
+.l-flex-column-reverse {
+  flex-direction: column-reverse;
+}
