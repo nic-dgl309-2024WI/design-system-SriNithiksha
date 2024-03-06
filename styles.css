@@ -188,69 +188,68 @@ ol {
 /* Base spacing classes */
 /* Utility Classes for Margins */
 /* Margin for all four sides */
-.l-m-100{
+.l-m-100 {
   margin: 1rem;
 }
 
-.l-m-200{
+.l-m-200 {
   margin: 1.5rem;
 }
 
-.l-m-300{
+.l-m-300 {
   margin: 2rem;
 }
 
-
 /* margin for right, left, top and bottom separately */
 /* Margin left */
-.l-ml-100{
+.l-ml-100 {
   margin-left: 1rem;
 }
 
-.l-ml-200{
+.l-ml-200 {
   margin-left: 1.5rem;
 }
 
-.l-ml-300{
+.l-ml-300 {
   margin-left: 2rem;
 }
 
 /* Margin Right */
-.l-mr-100{
+.l-mr-100 {
   margin-right: 1rem;
 }
 
-.l-mr-200{
+.l-mr-200 {
   margin-right: 1.5rem;
 }
 
-.l-mr-300{
+.l-mr-300 {
   margin-right: 2rem;
 }
 
 /* Margin Top */
-.l-mt-100{
+.l-mt-100 {
   margin-top: 1rem;
 }
 
-.l-mt-200{
+.l-mt-200 {
   margin-top: 1.5rem;
 }
 
-.l-mt-300{
+.l-mt-300 {
   margin-top: 2rem;
 }
 
 /* Margin Bottom */
-.l-mb-100{
+.l-mb-100 {
   margin-bottom: 1rem;
 }
 
-.l-mb-200{
+.l-mb-200 {
   margin-bottom: 1.5rem;
 }
 
-.l-mb-300{
+.l-mb-300 {
   margin-bottom: 2rem;
 }
 
@@ -279,68 +278,68 @@ ol {
 
 /* Utility Classes for Padding */
 /* Padding for all four sides */
-.l-p-100{
+.l-p-100 {
   padding: 1rem;
 }
 
-.l-p-200{
+.l-p-200 {
   padding: 1.5rem;
 }
 
-.l-p-300{
+.l-p-300 {
   padding: 2rem;
 }
 
 /* Padding for left, right, top and bottop separately */
 /* Padding left */
-.l-pl-100{
+.l-pl-100 {
   padding-left: 1rem;
 }
 
-.l-pl-200{
+.l-pl-200 {
   padding-left: 1.5rem;
 }
 
-.l-pl-300{
+.l-pl-300 {
   padding-left: 2rem;
 }
 
 /* Padding Right */
-.l-pr-100{
+.l-pr-100 {
   padding-right: 1rem;
 }
 
-.l-pr-200{
+.l-pr-200 {
   padding-right: 1.5rem;
 }
 
-.l-pr-300{
+.l-pr-300 {
   padding-right: 2rem;
 }
 
 /* Padding Top */
-.l-pt-100{
+.l-pt-100 {
   padding-top: 1rem;
 }
 
-.l-pt-200{
+.l-pt-200 {
   padding-top: 1.5rem;
 }
 
-.l-pt-300{
+.l-pt-300 {
   padding-top: 2rem;
 }
 
 /* Padding Bottom */
-.l-pb-100{
+.l-pb-100 {
   padding-bottom: 1rem;
 }
 
-.l-pb-200{
+.l-pb-200 {
   padding-bottom: 1.5rem;
 }
 
-.l-pb-300{
+.l-pb-300 {
   padding-bottom: 2rem;
 }
 
@@ -500,14 +499,14 @@ ol {
 }
 
 /* Container Class */
-.c-container-head{
+.c-container-head {
   max-width: 100%;
 }
 
-.c-continer-sidenav{
+.c-continer-sidenav {
   max-width: 30%;
 }
 
-.c-container-content{
+.c-container-content {
   max-width: fit-content;
 }
