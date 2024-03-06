@@ -451,6 +451,19 @@ ol {
   grid-template-columns: repeat(4, 1fr);
 }
 
+/* Grid Template Rows */
+.l-grid-rows-2 {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.l-grid-rows-3 {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.l-grid-rows-4 {
+  grid-template-rows: repeat(4, 1fr);
+}
+
 /* Grid Gap */
 .l-grid-gap-1 {
   gap: 1rem;
