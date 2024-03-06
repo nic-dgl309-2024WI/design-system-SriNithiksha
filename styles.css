@@ -464,6 +464,15 @@ ol {
   grid-template-rows: repeat(4, 1fr);
 }
 
+/* Grid Auto Columns and Rows */
+.l-grid-auto-col {
+  grid-auto-columns: minmax(100px, auto);
+}
+
+.l-grid-auto-rows {
+  grid-auto-rows: minmax(100px, auto);
+}
+
 /* Grid Gap */
 .l-grid-gap-1 {
   gap: 1rem;
