@@ -394,3 +394,24 @@ ol {
 .l-justify-space-around {
   justify-content: space-around;
 }
+
+/* Align Items */
+.l-align-start {
+  align-items: flex-start;
+}
+
+.l-align-end {
+  align-items: flex-end;
+}
+
+.l-align-center {
+  align-items: center;
+}
+
+.l-align-baseline {
+  align-items: baseline;
+}
+
+.l-align-stretch {
+  align-items: stretch;
+}
