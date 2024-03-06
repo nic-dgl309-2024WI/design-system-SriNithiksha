@@ -185,6 +185,7 @@ ol {
   line-height: var(--ht-context);
 }
 
+/* Base spacing classes */
 /* Utility Classes for Margins */
 /* Margin for all four sides */
 .l-m-100{
@@ -364,4 +365,11 @@ ol {
 .l-py-200 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+/* Base layout classes */
+/* Utility Classes for Flex layout */
+/* Flexbox Layout */
+.l-flex {
+  display: flex;
 }
