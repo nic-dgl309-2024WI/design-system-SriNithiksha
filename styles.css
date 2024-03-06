@@ -498,3 +498,17 @@ ol {
 .l-grid-justify-center {
   justify-content: center;
 }
+
+/* Container Class */
+.c-container-head{
+  max-width: 100%;
+}
+
+.c-continer-sidenav{
+  max-width: 30%;
+}
+
+.c-container-content{
+  max-width: 100%;
+  margin-left: 30%;
+}
