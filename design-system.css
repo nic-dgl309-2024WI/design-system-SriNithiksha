@@ -373,4 +373,11 @@ th {
     margin-left: 250px;
     padding-top: 25px;
   }
+
+  /* Layout */
+  .layout {
+    margin-right: 0;
+    margin-left: 250px;
+    padding-top: 25px;
+  }
 }
