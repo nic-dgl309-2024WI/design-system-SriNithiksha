@@ -254,6 +254,7 @@
   margin-bottom: 10px;
 }
 
+/* Margin */
 .margin{
     width: 100%;
     border-collapse: collapse;
@@ -268,6 +269,21 @@
   text-align: left;
 }
 
+/* Padding */
+.padding{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.u-padding {
+display: flex;
+flex-direction: column;
+align-items: left;
+width: 100%;
+text-align: left;
+}
+
 .container,
 th {
   border: 1px solid black;
@@ -276,7 +292,7 @@ th {
 
 .container, th, td{
     border: 1px solid #000;
-    padding: 8px;
+    padding: 6px;
     text-align: left;
     border-spacing: 0;
 
