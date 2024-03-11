@@ -84,12 +84,28 @@
   margin-top: 70px;
   margin-bottom: 10px;
 }
+
+/* Spacing */
+.spacing {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/* Contianers */
 .layout {
   display: flex;
   flex-direction: column;
   margin-left: 0;
   margin-top: 70px;
   margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Style Swatch Pannel */
@@ -98,7 +114,9 @@
   flex-direction: column;
   margin-left: 0;
   margin-top: 70px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -231,6 +249,8 @@
   margin-left: 0;
   margin-top: 70px;
   margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .font-type {
