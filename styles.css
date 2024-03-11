@@ -33,15 +33,15 @@
   --body-context: "Roboto", sans-serif;
 
   /* Font size */
-  --fs-heading: 3rem;
+  --fs-heading: 2.5rem;
   --fs-subheading: 2rem;
-  --fs-body-title: 2rem;
+  --fs-body-title: 1.5rem;
   --fs-body-context: 1rem;
 
   /* Font weight */
-  --fw-heading: 700;
+  --fw-heading: 750;
   --fw-subheading: 600;
-  --fw--body-title: 400;
+  --fw--body-title: 150;
   --fw-body-context: normal;
 
   /* Line height */
