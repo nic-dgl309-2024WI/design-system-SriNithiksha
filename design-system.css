@@ -243,7 +243,7 @@
 }
 
 /* Typography */
-.typeface {
+.font {
   display: flex;
   flex-direction: column;
   margin-left: 0;
@@ -253,22 +253,34 @@
   padding-right: 10px;
 }
 
-.font-type {
-  list-style-type: square;
-  margin-left: 30px;
-}
-
-.u-font__styles {
+/* Font Family */
+.u-fontfamily {
   display: flex;
   flex-direction: column;
   align-items: left;
-  border-collapse: collapse;
+  width: 100%;
   text-align: left;
 }
 
-.u-subhead {
-  margin-top: 8px;
-  margin-bottom: 8px;
+.fontfamily {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Font style */
+.u-fontclass {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
+  text-align: left;
+}
+
+.fontclass {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
 /* Spacing */
@@ -349,13 +361,7 @@
 }
 
 /* Table style */
-.container,
-th {
-  border: 1px solid black;
-  padding: 8px;
-}
-
-.container,
+tr,
 th,
 td {
   border: 1px solid #000;
@@ -410,7 +416,7 @@ td {
     padding-top: 25px;
   }
   /* Typography */
-  .typeface {
+  .font {
     margin-right: 0;
     margin-left: 250px;
     padding-top: 25px;
