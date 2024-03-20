@@ -85,8 +85,17 @@
   margin-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  
 }
 
+.myskills {
+  display: flex;
+  flex-direction: column;
+}
+
+.myskills, li{
+  list-style: none;
+}
 /* Spacing */
 .spacing {
   display: flex;
@@ -404,9 +413,20 @@ td {
 
   /* About me */
   .bio {
-    margin-right: 0;
-    margin-left: 280px;
+    margin-left: 250px; 
     padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .myskills {
+    flex-direction: row;
+    padding: 0; 
+    list-style: none;
+  }
+
+  .myskills, li{
+    list-style: none;
   }
 
   /* Swatches */
