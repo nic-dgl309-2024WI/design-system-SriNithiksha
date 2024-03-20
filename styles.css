@@ -16,6 +16,7 @@
   /* Secondary Colors */
   --secondary-bg: #fff;
   --secondary-text: #000;
+  --sec-text-eg: #000;
 
   /* Accent colors */
   --clr-card: rgba(135, 155, 170, 25%);
@@ -98,6 +99,10 @@ ol {
 
 .u-secondary-text {
   color: var(--secondary-text);
+}
+
+.u-sec__text-eg{
+  background-color: var(--sec-text-eg);
 }
 
 /* Accent Colors */
@@ -238,6 +243,10 @@ ol {
 
 .l-mt-300 {
   margin-top: 2rem;
+}
+
+.l-mt-400 {
+  margin-top: 5.5rem;
 }
 
 /* Margin Bottom */
