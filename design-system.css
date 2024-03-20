@@ -71,6 +71,10 @@
 .sidenav__link.active {
   color: var(--text-hover-100);
 }
+
+.topnav__link.active {
+  color: var(--text-hover-100);
+}
 /* About Me */
 
 .bio {
