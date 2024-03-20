@@ -88,7 +88,8 @@
   flex-direction: column;
 }
 
-.myskills, li{
+.myskills,
+li {
   list-style: none;
 }
 /* Spacing */
@@ -289,7 +290,6 @@
   margin-top: 20px;
 }
 
-
 /* Spacing */
 .spacing {
   display: flex;
@@ -369,7 +369,8 @@
 
 /* Table style */
 
-.swatch, tr,
+.swatch,
+tr,
 th,
 td {
   border: 1px solid #000;
@@ -421,7 +422,7 @@ td {
 
   /* About me */
   .bio {
-    margin-left: 0; 
+    margin-left: 0;
     padding-top: 25px;
     justify-content: center;
     align-items: center;
@@ -429,11 +430,12 @@ td {
 
   .myskills {
     flex-direction: row;
-    padding: 0; 
+    padding: 0;
     list-style: none;
   }
 
-  .myskills, li{
+  .myskills,
+  li {
     list-style: none;
   }
 
