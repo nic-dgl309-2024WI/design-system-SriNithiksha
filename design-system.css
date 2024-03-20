@@ -79,9 +79,8 @@
   margin-left: 0;
   margin-top: 70px;
   margin-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  
+  justify-content: center;
+  align-items: center;
 }
 
 .myskills {
@@ -143,7 +142,7 @@
 /* Primary color swatches */
 .u-primary {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin-left: 0;
   margin-top: 50px;
@@ -187,7 +186,7 @@
 /* Secondary color swatches */
 .u-secondary {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin-left: 0;
   margin-top: 50px;
@@ -209,7 +208,7 @@
 /* Accent color swatches */
 .u-accent {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin-left: 0;
   margin-top: 50px;
@@ -422,7 +421,7 @@ td {
 
   /* About me */
   .bio {
-    margin-left: 250px; 
+    margin-left: 0; 
     padding-top: 25px;
     justify-content: center;
     align-items: center;
