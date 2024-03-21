@@ -87,15 +87,7 @@
   align-items: center;
 }
 
-.myskills {
-  display: flex;
-  flex-direction: column;
-}
 
-.myskills,
-li {
-  list-style: none;
-}
 /* Spacing */
 .spacing {
   display: flex;
@@ -331,17 +323,10 @@ td {
   }
 
   /* About me */
-  .bio {
-    margin-left: 0;
-    padding-top: 25px;
-    justify-content: center;
-    align-items: center;
-  }
+  
 
   .myskills {
     flex-direction: row;
-    padding: 0;
-    list-style: none;
   }
 
   .myskills,
