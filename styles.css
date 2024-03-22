@@ -519,3 +519,38 @@ ol {
 .c-container-content {
   max-width: fit-content;
 }
+
+/***** Outback Nursery Site *****/
+
+/* Topnav */
+.topnavbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.topnavbar__link--logo.active {
+  color: var(--text-hover-100);
+}
+
+.topnavbar__link {
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.topnavbar__links {
+  display: none;
+}
+
+.topnavbar__link:hover {
+  color: var(--text-hover-100);
+}
+
+/* Media query for screens larger than 700px */
+@media screen and (min-width: 700px) {
+  /* Top navbar */
+}
