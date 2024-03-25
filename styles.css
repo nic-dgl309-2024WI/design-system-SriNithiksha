@@ -586,20 +586,71 @@ ol {
 
 /* Style for the hero content */
 .hero__content {
-  z-index: 1; /* Ensure hero content is above the overlay */
+  z-index: 1; 
 }
 
 /* Style for the call-to-action button */
 .cta__button {
-  border: none; /* Remove button border */
-  cursor: pointer; /* Cursor on hover */
-  text-decoration: none; /* Remove underline */
-  transition: background-color 0.3s ease; /* Smooth transition */
+  border: none; 
+  cursor: pointer; 
+  text-decoration: none; 
+  transition: background-color 0.3s ease; 
 }
 
 /* Hover effect for the button */
 .cta__button:hover {
   background-color: var(--clr-button-hover);
+}
+
+/* Container for carousel */
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Wrapper for carousel items */
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+/* Individual carousel item */
+.carousel-item {
+  flex: 0 0 50%; /* 33.333% width for each card */
+  max-width: 100%;
+}
+
+/* Styling for card */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 10px; /* Margin between cards */
+  background-color: #fff;
+}
+
+/* Navigation buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
 }
 
 /* Media query for screens larger than 700px */
