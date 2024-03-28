@@ -567,7 +567,7 @@ ol {
 /* Hero section */
 .hero__section {
   position: relative;
-  height: 500px;
+  height: 650px;
   background: url("images/japanese-maple-tree.jpg")
     center/cover no-repeat;
   color: white;
@@ -607,9 +607,13 @@ ol {
 
 /* Scroll animation for announcement section */
 .l-announcement {
-  
+  position: fixed; /* Change to fixed */
+  top: 0; /* Position at the top */
+  left: 0;
+  width: 100%;
   overflow-x: hidden; /* Hide overflow to prevent scrollbar */
   white-space: nowrap; /* Prevent text wrapping */
+  z-index: 1000; /* Ensure it's above other content */
 }
 
 .scroll__text {
