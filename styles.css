@@ -245,7 +245,10 @@ ol {
   margin-top: 2rem;
 }
 
-.l-mt-400 {
+.l-mt-400{
+  margin-top: 3.5rem;
+}
+.l-mt-500 {
   margin-top: 5.5rem;
 }
 
@@ -565,7 +568,7 @@ ol {
 .hero__section {
   position: relative;
   height: 500px;
-  background: url("images/demo website images/japanese-maple-tree.jpg")
+  background: url("images/japanese-maple-tree.jpg")
     center/cover no-repeat;
   color: white;
   text-align: center;
@@ -602,6 +605,28 @@ ol {
   background-color: var(--clr-button-hover);
 }
 
+/* Scroll animation for announcement section */
+.l-announcement {
+  
+  overflow-x: hidden; /* Hide overflow to prevent scrollbar */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.scroll__text {
+  display: inline-block; /* Display text in a single line */
+  padding: 0 20px; /* Add padding to the scrolling text */
+  animation: scrollText 20s linear infinite; /* Apply the scrollText animation */
+}
+
+/* Define the animation */
+@keyframes scrollText {
+  0% {
+    transform: translateX(0); /* Start position */
+  }
+  100% {
+    transform: translateX(100%); /* End position (scroll to the left) */
+  }
+}
 
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
@@ -618,6 +643,9 @@ ol {
     display: none;
   }
 
-  /* carousel */
+  .l-announcement{
+    display: flex;
+    margin-top: 3.5rem;
+  }
 
 }
