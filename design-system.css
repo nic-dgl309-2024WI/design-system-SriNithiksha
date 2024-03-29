@@ -304,6 +304,37 @@ td {
 .hamburger__menu {
   cursor: pointer;
 }
+
+/* Breadcrumbs */
+/* Breadcrumb styles for mobile */
+.breadcrumbs {
+  margin: 20px 0;
+}
+
+.breadcrumbs ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.breadcrumbs li {
+  display: inline;
+  font-size: 16px;
+}
+
+.breadcrumbs li:not(:last-child):after {
+  content: '>';
+  margin: 0 5px;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
@@ -445,4 +476,17 @@ td {
   }
 
   /* Mobile navbar */
+
+  /* Breadcrumbs */
+  .breadcrumbs{
+    margin-top: 4rem;
+  }
+
+  .breadcrumbs ul{
+    margin-left: 250px;
+  }
+
+  .breadcrumbs li:not(:last-child):after {
+    content: '/';
+  }
 }
