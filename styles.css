@@ -705,19 +705,14 @@ ol {
 }
 
 .carousel-button {
-  border: none; 
-  cursor: pointer; 
-  text-decoration: none; 
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
   transition: background-color 0.3s ease;
   width: fit-content; /* Make button width fit its content */
   margin: auto; /* Center the button horizontally */
 }
 
-/* Footer */
-#map {
-  width: 100px;
-  height: 100px;
-}
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
@@ -765,5 +760,10 @@ ol {
     width: 100%;
     display: flex;
     justify-content: space-between;
+  }
+
+  /* Category */
+  .category__cards {
+    gap: 20px;
   }
 }
