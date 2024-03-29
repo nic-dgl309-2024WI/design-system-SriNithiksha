@@ -110,6 +110,15 @@
 }
 
 /* Colors Page */
+.colors {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 /* Primary color */
 .c-color1 {
   width: 500px;
@@ -307,30 +316,26 @@ td {
 
 /* Breadcrumbs */
 /* Breadcrumb styles for mobile */
-.breadcrumbs {
-  margin: 20px 0;
-}
-
-.breadcrumbs ul {
+.c-breadcrumbs ul {
   padding: 0;
   list-style-type: none;
 }
 
-.breadcrumbs li {
+.c-breadcrumbs li {
   display: inline;
   font-size: 16px;
 }
 
-.breadcrumbs li:not(:last-child):after {
+.c-breadcrumbs li:not(:last-child):after {
   content: '>';
-  margin: 0 5px;
+  margin: 0
 }
 
-.breadcrumbs a {
+.c-breadcrumbs a {
   text-decoration: none;
 }
 
-.breadcrumbs a:hover {
+.c-breadcrumbs a:hover {
   text-decoration: underline;
 }
 
@@ -478,15 +483,8 @@ td {
   /* Mobile navbar */
 
   /* Breadcrumbs */
-  .breadcrumbs{
-    margin-top: 4rem;
-  }
 
-  .breadcrumbs ul{
-    margin-left: 250px;
-  }
-
-  .breadcrumbs li:not(:last-child):after {
+  .c-breadcrumbs li:not(:last-child):after {
     content: '/';
   }
 }
