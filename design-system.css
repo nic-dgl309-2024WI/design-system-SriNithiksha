@@ -297,6 +297,15 @@ td {
   margin-top: 70px;
   margin-bottom: 10px;
 }
+/* Mobile navbar */
+
+.toggle-nav {
+  margin-right: 10px;
+}
+
+.hamburger__menu {
+  cursor: pointer;
+}
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
@@ -421,6 +430,7 @@ td {
     padding-top: 25px;
   }
 
+  /* Desktop navbar */
   .nav {
     display: flex;
     justify-content: space-between;
@@ -436,4 +446,7 @@ td {
   .nav a {
     display: inline-block;
   }
+
+  /* Mobile navbar */
+
 }
