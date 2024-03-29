@@ -290,6 +290,13 @@ td {
   border-spacing: 0;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
@@ -405,5 +412,28 @@ td {
     margin-right: 0;
     margin-left: 250px;
     padding-top: 25px;
+  }
+
+  /* Navbar */
+  .navbar {
+    margin-right: 0;
+    margin-left: 250px;
+    padding-top: 25px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .c-logo {
+    margin-bottom: 0;
+  }
+
+  .nav__logo {
+    text-decoration: none;
+  }
+  .nav a {
+    display: inline-block;
   }
 }
