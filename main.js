@@ -64,4 +64,18 @@ document.addEventListener("DOMContentLoaded", function () {
     // Initialize
     updateDots();
   });
-  
+  ////////////////
+  ///////////////
+  ///////////////
+
+  /// Map 
+  function initMap() {
+    // Specify the coordinates for the center of the map
+    var center = { lat: 40.7128, lng: -74.0060 }; // New York City coordinates
+
+    // Create a new map object and specify the DOM element for display
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: center,
+      zoom: 12 // Set the initial zoom level
+    });
+  }

@@ -631,14 +631,6 @@ ol {
   }
 }
 
-/* Our seasonal favorites */
-.seasonal__fav .cta__button {
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
 /* carousel style */
 .carousel-container {
   display: flex;
@@ -721,6 +713,11 @@ ol {
   margin: auto; /* Center the button horizontally */
 }
 
+/* Footer */
+#map {
+  width: 100px;
+  height: 100px;
+}
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
@@ -749,6 +746,7 @@ ol {
     position: relative;
     overflow-x: hidden; /* Prevent horizontal scrollbar */
   }
+
   .carousel {
     overflow-x: hidden; /* Allow horizontal scrolling */
     white-space: nowrap; /* Prevent cards from wrapping */

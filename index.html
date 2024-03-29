@@ -21,9 +21,13 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+    <link rel="stylesheet" href="https://fontawesome.com/icons/facebook?f=brands&s=solid"/>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+
     <title>Demo Site</title>
   </head>
-  <body>
+  <body onload="initMap()">
     <!--Logo-->
     <div class="topnavbar u-primary-bg l-flex" id="myTopnav">
       <a
@@ -70,16 +74,17 @@
           >Contact Us</a
         >
       </div>
+      <div class="l-announcement l-flex l-align-center u-bg-primary-light l-mt-500">
+        <div class="scroll__text u-secondary-text l-mt-100 l-mb-100 l-flex l-justify-space-between l-align-center">
+          <p class="u-primary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height">
+            We are officially open for 2024! Everyday including statutory holidays from 9-5
+          </p>
+        </div>
+      </div>
     </div>
 
     <!--Announcement Scroll-->
-    <div class="l-announcement l-flex l-align-center u-bg-primary-light l-mt-500">
-      <div class="scroll__text u-secondary-text l-mt-100 l-mb-100 l-flex l-justify-space-between l-align-center">
-        <p class="u-primary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height">
-          We are officially open for 2024! Everyday including statutory holidays from 9-5
-        </p>
-      </div>
-    </div>
+    
 
     <!--Hero Section-->
 
@@ -108,7 +113,8 @@
       </div>
     </div>
 
-    <section class="seasonal__fav l-flex l-flex-column l-mt-200 l-mb-200 l-ml-300 l-mr-300">
+    <!--Seasonal Favourites-->
+    <section class="seasonal__fav l-flex l-flex-column l-mt-300 l-mb-300 l-ml-300 l-mr-300">
       <h2 class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-100">Our Seasonal Favourites</h2>
   
       <div class="carousel-container">
@@ -151,7 +157,6 @@
     >
       
   </section>
-
 
 
  
