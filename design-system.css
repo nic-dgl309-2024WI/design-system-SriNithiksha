@@ -315,6 +315,14 @@ td {
 }
 
 /* Breadcrumbs */
+.breadcrumbs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
 /* Breadcrumb styles for mobile */
 .c-breadcrumbs ul {
   padding: 0;
@@ -327,8 +335,8 @@ td {
 }
 
 .c-breadcrumbs li:not(:last-child):after {
-  content: '>';
-  margin: 0
+  content: ">";
+  margin: 0;
 }
 
 .c-breadcrumbs a {
@@ -338,7 +346,6 @@ td {
 .c-breadcrumbs a:hover {
   text-decoration: underline;
 }
-
 
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
@@ -483,8 +490,13 @@ td {
   /* Mobile navbar */
 
   /* Breadcrumbs */
-
+  .breadcrumbs {
+    margin-right: 0;
+    margin-left: 250px;
+    padding-top: 25px;
+  }
+  /* Style for Breadcrumbs */
   .c-breadcrumbs li:not(:last-child):after {
-    content: '/';
+    content: "/";
   }
 }

@@ -54,7 +54,9 @@
 
     <!--Side navbar-->
     <div class="sidenav u-primary-bg" id="mySidenav">
-      <ul class="sidenav__list u-primary-bg l-flex l-ml-100 l-flex-column l-justify-space-between l-mb-300 l-align-start">
+      <ul
+        class="sidenav__list u-primary-bg l-flex l-ml-100 l-flex-column l-justify-space-between l-mb-300 l-align-start"
+      >
         <!--For mobile view-->
         <a
           href="about-me.html"
@@ -83,7 +85,7 @@
             >02 Typography</a
           >
         </li>
-        
+
         <p
           class="Utilities u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height"
         >
@@ -140,7 +142,7 @@
         <li>
           <a
             href="breadcrumbs.html"
-            class="sidenav__link active u-context__font u-context__size u-context__weight u-context__height"
+            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
             >09 Breadcrumbs</a
           >
         </li>
@@ -170,7 +172,7 @@
             >12 Carousel</a
           >
         </li>
-        
+
         <li>
           <a
             href="#"
@@ -212,6 +214,120 @@
           >
         </li>
       </ul>
+    </div>
+
+    <!--Table of Layout classes and their values-->
+    <div class="breadcrumbs">
+      <!--Breadcrumbs-->
+      <nav class="c-breadcrumbs l-flex l-flex-column">
+        <ul>
+          <li class="u-head__ff u-head__size u-head__weight u-head__height">
+            <a href="design-system.html" class="u-secondary-text">Home</a>
+          </li>
+          <li class="u-head__ff u-head__size u-head__weight u-head__height">
+            <a href="breadcrumbs.html" class="u-text-hover-200">Breadcrumbs </a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="u-head__ff u-head__size u-head__weight u-head__height">
+        Breadcrumbs
+      </h1>
+      <br />
+      <p
+        class="u-context__font u-context__size u-context__weight u-context__height"
+      >
+        Breadcrumbs are a navigation tool that appears at the top of webpages,
+        indicating the user's current location within a website's hierarchy and
+        providing connections to prior pages. They let consumers to simply
+        comprehend their position on a website and go backwards.
+      </p>
+
+      <!--DESKTOP Breadcrumbs-->
+      <div
+        class="desktop__breadcrumbs u-card l-mt-300 l-mb-300 l-p-300 l-flex l-flex-column l-align-center l-mr-300"
+      >
+        <h2
+          class="u-subhead__ff u-text-hover-200 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100"
+        >
+          Desktop Breadcrumbs
+        </h2>
+
+        <div class="bread__crumbs">
+          <nav class="c-breadcrumbs l-flex l-flex-column">
+            <ul>
+              <li class="u-head__ff u-head__size u-head__weight u-head__height">
+                <a href="design-system.html" class="u-secondary-text">Home</a>
+              </li>
+              <li class="u-head__ff u-head__size u-head__weight u-head__height">
+                <a href="navbar.html" class="u-text-hover-200">Navbar</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div
+          class="l-code l-mt-200 u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height"
+        >
+          <h3
+            class="u-subhead__100 u-title__size u-title__weight u-head__height"
+          >
+            HTML Code
+          </h3>
+          <pre>
+            &lt;div class="bread__crumbs"&gt;
+              &lt;nav class="c-breadcrumbs l-flex l-flex-column"&gt;
+                &lt;ul&gt;
+                  &lt;li class="u-head__ff u-head__size u-head__weight u-head__height"&gt;&lt;a href="design-system.html" class="u-secondary-text"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="u-head__ff u-head__size u-head__weight u-head__height"&gt;&lt;a href="navbar.html" class="u-text-hover-200"&gt;Navbar&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/nav&gt;
+            &lt;/div&gt;
+          </pre>
+        </div>
+
+        <div
+          class="l-code l-mt-200 u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height"
+        >
+          <h3
+            class="u-subhead__100 u-title__size u-title__weight u-head__height"
+          >
+            Additional CSS Code
+          </h3>
+          <pre>
+            /* Breadcrumb styles for mobile */
+            .c-breadcrumbs ul {
+              padding: 0;
+              list-style-type: none;
+            }
+      
+            .c-breadcrumbs li {
+              display: inline;
+              font-size: 16px;
+            }
+      
+            .c-breadcrumbs li:not(:last-child):after {
+              content: '&gt;';
+              margin: 0;
+            }
+      
+            .c-breadcrumbs a {
+              text-decoration: none;
+            }
+      
+            .c-breadcrumbs a:hover {
+              text-decoration: underline;
+            }
+      
+            /* Media query for screens larger than 700px */
+            @media screen and (min-width: 700px) {
+              /* Style for Breadcrumbs */
+              .c-breadcrumbs li:not(:last-child):after {
+                content: '/';
+              }
+            }
+          </pre>
+        </div>
+      </div>
     </div>
 
     <script src="design-system.js"></script>
