@@ -498,5 +498,8 @@ td {
   /* Style for Breadcrumbs */
   .c-breadcrumbs li:not(:last-child):after {
     content: "/";
+
   }
+
 }
+
