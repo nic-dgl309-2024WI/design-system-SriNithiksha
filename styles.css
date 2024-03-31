@@ -713,6 +713,20 @@ ol {
   margin: auto; /* Center the button horizontally */
 }
 
+/* Card container styles */
+.category__cards-container {
+  overflow-x: auto; /* Enable horizontal scrollbar */
+  white-space: nowrap; /* Prevent cards from wrapping */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  padding-bottom: 15px; /* Add padding to create gap */
+}
+
+/* Card styles */
+.c-card {
+  flex: 0 0 auto;
+  margin-right: 15px; /* Adjust as needed */
+  display: inline-block;
+}
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
@@ -762,8 +776,9 @@ ol {
     justify-content: space-between;
   }
 
-  /* Category */
-  .category__cards {
-    gap: 20px;
+  /* Our Categories section */
+  .c-card {
+    width: calc(33.33% - 30px); /* Adjust width to fit 3 cards, considering margins */
+    margin-right: 15px; /* Adjust margin between cards */
   }
 }

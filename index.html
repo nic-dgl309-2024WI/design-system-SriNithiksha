@@ -30,7 +30,7 @@
 
     <title>Demo Site</title>
   </head>
-  <body onload="initMap()">
+  <body>
     <!--Logo-->
     <div class="topnavbar u-primary-bg l-flex" id="myTopnav">
       <a
@@ -215,70 +215,79 @@
     <section class="c-categories l-flex l-flex-column l-mt-300 l-mb-300 l-ml-300 l-mr-300">
       <h2  class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-100">Our Plants Categories</h2>
 
-      <div class="category__cards l-flex l-flex-row l-align-center">
-        <!--Conifers-->
-          <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
-            <img src="images/seasonal favs/cedar.jpg" alt="conifers" style="width: 350px; height: 300px">
-            <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Conifers</h3>
-          </div>
+      <div class="category__cards-container">
+        <div class="category__cards l-flex l-flex-row l-align-center">
+          <!--Conifers-->
+            <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
+              <img src="images/seasonal favs/cedar.jpg" alt="conifers" style="width: 350px; height: 300px">
+              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Conifers</h3>
+            </div>
+          
+          
+          <!--Deciduous-->
+          
+            <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
+              <img src="images/seasonal favs/cedar.jpg" alt="deciduous" style="width: 350px; height: 300px">
+              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Deciduous</h3>
+            </div>
+          
+          
+          <!--Evergreen-->
+          
+            <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
+              <img src="images/seasonal favs/cedar.jpg" alt="evergreen" style="width: 350px; height: 300px">
+              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Evergreen</h3>
+            </div>
         
-        
-        <!--Deciduous-->
-        
-          <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
-            <img src="images/seasonal favs/cedar.jpg" alt="deciduous" style="width: 350px; height: 300px">
-            <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Deciduous</h3>
-          </div>
-        
-        
-        <!--Evergreen-->
-        
-          <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
-            <img src="images/seasonal favs/cedar.jpg" alt="evergreen" style="width: 350px; height: 300px">
-            <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Evergreen</h3>
-          </div>
-      
-        <!--Grasses and Bamboo(Assorted)-->
-        
-          <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
-            <img src="images/seasonal favs/cedar.jpg" alt="Grasses and Bamboo" style="width: 350px; height: 300px">
-            <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Grasses and Bamboo(Assorted)</h3>
-          </div>
-        
-        
-        <!--Vines(Assorted)-->
-        
-          <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
-            <img src="images/seasonal favs/cedar.jpg" alt="vines" style="width: 350px; height: 300px">
-            <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Vines(Assorted)</h3>
-          </div>
-        
-        
-        <!--Edibles-->
-        
-          <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
-            <img src="images/seasonal favs/cedar.jpg" alt="conifers" style="width: 350px; height: 300px">
-            <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Edibles(Fruits, Nuts, Berries)</h3>
-          </div>
-        
-        
-        <!--Japanese Maples-->
-        
-          <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
-            <img src="images/seasonal favs/cedar.jpg" alt="japanesemaples" style="width: 350px; height: 300px">
-            <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Japanese Maples</h3>
-          </div>
-        
-        
-        <!--Trees and Shrubs-->
-        
-          <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
-            <img src="images/seasonal favs/cedar.jpg" alt="trees and shrubs" style="width: 350px; height: 300px">
-            <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Trees and Shrubs</h3>
-          </div>
-        
-        
+          <!--Grasses and Bamboo(Assorted)-->
+          
+            <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
+              <img src="images/seasonal favs/cedar.jpg" alt="Grasses and Bamboo" style="width: 350px; height: 300px">
+              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Grasses and Bamboo(Assorted)</h3>
+            </div>
+          
+          
+          <!--Vines(Assorted)-->
+          
+            <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
+              <img src="images/seasonal favs/cedar.jpg" alt="vines" style="width: 350px; height: 300px">
+              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Vines(Assorted)</h3>
+            </div>
+          
+          
+          <!--Edibles-->
+          
+            <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
+              <img src="images/seasonal favs/cedar.jpg" alt="conifers" style="width: 350px; height: 300px">
+              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Edibles(Fruits, Nuts, Berries)</h3>
+            </div>
+          
+          
+          <!--Japanese Maples-->
+          
+            <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
+              <img src="images/seasonal favs/cedar.jpg" alt="japanesemaples" style="width: 350px; height: 300px">
+              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Japanese Maples</h3>
+            </div>
+          
+          
+          <!--Trees and Shrubs-->
+          
+            <div class="c-card l-flex l-flex-column l-align-center u-card l-p-300">
+              <img src="images/seasonal favs/cedar.jpg" alt="trees and shrubs" style="width: 350px; height: 300px">
+              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Trees and Shrubs</h3>
+            </div>
+          
+          
+        </div>
       </div>
+
+      <a
+        href="#"
+        class="carousel-button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200"
+        >Explore our Plant Categories</a
+      >
+      
     </section>
     
 

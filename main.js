@@ -68,7 +68,52 @@ document.addEventListener("DOMContentLoaded", function () {
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// Our Categories section
+//horizontal scroll bar function
 
+document.addEventListener('DOMContentLoaded', function() {
+  const categoryCardsContainer = document.querySelector('.category__cards');
 
+  // Sample data for cards
+  const cardData = [
+    { imgSrc: 'images/seasonal favs/cedar.jpg', altText: 'conifers', title: 'Conifers' },
+    { imgSrc: 'images/seasonal favs/cedar.jpg', altText: 'deciduous', title: 'Deciduous' },
+    { imgSrc: 'images/seasonal favs/cedar.jpg', altText: 'evergreen', title: 'Evergreen' },
+    { imgSrc: 'images/seasonal favs/cedar.jpg', altText: 'Grasses and Bamboo', title: 'Grasses and Bamboo(Assorted)' },
+    { imgSrc: 'images/seasonal favs/cedar.jpg', altText: 'vines', title: 'Vines(Assorted)' },
+    { imgSrc: 'images/seasonal favs/cedar.jpg', altText: 'conifers', title: 'Edibles(Fruits, Nuts, Berries)' },
+    { imgSrc: 'images/seasonal favs/cedar.jpg', altText: 'japanesemaples', title: 'Japanese Maples' },
+    { imgSrc: 'images/seasonal favs/cedar.jpg', altText: 'trees and shrubs', title: 'Trees and Shrubs' }
+  ];
 
+  // Function to create card elements
+  function createCardElement(data) {
+    const cardElement = document.createElement('div');
+    cardElement.classList.add('c-card', 'l-flex', 'l-flex-column', 'l-align-center', 'u-card', 'l-p-300');
 
+    const imgElement = document.createElement('img');
+    imgElement.src = data.imgSrc;
+    imgElement.alt = data.altText;
+    imgElement.style.width = '350px';
+    imgElement.style.height = '300px';
+
+    const titleElement = document.createElement('h3');
+    titleElement.classList.add('u-secondary-text', 'u-subhead__100', 'u-title__size', 'u-title__weight', 'u-head__height');
+    titleElement.textContent = data.title;
+
+    cardElement.appendChild(imgElement);
+    cardElement.appendChild(titleElement);
+
+    return cardElement;
+  }
+
+  // Function to append card elements to the container
+  function appendCards() {
+    cardData.forEach(function(data) {
+      const cardElement = createCardElement(data);
+      categoryCardsContainer.appendChild(cardElement);
+    });
+  }
+
+  appendCards();
+});
