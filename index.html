@@ -31,7 +31,8 @@
     <title>Demo Site</title>
   </head>
   <body>
-    <!--Logo-->
+    <div class="c-header l-flex l-flex-column">
+          <!--Logo-->
     <div class="topnavbar u-primary-bg l-flex" id="myTopnav">
       <a
         href="index.html"
@@ -77,14 +78,16 @@
           >Contact Us</a
         >
       </div>
+      </div>
+      <!--Announcement Scroll-->
       <div
-        class="l-announcement l-flex l-align-center u-bg-primary-light l-mt-500"
+        class="l-announcement l-flex l-align-center u-bg-primary-light l-mt-400"
       >
         <div
           class="scroll__text u-secondary-text l-mt-100 l-mb-100 l-flex l-justify-space-between l-align-center"
         >
           <p
-            class="u-primary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height"
+            class="u-secondary-text u-context__font  u-context__size u-context__weight u-context__height"
           >
             We are officially open for 2024! Everyday including statutory
             holidays from 9-5
@@ -93,7 +96,9 @@
       </div>
     </div>
 
-    <!--Announcement Scroll-->
+  
+
+    
 
     <!--Hero Section-->
 
@@ -289,7 +294,48 @@
       >
       
     </section>
-    
+  </body>
+  <footer>
+    <div class="u-primary-bg l-flex l-flex-row l-justify-space-around l-p-300">
+      <div class="logo">
+        <a
+        href="index.html"
+        class="topnavbar__link topnav__link--logo active u-primary-text u-head__ff u-head__size u-head__weight u-head__height"
+        >Outback Nursery</a
+      >
+      </div>
+  
+      <div class="address">
+        <h3 class="u-primary-text u-subhead__100 u-primary-text u-context__size u-context__weight u-context__height">Address</h3>
+        <p class="u-primary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height">6016 Headquarters Rd <br>
+          Courtenay,  British Columbia <br>
+          V9J 1M7,  Canada</p>
+      </div>
+  
+      <div class="open__hours">
+        <h3 class="u-primary-text u-subhead__100 u-primary-text u-context__size u-context__weight u-context__height">Opearting Hours</h3>
+        <p class="u-primary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height">Monday - Sunday <br>
+          9:00am - 5:00pm
+        </p>
+      </div>
+  
+      <div class="contact__us">
+        <a
+        href="#"
+        class="carousel-button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height  l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200"
+        >Contact Us</a
+      >
+      <div class="social-media-icons l-flex l-align-center l-mt-400">
+        <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+      </div>
+      </div>
+  
+      <div id="map"></div>
+  
+      </div>
+  </footer>
+  
 
     <script src="design-system.js"></script>
     <script src="main.js"></script>

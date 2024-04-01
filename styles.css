@@ -252,6 +252,7 @@ ol {
   margin-top: 5.5rem;
 }
 
+
 /* Margin Bottom */
 .l-mb-100 {
   margin-bottom: 1rem;
@@ -781,4 +782,8 @@ ol {
     width: calc(33.33% - 30px); /* Adjust width to fit 3 cards, considering margins */
     margin-right: 15px; /* Adjust margin between cards */
   }
+}
+
+.hero__section{
+  margin-top: 6.5rem;
 }
