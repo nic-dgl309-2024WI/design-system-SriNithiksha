@@ -252,7 +252,6 @@ ol {
   margin-top: 5.5rem;
 }
 
-
 /* Margin Bottom */
 .l-mb-100 {
   margin-bottom: 1rem;
@@ -728,6 +727,63 @@ ol {
   margin-right: 15px; /* Adjust as needed */
   display: inline-block;
 }
+
+/* Our Services */
+/* Our Services */
+.c-services--cards {
+  flex-direction: column; /* Arrange cards in a column by default */
+  justify-content: center; /* Center cards vertically */
+  align-items: center; /* Center cards horizontally */
+}
+
+.c-services__category {
+  width: 100%; /* Full width on mobile */
+  height: auto; /* Adjust height as needed */
+  margin: 50px 0; /* Adjust margin between cards */
+}
+
+.c-card-inner {
+  width: 100%;
+  height: auto; /* Adjust height as needed */
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.c-services__category:hover .c-card-inner {
+  transform: rotateY(180deg);
+}
+
+.c-card-front,
+.c-card-back {
+  width: 100%;
+  height: auto; /* Adjust height as needed */
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.c-card-front {
+  background-color: #f0f0f0;
+}
+
+.c-card-back {
+  background-color: #d3d3d3;
+  transform: rotateY(180deg);
+}
+
+.c-list {
+  list-style: circle;
+}
+
+button {
+  transition: background-color 0.3s;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--clr-button-hover);
+  border: none;
+}
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
@@ -779,11 +835,39 @@ ol {
 
   /* Our Categories section */
   .c-card {
-    width: calc(33.33% - 30px); /* Adjust width to fit 3 cards, considering margins */
+    width: calc(
+      33.33% - 30px
+    ); /* Adjust width to fit 3 cards, considering margins */
     margin-right: 15px; /* Adjust margin between cards */
   }
-}
 
-.hero__section{
-  margin-top: 6.5rem;
+  /* Our Services */
+  .c-services--cards {
+    flex-direction: row; /* Arrange cards in a row on desktop */
+    justify-content: space-around; /* Distribute space evenly between cards */
+    width: 100%;
+    height: auto;
+  }
+
+  .c-services__category {
+    width: 800px; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    margin: 10px; /* Adjust margin between cards */
+  }
+
+  .c-card-inner {
+    width: 100%;
+    height: auto; /* Adjust height as needed */
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+
+  .c-card-front,
+  .c-card-back {
+    width: 100%;
+    height: auto; /* Adjust height as needed */
+    position: absolute;
+    backface-visibility: hidden;
+  }
 }
