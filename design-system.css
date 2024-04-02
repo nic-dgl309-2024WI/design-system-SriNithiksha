@@ -347,6 +347,14 @@ td {
   text-decoration: underline;
 }
 
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
@@ -500,6 +508,13 @@ td {
     content: "/";
 
   }
+
+    /* Footer */
+    .footer {
+      margin-right: 0;
+      margin-left: 250px;
+      padding-top: 25px;
+    }
 
 }
 
