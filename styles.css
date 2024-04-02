@@ -661,8 +661,8 @@ ol {
   color: var(--clr-primary); /* Use variable for card text color */
 }
 .card img {
-  width: 250px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 .navigation button {
@@ -723,9 +723,9 @@ ol {
 
 /* Card styles */
 .c-card {
-  flex: 0 0 auto;
-  margin-right: 15px; /* Adjust as needed */
+  flex: 0 0 auto; /* Adjust as needed */
   display: inline-block;
+  
 }
 
 /* Our Services */
@@ -893,22 +893,25 @@ button:hover {
   /* Our Categories section */
   .c-card {
     width: calc(
-      33.33% - 30px
-    ); /* Adjust width to fit 3 cards, considering margins */
-    margin-right: 15px; /* Adjust margin between cards */
+      33.33% - 20px
+    ); 
+    /* Adjust width to fit 3 cards, considering margins */
+    margin-right: 30px; /* Adjust margin between cards */
   }
 
   /* Our Services */
+
+
   .c-services--cards {
     flex-direction: row; /* Arrange cards in a row on desktop */
     justify-content: space-around; /* Distribute space evenly between cards */
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 
   .c-services__category {
-    width: 800; /* Adjust width as needed */
-    height: 500px; /* Adjust height as needed */
+    width: 500; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
     margin: 10px; /* Adjust margin between cards */
   }
 
