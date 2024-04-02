@@ -784,8 +784,13 @@ button:hover {
   background-color: var(--clr-button-hover);
   border: none;
 }
+
+/* Plant care guide */
+.c-guide__image {
+  display: none;
+}
 /* Media query for screens larger than 700px */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   /* Top navbar */
   .topnav__links {
     display: flex; /* Show top nav links on larger screens */
@@ -869,5 +874,15 @@ button:hover {
     height: auto; /* Adjust height as needed */
     position: absolute;
     backface-visibility: hidden;
+  }
+
+  /* Plant care guide*/
+
+  .c-plant__guide{
+    flex-direction: row;
+  }
+
+  .c-guide__image {
+    display: block;
   }
 }
