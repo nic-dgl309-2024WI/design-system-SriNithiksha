@@ -1,50 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Google Fonts links-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fontawesome.com/icons/facebook?f=brands&s=solid"
-    />
+  <link rel="stylesheet" href="styles.css" />
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+  <!--Google Fonts links-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fontawesome.com/icons/facebook?f=brands&s=solid" />
 
-    <title>Demo Site</title>
-  </head>
-  <body>
-    <div class="c-header l-flex l-flex-column">
-          <!--Logo-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+
+  <title>Demo Site</title>
+</head>
+
+<body>
+  <div class="c-header l-flex l-flex-column">
+    <!--Logo-->
     <div class="topnavbar u-primary-bg l-flex" id="myTopnav">
-      <a
-        href="index.html"
-        class="topnavbar__link topnav__link--logo active u-primary-text u-head__ff u-head__size u-head__weight u-head__height"
-        >Outback Nursery</a
-      >
+      <a href="index.html"
+        class="topnavbar__link topnav__link--logo active u-primary-text u-head__ff u-head__size u-head__weight u-head__height">Outback
+        Nursery</a>
 
       <!-- Hamburger icon -->
-      <span
-        class="toggle-nav u-primary-bg u-primary-text"
-        onclick="toggleNav()"
-      >
+      <span class="toggle-nav u-primary-bg u-primary-text" onclick="toggleNav()">
         <span class="hamburger">&#9776;</span>
         <!-- Cancel icon initially hidden -->
         <span class="cancel" style="display: none">&#10006;</span>
@@ -52,396 +42,453 @@
 
       <!--Menu-->
       <div class="topnav__links l-flex l-align-center">
-        <a
-          href="coming-soon.html"
-          class="topnavbar__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-          >Products</a
-        >
-        <a
-          href="coming-soon.html"
-          class="topnavbar__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-          >Services</a
-        >
-        <a
-          href="coming-soon.html"
-          class="topnavbar__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-          >Resources</a
-        >
-        <a
-          href="coming-soon.html"
-          class="topnavbar__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-          >About Us</a
-        >
-        <a
-          href="coming-soon.html"
-          class="topnavbar__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-          >Contact Us</a
-        >
+        <a href="coming-soon.html"
+          class="topnavbar__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height">Products</a>
+        <a href="coming-soon.html"
+          class="topnavbar__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height">Services</a>
+        <a href="coming-soon.html"
+          class="topnavbar__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height">Resources</a>
+        <a href="coming-soon.html"
+          class="topnavbar__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height">About
+          Us</a>
+        <a href="coming-soon.html"
+          class="topnavbar__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height">Contact
+          Us</a>
       </div>
+    </div>
+    <!--Announcement Scroll-->
+    <div class="l-announcement l-flex l-align-center u-bg-primary-light l-mt-400">
+      <div class="scroll__text u-secondary-text l-mt-100 l-mb-100 l-flex l-justify-space-between l-align-center">
+        <p class="u-secondary-text u-context__font  u-context__size u-context__weight u-context__height">
+          We are officially open for 2024! Everyday including statutory
+          holidays from 9-5
+        </p>
       </div>
-      <!--Announcement Scroll-->
-      <div
-        class="l-announcement l-flex l-align-center u-bg-primary-light l-mt-400"
-      >
-        <div
-          class="scroll__text u-secondary-text l-mt-100 l-mb-100 l-flex l-justify-space-between l-align-center"
-        >
+    </div>
+  </div>
+
+
+
+
+
+  <!--Hero Section-->
+
+  <div class="hero__section l-flex l-flex-column l-justify-center l-align-center">
+    <div class="c-overlay"></div>
+    <div class="hero__content l-flex l-flex-column l-justify-center l-align-center">
+      <h1 class="u-primary-text u-head__ff u-head__size u-head__weight u-head__height">
+        Welcome to Outback Nursery
+      </h1>
+      <p class="u-context__font u-primary-text u-context__size u-context__weight u-context__height l-mt-100">
+        Stop by often to enjoy the ever changing foliage and blooms.
+      </p>
+      <a href="#"
+        class="cta__button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100">Explore
+        our Plant Collections</a>
+    </div>
+  </div>
+
+  <!--Seasonal Favourites-->
+  <section class="seasonal__fav l-flex l-flex-column l-mt-300 l-mb-300 l-ml-300 l-mr-300">
+    <h2
+      class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-100">
+      Our Seasonal Favourites
+    </h2>
+
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
+          <img src="images/seasonal favs/blue arrow juniper.jpg" alt="img1" />
           <p
-            class="u-secondary-text u-context__font  u-context__size u-context__weight u-context__height"
-          >
-            We are officially open for 2024! Everyday including statutory
-            holidays from 9-5
+            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">
+            Blue arrow juniper
+          </p>
+        </div>
+        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
+          <img src="images/seasonal favs/cryptomeria.jpg" alt="img2" />
+          <p
+            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">
+            Cryptomeria
+          </p>
+        </div>
+        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
+          <img src="images/seasonal favs/cypress.jpg" alt="img3" />
+          <p
+            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">
+            Cypress
+          </p>
+        </div>
+        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
+          <img src="images/seasonal favs/japanese umbrella pine.jpg" alt="img4" />
+          <p
+            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">
+            Japanese Umbrella Pine
+          </p>
+        </div>
+        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
+          <img src="images/seasonal favs/cedar.jpg" alt="img5" />
+          <p
+            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">
+            Cedar
+          </p>
+        </div>
+        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
+          <img src="images/seasonal favs/cedrus-deodara.jpg" alt="img6" />
+          <p
+            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">
+            Cedrus Deodara
           </p>
         </div>
       </div>
+      <div class="navigation">
+        <button class="u-primary-bg u-primary-text" id="prevBtn">&lt;</button>
+        <button class="u-primary-bg u-primary-text" id="nextBtn">&gt;</button>
+      </div>
+      <div class="pagination" id="pagination"></div>
+    </div>
+    <a href="#"
+      class="carousel-button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Discover
+      our Seasonal Greenary</a>
+  </section>
+
+  <!--Our Categories-->
+  <section class="c-categories l-flex l-flex-column l-mt-300 l-mb-300 u-card">
+    <h2
+      class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-100">
+      Our Plants Categories</h2>
+
+    <div class="category__cards-container l-ml-300 l-mr-300">
+      <div class="category__cards l-flex l-flex-row l-align-center">
+        <!--Conifers-->
+        <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
+          <img src="images/seasonal favs/cedar.jpg" alt="conifers" style="width: 350px; height: 300px">
+          <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Conifers</h3>
+        </div>
+
+
+        <!--Deciduous-->
+
+        <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
+          <img src="images/seasonal favs/cedar.jpg" alt="deciduous" style="width: 350px; height: 300px">
+          <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Deciduous</h3>
+        </div>
+
+
+        <!--Evergreen-->
+
+        <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
+          <img src="images/seasonal favs/cedar.jpg" alt="evergreen" style="width: 350px; height: 300px">
+          <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Evergreen</h3>
+        </div>
+
+        <!--Grasses and Bamboo(Assorted)-->
+
+        <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
+          <img src="images/seasonal favs/cedar.jpg" alt="Grasses and Bamboo" style="width: 350px; height: 300px">
+          <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Grasses and
+            Bamboo(Assorted)</h3>
+        </div>
+
+
+        <!--Vines(Assorted)-->
+
+        <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
+          <img src="images/seasonal favs/cedar.jpg" alt="vines" style="width: 350px; height: 300px">
+          <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Vines(Assorted)</h3>
+        </div>
+
+
+        <!--Edibles-->
+
+        <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
+          <img src="images/seasonal favs/cedar.jpg" alt="conifers" style="width: 350px; height: 300px">
+          <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Edibles(Fruits, Nuts,
+            Berries)</h3>
+        </div>
+
+
+        <!--Japanese Maples-->
+
+        <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
+          <img src="images/seasonal favs/cedar.jpg" alt="japanesemaples" style="width: 350px; height: 300px">
+          <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Japanese Maples</h3>
+        </div>
+
+
+        <!--Trees and Shrubs-->
+
+        <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
+          <img src="images/seasonal favs/cedar.jpg" alt="trees and shrubs" style="width: 350px; height: 300px">
+          <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Trees and Shrubs</h3>
+        </div>
+
+
+      </div>
     </div>
 
-  
+    <a href="#"
+      class="carousel-button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Explore
+      our Plant Categories</a>
 
-    
+  </section>
 
-    <!--Hero Section-->
+  <!--Our services-->
+  <section class="c-services l-flex l-flex-column l-mt-300">
+    <h2
+      class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-100">
+      Our Services</h2>
+    <div class="c-services--cards l-flex l-flex-column l-align-center l-justify-space-around">
 
-    <div
-      class="hero__section l-flex l-flex-column l-justify-center l-align-center"
-    >
-      <div class="c-overlay"></div>
-      <div
-        class="hero__content l-flex l-flex-column l-justify-center l-align-center"
-      >
-        <h1
-          class="u-primary-text u-head__ff u-head__size u-head__weight u-head__height"
-        >
-          Welcome to Outback Nursery
-        </h1>
+      <!--gift certificate-->
+      <div class="c-services__category l-flex l-flex-column l-align-center l-m-300">
+        <div class="c-card-inner">
+          <div class="c-card-front l-flex l-flex-column l-align-center l-justify-center">
+            <img src="images/icons/gift_certificate_icon.svg" alt="Gift Certificate Icon" width="50" height="50">
+            <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Gift Certificates
+            </h3>
+          </div>
+          <div class="c-card-back l-flex l-flex-column l-align-center l-justify-center">
+            <h3
+              class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-align-center l-justify-center">
+              Get your Gift Certificates in 3 steps</h3>
+            <ol>
+              <li
+                class="c-list u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">
+                Please send an email to info@outbacknursery.ca with your particulars.</li>
+              <li
+                class="c-list u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">
+                Please send us an e-transfer to info@outbacknursery.ca with your chosen amount.</li>
+              <li
+                class="c-list u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">
+                Once e-transfer is received, we will send a voucher to the email of your choosing.</li>
+            </ol>
+            <button
+              class="u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-align-center l-justify-center l-mt-200 l-mb-200 l-p-100">Get
+              your gift certificates today!</button>
+          </div>
+        </div>
+      </div>
+
+      <!--delivery services-->
+      <div class="c-services__category l-flex l-flex-column l-align-center">
+        <div class="c-card-inner">
+          <div class="c-card-front l-flex l-flex-column l-align-center l-justify-center">
+            <img src="images/icons/Delivery.svg" alt="Gift Certificate Icon" width="50" height="50">
+            <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Delivery Services
+            </h3>
+          </div>
+          <div class="c-card-back l-flex l-flex-column l-align-center l-justify-center">
+            <h3
+              class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-m-200 l-align-center">
+              Get your plants delivered at your doorstep</h3>
+            <p
+              class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-align-center l-justify-center">
+              Delivery and planting of your new trees and shrubs (for those items that won't fit in your hatchback)</p>
+            <button
+              class="u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-align-center l-justify-center l-mt-200 l-mb-200 l-p-100">Ask
+              us for recommendations!</button>
+          </div>
+        </div>
+      </div>
+
+      <!--refund policy-->
+      <div class="c-services__category l-flex l-flex-column l-align-center">
+        <div class="c-card-inner">
+          <div class="c-card-front l-flex l-flex-column l-align-center l-justify-center">
+            <img src="images/icons/refund.png" alt="Gift Certificate Icon"
+              class="l-flex l-align-center l-justify-center" width="50" height="50">
+            <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Refund policy</h3>
+          </div>
+          <div class="c-card-back l-flex l-flex-column l-align-center l-justify-center">
+            <h3
+              class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-m-200 l-align-center l-justify-center">
+              Our Refund Policy</h3>
+            <p
+              class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-align-center l-justify-center">
+              We have a no refund or return policy on live plant material. Our plants are healthy when leaving the
+              Nursery. Please insure they remain that way with proper care.</p>
+            <a href="coming-soon.html"><button
+                class="u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-align-center l-justify-center l-mt-200 l-mb-200 l-p-100">Visit
+                us to learn more</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Plant Care guide-->
+  <section class="c-guide">
+    <div class="c-plant__guide u-bg-primary-light l-flex l-flex-column l-align-stretch l-m-300 l-p-300">
+      <div class="c-guide__image l-flex l-justify-center l-mb-100">
+        <img src="images/plant-guide.jpg" alt="plant-guide" style="max-width: 500px; height: auto;">
+      </div>
+      <div class="c-plant--guide l-flex l-flex-column l-justify-start l-mt-100 l-mb-100 l-ml-300 l-mr-300">
+        <h2
+          class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-justify-center l-align-center l-mb-200">
+          We Want to help you grow plants</h2>
         <p
-          class="u-context__font u-primary-text u-context__size u-context__weight u-context__height l-mt-100"
-        >
-          Stop by often to enjoy the ever changing foliage and blooms.
-        </p>
-        <a
-          href="#"
-          class="cta__button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100"
-          >Explore our Plant Collections</a
-        >
+          class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-justify-center l-mb-200">
+          Welcome to our extensive plant-growing resource guide! Whether you're an experienced gardener or just getting
+          started, this book will help you every step of the way. We'll help you choose the right plants for your
+          environment and nurture them into healthy specimens. Our expert guidance, practical recommendations, and
+          simple instructions will enable you to grow lush gardens, vivid indoor vegetation, and abundant harvests.
+          Prepare to embark on a voyage of discovery, education, and growth as we explore the wonderful world of plant
+          culture. Let us delve in and see your garden fantasies come true!</p>
+        <p
+          class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
+          Happy Gardening from Outback Nursery</p>
+        <a href="coming-soon.html"
+          class="carousel-button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Click
+          View Tips & Tricks</a>
       </div>
     </div>
 
-    <!--Seasonal Favourites-->
-    <section
-      class="seasonal__fav l-flex l-flex-column l-mt-300 l-mb-300 l-ml-300 l-mr-300"
-    >
+  </section>
+
+  <!--FAQ Section-->
+
+  <section class="c-faq l-ml-200 l-mr-200">
+    <div class="c-faq__title l-flex l-flex-row l-align-center l-justify-center l-justify-space-betweem">
       <h2
-        class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-100"
-      >
-        Our Seasonal Favourites
-      </h2>
-
-      <div class="carousel-container">
-        <div class="carousel">
-          <div
-            class="card l-flex l-flex-column l-justify-space-between l-align-center"
-          >
-            <img src="images/seasonal favs/blue arrow juniper.jpg" alt="img1" />
-            <p
-              class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center"
-            >
-              Blue arrow juniper
-            </p>
-          </div>
-          <div
-            class="card l-flex l-flex-column l-justify-space-between l-align-center"
-          >
-            <img src="images/seasonal favs/cryptomeria.jpg" alt="img2" />
-            <p
-              class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center"
-            >
-              Cryptomeria
-            </p>
-          </div>
-          <div
-            class="card l-flex l-flex-column l-justify-space-between l-align-center"
-          >
-            <img src="images/seasonal favs/cypress.jpg" alt="img3" />
-            <p
-              class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center"
-            >
-              Cypress
-            </p>
-          </div>
-          <div
-            class="card l-flex l-flex-column l-justify-space-between l-align-center"
-          >
-            <img
-              src="images/seasonal favs/japanese umbrella pine.jpg"
-              alt="img4"
-            />
-            <p
-              class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center"
-            >
-              Japanese Umbrella Pine
-            </p>
-          </div>
-          <div
-            class="card l-flex l-flex-column l-justify-space-between l-align-center"
-          >
-            <img src="images/seasonal favs/cedar.jpg" alt="img5" />
-            <p
-              class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center"
-            >
-              Cedar
-            </p>
-          </div>
-          <div
-            class="card l-flex l-flex-column l-justify-space-between l-align-center"
-          >
-            <img src="images/seasonal favs/cedrus-deodara.jpg" alt="img6" />
-            <p
-              class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center"
-            >
-              Cedrus Deodara
-            </p>
-          </div>
+        class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-justify-center l-align-center l-mb-200">
+        Frequently Asked Question</h2>
+      <img src="images/icons/faq.png" alt="faq" class="l-flex l-justify-center l-align-center l-ml-100 l-mb-200"
+        width="30" height="30">
+    </div>
+    <div class="faq-container l-flex l-flex-column l-ml-100 l-mr-100">
+      <div class="faq-item">
+        <div
+          class="faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
+          What is Lorem Ipsum?</div>
+        <div
+          class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
+          <p
+            class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
-        <div class="navigation">
-          <button class="u-primary-bg u-primary-text" id="prevBtn">&lt;</button>
-          <button class="u-primary-bg u-primary-text" id="nextBtn">&gt;</button>
-        </div>
-        <div class="pagination" id="pagination"></div>
       </div>
+      <div class="faq-item">
+        <div
+          class="faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
+          Why do we use it?</div>
+        <div
+          class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
+          <p
+            class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
+            It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking at its layout.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div
+          class="faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
+          Where does it come from?</div>
+        <div
+          class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
+          <p
+            class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--About us-->
+
+  <section class="c-about">
+    <h2
+      class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-justify-center l-align-center l-mt-300 l-mb-300">
+      Who we are?</h2>
+    <div class="c-about__us u-bg-primary-light l-flex l-flex-row l-align-stretch l-m-300 l-p-300">
+
+      <div class="c-about--guide l-flex l-flex-column l-justify-start l-mt-100 l-mb-100 l-ml-300 l-mr-300">
+        <h3
+          class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-200">
+          The Evolution of Outback Nursery</h3>
+        <p
+          class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-justify-center l-mb-200">
+          Outback Nursery is one of the largest garden centres on Vancouver Island. Our nursery is situated on a 6 acre
+          property and offers 5 overflowing greenhouses (30x170ft); almost 23,000 square feet.
+          Outback Nursery began in 1998-1999 when our parents retired to the island from Aldergrove. They asked if we'd
+          be interested in joining them and then purchased this heavily treed property. We began clearing some trees and
+          settled into country life trying our hand at raising some turkeys and pigs as well as growing some hedging and
+          conifers. We joined the Farmer's Market, then as our inventory expanded we began running a spec truck down
+          island stopping here and there to show our quality product to potential customers.
+
+          Little by little the property was cleared and one by one the greenhouses and irrigation zones increased to
+          what you see today. In the beginning we were limited to wholesale and landscape clientele, then somewhere
+          along the way interest in our nursery grew and we opened to the public.</p>
+        <a href="coming-soon.html"
+          class="carousel-button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Click
+          to Learn More About Our Mission</a>
+      </div>
+      <div class="c-about__image l-flex l-justify-center l-mb-100">
+        <img src="images/about.jpeg" alt="about-guide" style="max-width: 500px; height: auto;">
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+</body>
+<footer>
+  <div class="u-primary-bg l-flex l-flex-row l-justify-space-around l-p-300">
+    <div class="logo">
       <a
-        href="#"
-        class="carousel-button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200"
-        >Discover our Seasonal Greenary</a
-      >
-    </section>
+      href="index.html"
+      class="topnavbar__link topnav__link--logo active u-primary-text u-head__ff u-head__size u-head__weight u-head__height"
+      >Outback Nursery</a
+    >
+  </div>
+    <div class="address l-flex l-flex-row l-align-start l-justify-space-around">
+      <img src="images/icons/location.png" alt="open-hours" class="l-flex l-justify-center l-align-center l-mr-200"
+        width="30" height="30">
+      <p class="u-primary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height">6016
+        Headquarters Rd <br>
+        Courtenay, British Columbia <br>
+        V9J 1M7, Canada</p>
+    </div>
 
-    <!--Our Categories-->
-    <section class="c-categories l-flex l-flex-column l-mt-300 l-mb-300 u-card">
-      <h2  class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-100">Our Plants Categories</h2>
+    <div class="open__hours l-flex l-flex-row l-align-start l-justify-space-around">
+      <img src="images/icons/open-hours.png" alt="open-hours" class="l-flex l-justify-center l-align-center l-mr-200"
+        width="30" height="30">
+      <p class="u-primary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height">
+        Monday - Sunday <br>
+        9:00am - 5:00pm
+      </p>
+    </div>
 
-      <div class="category__cards-container l-ml-300 l-mr-300">
-        <div class="category__cards l-flex l-flex-row l-align-center">
-          <!--Conifers-->
-            <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
-              <img src="images/seasonal favs/cedar.jpg" alt="conifers" style="width: 350px; height: 300px">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Conifers</h3>
-            </div>
-          
-          
-          <!--Deciduous-->
-          
-            <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
-              <img src="images/seasonal favs/cedar.jpg" alt="deciduous" style="width: 350px; height: 300px">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Deciduous</h3>
-            </div>
-          
-          
-          <!--Evergreen-->
-          
-            <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
-              <img src="images/seasonal favs/cedar.jpg" alt="evergreen" style="width: 350px; height: 300px">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Evergreen</h3>
-            </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.234448016967!2d-124.98925018425954!3d49.68153827937799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5489d1dfce6c3517%3A0x4638821e7b0a0281!2s6016%20Headquarters%20Rd%2C%20Courtenay%2C%20BC%20V9J%201M7%2C%20Canada!5e0!3m2!1sen!2sus!4v1648796527581!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+  </div>
+  
+
+    <div class="c-social__media l-flex l-flex-column l-align-center l-justify-center l-mt-100 l-mb-100">
+      <h3
+        class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mb-100">
+        Connect with us on</h3>
+        <div class="social-media-icons l-flex l-flex-row l-align-center">
+          <a href="https://www.facebook.com/people/Outback-Nursery-Garden-Centre/100045470087619/" target="_blank">
+            <img src="images/icons/facebook.png" alt="facebook" class="l-flex l-justify-center l-align-center l-ml-100" width="30" height="30">
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@outbacknursery.ca" target="_blank">
+            <img src="images/icons/gmail.png" alt="gmail" class="l-flex l-justify-center l-align-center l-ml-100" width="30" height="30">
+          </a>
+        </div>
         
-          <!--Grasses and Bamboo(Assorted)-->
-          
-            <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
-              <img src="images/seasonal favs/cedar.jpg" alt="Grasses and Bamboo" style="width: 350px; height: 300px">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Grasses and Bamboo(Assorted)</h3>
-            </div>
-          
-          
-          <!--Vines(Assorted)-->
-          
-            <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
-              <img src="images/seasonal favs/cedar.jpg" alt="vines" style="width: 350px; height: 300px">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Vines(Assorted)</h3>
-            </div>
-          
-          
-          <!--Edibles-->
-          
-            <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
-              <img src="images/seasonal favs/cedar.jpg" alt="conifers" style="width: 350px; height: 300px">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Edibles(Fruits, Nuts, Berries)</h3>
-            </div>
-          
-          
-          <!--Japanese Maples-->
-          
-            <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
-              <img src="images/seasonal favs/cedar.jpg" alt="japanesemaples" style="width: 350px; height: 300px">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Japanese Maples</h3>
-            </div>
-          
-          
-          <!--Trees and Shrubs-->
-          
-            <div class="c-card l-flex l-flex-column l-align-center u-bg-primary-light l-p-300">
-              <img src="images/seasonal favs/cedar.jpg" alt="trees and shrubs" style="width: 350px; height: 300px">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Trees and Shrubs</h3>
-            </div>
-          
-          
-        </div>
-      </div>
+    </div>
 
-      <a
-        href="#"
-        class="carousel-button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200"
-        >Explore our Plant Categories</a
-      >
-      
-    </section>
+</footer>
 
-    <!--Our services-->
-    <section class="c-services l-flex l-flex-column l-mt-300 l-mb-300">
-      <h2 class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-100">Our Services</h2>
-      <div class="c-services--cards l-flex l-flex-column l-align-center l-justify-space-around">
 
-        <!--gift certificate-->
-        <div class="c-services__category l-flex l-flex-column l-align-center">
-          <div class="c-card-inner">
-            <div class="c-card-front l-flex l-flex-column l-align-center l-justify-center">
-              <img src="images/icons/gift_certificate_icon.svg" alt="Gift Certificate Icon" width="50" height="50">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Gift Certificates</h3>
-            </div>
-            <div class="c-card-back l-flex l-flex-column l-align-center l-justify-center">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-align-center l-justify-center">Get your Gift Certificates in 3 steps</h3>
-              <ol>
-                <li class="c-list u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">Please send an email to info@outbacknursery.ca with your particulars.</li>
-                <li class="c-list u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">Please send us an e-transfer to info@outbacknursery.ca with your chosen amount.</li>
-                <li class="c-list u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center">Once e-transfer is received, we will send a voucher to the email of your choosing.</li>
-              </ol>
-              <button class="u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-align-center l-justify-center l-mt-200 l-mb-200 l-p-100">Get your gift certificates today!</button>
-            </div>
-          </div>
-        </div>
-    
-        <!--delivery services-->
-        <div class="c-services__category l-flex l-flex-column l-align-center">
-          <div class="c-card-inner">
-            <div class="c-card-front l-flex l-flex-column l-align-center l-justify-center">
-              <img src="images/icons/Delivery.svg" alt="Gift Certificate Icon" width="50" height="50">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Delivery Services</h3>
-            </div>
-            <div class="c-card-back l-flex l-flex-column l-align-center l-justify-center">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-m-200 l-align-center">Get your plants delivered at your doorstep</h3>
-              <p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-align-center l-justify-center">Delivery and planting of your new trees and shrubs (for those items that won't fit in your hatchback)</p>
-              <button class="u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-align-center l-justify-center l-mt-200 l-mb-200 l-p-100">Ask us for recommendations!</button>
-            </div>
-          </div>
-        </div>
-      
-        <!--refund policy-->
-        <div class="c-services__category l-flex l-flex-column l-align-center">
-          <div class="c-card-inner">
-            <div class="c-card-front l-flex l-flex-column l-align-center l-justify-center">
-              <img src="images/icons/refund.png" alt="Gift Certificate Icon" class="l-flex l-align-center l-justify-center" width="50" height="50">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height">Refund policy</h3>
-            </div>
-            <div class="c-card-back l-flex l-flex-column l-align-center l-justify-center">
-              <h3 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-m-200 l-align-center l-justify-center">Our Refund Policy</h3>
-              <p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-align-center l-justify-center">We have a no refund or return policy on live plant material. Our plants are healthy when leaving the Nursery. Please insure they remain that way with proper care.</p>
-              <a href="coming-soon.html"><button class="u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-align-center l-justify-center l-mt-200 l-mb-200 l-p-100">Visit us to learn more</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<script src="design-system.js"></script>
+<script src="main.js"></script>
+</body>
 
-    <!--Plant Care guide-->
-    <section class="c-guide">
-      <div class="c-plant__guide u-bg-primary-light l-flex l-flex-column l-align-stretch l-m-300 l-p-300">
-        <div class="c-guide__image l-flex l-justify-center l-mb-100">
-          <img src="images/plant-guide.jpg" alt="plant-guide" style="max-width: 500px; height: auto;">
-        </div>
-        <div class="c-plant--guide l-flex l-flex-column l-justify-start l-mt-100 l-mb-100 l-ml-300 l-mr-300">
-          <h2 class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-justify-center l-align-center l-mb-200">We Want to help you grow plants</h2>
-          <p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-justify-center l-mb-200">Welcome to our extensive plant-growing resource guide! Whether you're an experienced gardener or just getting started, this book will help you every step of the way. We'll help you choose the right plants for your environment and nurture them into healthy specimens. Our expert guidance, practical recommendations, and simple instructions will enable you to grow lush gardens, vivid indoor vegetation, and abundant harvests. Prepare to embark on a voyage of discovery, education, and growth as we explore the wonderful world of plant culture. Let us delve in and see your garden fantasies come true!</p>
-          <p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">Happy Gardening from Outback Nursery</p>
-          <a href="coming-soon.html" class="carousel-button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Click View Tips & Tricks</a>
-        </div>
-      </div>
-      
-    </section>
-
-    <!--FAQ Section-->
-
-    <section class="c-faq l-ml-200 l-mr-200">
-      <div class="c-faq__title l-flex l-flex-row l-align-center l-justify-center l-justify-space-betweem">
-        <h2 class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-justify-center l-align-center l-mb-200">Frequently Asked Question</h2>
-      <img src="images/icons/faq.png" alt="faq" class="l-flex l-justify-center l-align-center l-ml-100 l-mb-200" width="30" height="30">
-      </div>
-      <div class="faq-container l-flex l-flex-column l-ml-100 l-mr-100">
-        <div class="faq-item">
-          <div class="faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">What is Lorem Ipsum?</div>
-          <div class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
-            <p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">Why do we use it?</div>
-          <div class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
-            <p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">Where does it come from?</div>
-          <div class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
-            <p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    
-
-  </body>
-  <footer>
-    <div class="u-primary-bg l-flex l-flex-row l-justify-space-around l-p-300">
-      <div class="logo">
-        <a
-        href="index.html"
-        class="topnavbar__link topnav__link--logo active u-primary-text u-head__ff u-head__size u-head__weight u-head__height"
-        >Outback Nursery</a
-      >
-      </div>
-  
-      <div class="address">
-        <h3 class="u-primary-text u-subhead__100 u-primary-text u-context__size u-context__weight u-context__height">Address</h3>
-        <p class="u-primary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height">6016 Headquarters Rd <br>
-          Courtenay,  British Columbia <br>
-          V9J 1M7,  Canada</p>
-      </div>
-  
-      <div class="open__hours">
-        <h3 class="u-primary-text u-subhead__100 u-primary-text u-context__size u-context__weight u-context__height">Opearting Hours</h3>
-        <p class="u-primary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height">Monday - Sunday <br>
-          9:00am - 5:00pm
-        </p>
-      </div>
-  
-      <div class="contact__us">
-        <a
-        href="#"
-        class="carousel-button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height  l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200"
-        >Contact Us</a
-      >
-      <div class="social-media-icons l-flex l-align-center l-mt-400">
-        <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
-      </div>
-      </div>
-  
-      <div id="map"></div>
-  
-      </div>
-  </footer>
-  
-
-    <script src="design-system.js"></script>
-    <script src="main.js"></script>
-  </body>
 </html>
