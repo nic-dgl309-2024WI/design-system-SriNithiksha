@@ -355,6 +355,10 @@ td {
   margin-top: 70px;
   margin-bottom: 10px;
 }
+
+.c-footer__code{
+  
+}
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
@@ -517,4 +521,5 @@ td {
     }
 
 }
+
 
