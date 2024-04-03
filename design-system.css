@@ -391,6 +391,14 @@ td {
 .c-breadcrumbs a:hover {
   text-decoration: underline;
 }
+/* List Page */
+.list{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
 
 /* Accordion page */
 .accordion{
@@ -440,6 +448,11 @@ td {
 .faq-question:hover {
   background-color: var(--primary-bg-light);
   color: var(--secondary-text);
+}
+.c-clip--button{
+  padding: 5px;
+  border-color: transparent;
+  cursor: pointer;
 }
 
 /* Footer */
@@ -644,6 +657,15 @@ td {
   .faq-question:hover::after {
     transform: translateY(-50%) rotate(90deg);
   }
+  /* List page */
+  .list {
+    margin-right: 0;
+    margin-left: 250px;
+    padding-top: 25px;
+  }
+  .c-footer {
+   flex-direction: row;
+}
   /* Footer */
   .footer {
     margin-right: 0;

@@ -71,3 +71,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+//////////////////
+////////////////
+//copy to clipboard functionality
+function copyToClipboard() {
+  const scriptCode = document.getElementById('scriptCode');
+  const range = document.createRange();
+  range.selectNode(scriptCode);
+  window.getSelection().removeAllRanges();
+  window.getSelection().addRange(range);
+  document.execCommand('copy');
+  window.getSelection().removeAllRanges();
+  alert('Copied to clipboard!');
+}
