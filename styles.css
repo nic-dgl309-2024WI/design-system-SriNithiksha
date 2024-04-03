@@ -522,9 +522,7 @@ ol {
 .c-container-content {
   max-width: fit-content;
 }
-
 /***** Outback Nursery Site *****/
-
 /* Topnav */
 .topnavbar {
   position: fixed;
@@ -535,27 +533,22 @@ ol {
   overflow: hidden;
   z-index: 1000;
 }
-
 .topnavbar__link {
   text-decoration: none;
   color: inherit;
 }
-
 .hamburger-menu {
   display: block;
 }
-
 .bar {
   width: 25px;
   height: 3px;
   background-color: #fff;
   margin: 5px 0;
 }
-
 .topnav__links {
   display: none;
 }
-
 /* Hero section */
 .hero__section {
   position: relative;
@@ -567,7 +560,6 @@ ol {
   align-items: center;
   justify-content: center;
 }
-
 /* Style for the overlay */
 .c-overlay {
   position: absolute;
@@ -577,12 +569,10 @@ ol {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.591);
 }
-
 /* Style for the hero content */
 .hero__content {
   z-index: 1;
 }
-
 /* Style for the call-to-action button */
 .cta__button {
   border: none;
@@ -590,12 +580,10 @@ ol {
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
-
 /* Hover effect for the button */
 .cta__button:hover {
   background-color: var(--clr-button-hover);
 }
-
 /* Scroll animation for announcement section */
 .l-announcement {
   position: fixed; /* Change to fixed */
@@ -606,13 +594,11 @@ ol {
   white-space: nowrap; /* Prevent text wrapping */
   z-index: 1000; /* Ensure it's above other content */
 }
-
 .scroll__text {
   display: inline-block; /* Display text in a single line */
   padding: 0 20px; /* Add padding to the scrolling text */
   animation: scrollText 20s linear infinite; /* Apply the scrollText animation */
 }
-
 /* Define the animation */
 @keyframes scrollText {
   0% {
@@ -622,7 +608,7 @@ ol {
     transform: translateX(100%); /* End position (scroll to the left) */
   }
 }
-
+/* Products section -01 */
 /* carousel style */
 .carousel-container {
   display: flex;
@@ -635,7 +621,6 @@ ol {
 .carousel {
   display: flex;
 }
-
 .navigation {
   display: block; /* Show navigation buttons on desktop */
   position: absolute;
@@ -645,7 +630,6 @@ ol {
   display: flex;
   justify-content: space-between;
 }
-
 .card {
   padding: 5px;
   scroll-snap-align: start;
@@ -656,7 +640,6 @@ ol {
   width: 300px;
   height: 300px;
 }
-
 .navigation button {
   border: none;
   border-radius: 50%;
@@ -666,18 +649,15 @@ ol {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
 .navigation button:hover {
   background-color: var(
     --primary-bg-light
   ); /* Use variable for button hover background color */
 }
-
 .pagination {
   text-align: center;
   margin-top: 10px;
 }
-
 .dot {
   height: 10px;
   width: 10px;
@@ -689,13 +669,11 @@ ol {
   margin: 0 5px;
   cursor: pointer;
 }
-
 .dot.active {
   background-color: var(
     --clr-light
   ); /* Use variable for active dot background color */
 }
-
 .carousel-button {
   border: none;
   cursor: pointer;
@@ -704,7 +682,7 @@ ol {
   width: fit-content; /* Make button width fit its content */
   margin: auto; /* Center the button horizontally */
 }
-
+/* Product section - 02 */
 /* Card container styles */
 .category__cards-container {
   overflow-x: auto; /* Enable horizontal scrollbar */
@@ -712,23 +690,18 @@ ol {
   -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
   padding-bottom: 15px; /* Add padding to create gap */
 }
-
 /* Card styles */
 .c-card {
   flex: 0 0 auto; /* Adjust as needed */
   display: inline-block;
-  
 }
-
 /* services */
-
 .services-card {
   width: 350px;
   height: 350px;
   perspective: 1000px;
   margin: 20px;
 }
-
 .card-inner {
   width: 100%;
   height: 100%;
@@ -736,11 +709,9 @@ ol {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-
 .services-card:hover .card-inner {
   transform: rotateY(180deg);
 }
-
 .card-front,
 .card-back {
   width: 100%;
@@ -762,8 +733,6 @@ ol {
   text-decoration: none;
   display: inline-block;
 }
-
-
 
 /* Plant care guide */
 .c-guide__image {
@@ -867,7 +836,7 @@ ol {
   font-style: italic;
 }
 
-.testimonial img{
+.testimonial img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -908,7 +877,7 @@ ol {
     display: flex; /* Align links to the right */
   }
 
-  .topnavbar__link{
+  .topnavbar__link {
     justify-content: flex-start;
   }
 
@@ -960,9 +929,7 @@ ol {
 
   /* Our Categories section */
   .c-card {
-    width: calc(
-      33.33% - 20px
-    ); 
+    width: calc(33.33% - 20px);
     /* Adjust width to fit 3 cards, considering margins */
     margin-right: 30px; /* Adjust margin between cards */
   }
@@ -1037,7 +1004,7 @@ ol {
     justify-content: center;
   }
 
-  .c-cards__container{
+  .c-cards__container {
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -1053,7 +1020,7 @@ ol {
   }
 
   /* Footer Map */
-  .c-footer{
+  .c-footer {
     flex-direction: row;
   }
 
@@ -1061,7 +1028,7 @@ ol {
     width: 300px;
     height: 200px;
   }
-  
+
   .map iframe {
     width: 100%;
     height: 100%;
@@ -1094,5 +1061,4 @@ ol {
   .btn {
     width: auto;
   }
-
 }

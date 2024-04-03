@@ -392,6 +392,56 @@ td {
   text-decoration: underline;
 }
 
+/* Accordion page */
+.accordion{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  width: 400px;
+}
+
+.faq-question {
+  cursor: pointer;
+  padding: 15px;
+  background-color: var(--primary-bg);
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.faq-answer {
+  display: none;
+  padding: 0 15px;
+  transition: all 0.3s ease;
+}
+
+.faq-question::after {
+  content: "\25B8"; /* Unicode for right-pointing triangle */
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+}
+
+.faq-item.expanded .faq-question::after {
+  content: "\25BE"; /* Unicode for down-pointing triangle */
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.faq-question:hover {
+  background-color: var(--primary-bg-light);
+  color: var(--secondary-text);
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -552,10 +602,6 @@ td {
     margin-left: 250px;
     padding-top: 25px;
   }
-  .hero-section{
-    width: 1200px;
-    height: 600px;
-  }
 
   .hero-section__code{
     width: 400;
@@ -575,7 +621,28 @@ td {
   /* Style for Breadcrumbs */
   .c-breadcrumbs li:not(:last-child):after {
     content: "/";
-
+  }
+  /* Accordion page */
+  .accordion {
+    margin-right: 0;
+    margin-left: 250px;
+    padding-top: 25px;
+  }
+  .css-accordion--style{
+    flex-direction: row;
+  }
+  .faq-item{
+    width: 1200px;
+  }
+  .faq-question:hover {
+    background-color: var(--primary-bg-light);
+    color: var(--secondary-text);
+  }
+  .faq-question:hover .faq-answer {
+    display: block;
+  }
+  .faq-question:hover::after {
+    transform: translateY(-50%) rotate(90deg);
   }
   /* Footer */
   .footer {

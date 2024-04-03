@@ -41,4 +41,33 @@ function toggleNav() {
 }
 ////////////////////////////
 /////////////////////////////
+// Script for accordion
 
+document.addEventListener('DOMContentLoaded', function() {
+  const faqQuestions = document.querySelectorAll('.faq-question');
+
+  faqQuestions.forEach(question => {
+    question.addEventListener('click', () => {
+      const item = question.parentNode;
+      const answer = item.querySelector('.faq-answer');
+      
+      item.classList.toggle('expanded');
+
+      if (item.classList.contains('expanded')) {
+        answer.style.display = 'block';
+      } else {
+        answer.style.display = 'none';
+      }
+    });
+
+    question.addEventListener('mouseenter', () => {
+      const item = question.parentNode;
+      item.classList.add('expanded');
+    });
+
+    question.addEventListener('mouseleave', () => {
+      const item = question.parentNode;
+      item.classList.remove('expanded');
+    });
+  });
+});
