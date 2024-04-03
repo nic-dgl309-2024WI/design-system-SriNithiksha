@@ -536,32 +536,24 @@ ol {
   z-index: 1000;
 }
 
-.topnavbar__link--logo.active {
-  color: var(--text-hover-100);
-}
-
 .topnavbar__link {
   text-decoration: none;
-  padding: 14px 16px;
+  color: inherit;
 }
 
-.topnavbar__links {
+.hamburger-menu {
+  display: block;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+.topnav__links {
   display: none;
-}
-
-.topnavbar__link:hover {
-  color: var(--text-hover-100);
-}
-
-/* Styles for the hamburger icon */
-.hamburger {
-  display: flex;
-  cursor: pointer;
-  padding: 15px;
-}
-
-.hamburger:hover {
-  color: var(--text-hover-100);
 }
 
 /* Hero section */
@@ -912,18 +904,26 @@ ol {
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 768px) {
   /* Top navbar */
+  .topnavbar {
+    display: flex; /* Align links to the right */
+  }
+
+  .topnavbar__link{
+    justify-content: flex-start;
+  }
+
   .topnav__links {
-    display: flex; /* Show top nav links on larger screens */
-  }
-  /* Hamburger icon */
-  .hamburger {
-    display: none;
-  }
-
-  .cancel {
-    display: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 20px; /* Add margin between links */
   }
 
+  .hamburger-menu {
+    display: none;
+  }
+  /* aanouncement */
   .l-announcement {
     display: flex;
     margin-top: 3.5rem;
