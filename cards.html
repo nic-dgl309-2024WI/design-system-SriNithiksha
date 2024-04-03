@@ -18,6 +18,7 @@
     />
     <title>Design System</title>
   </head>
+
   <body>
     <!--Top navbar-->
     <div class="topnav u-primary-bg u-primary-text" id="myTopnav">
@@ -54,7 +55,9 @@
 
     <!--Side navbar-->
     <div class="sidenav u-primary-bg" id="mySidenav">
-      <ul class="sidenav__list u-primary-bg l-flex l-ml-100 l-flex-column l-justify-space-between l-mb-300 l-align-start">
+      <ul
+        class="sidenav__list u-primary-bg l-flex l-ml-100 l-flex-column l-justify-space-between l-mb-300 l-align-start"
+      >
         <!--For mobile view-->
         <a
           href="about-me.html"
@@ -83,7 +86,7 @@
             >02 Typography</a
           >
         </li>
-        
+
         <p
           class="Utilities u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height"
         >
@@ -106,13 +109,13 @@
         <li>
           <a
             href="images.html"
-            class="sidenav__link active u-primary-text u-context__font u-context__size u-context__weight u-context__height"
+            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
             >05 Images</a
           >
         </li>
         <li>
           <a
-            href="interactive.html"
+            href="#"
             class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
             >06 Interactive</a
           >
@@ -170,7 +173,7 @@
             >12 Carousel</a
           >
         </li>
-        
+
         <li>
           <a
             href="footer.html"
@@ -185,7 +188,7 @@
         </p>
         <li>
           <a
-            href="cards.html"
+            href="#"
             class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
             >14 Cards</a
           >
@@ -207,97 +210,128 @@
         <li>
           <a
             href="list.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
+            class="sidenav__link active u-primary-text u-context__font u-context__size u-context__weight u-context__height"
             >17 lists</a
           >
         </li>
       </ul>
     </div>
-    <div class="images l-ml-100 l-mr-200">
-    <!--Breadcrumbs-->
-    <nav class="c-breadcrumbs l-flex l-flex-column">
+    <div class="list l-ml-100 l-mr-200">
+      <!--Breadcrumbs-->
+      <nav class="c-breadcrumbs l-flex l-flex-column">
         <ul>
-          <li class="u-head__ff u-head__size u-head__weight u-head__height"><a href="design-system.html" class="u-secondary-text">Home</a></li>
-          <li class="u-head__ff u-head__size u-head__weight u-head__height"><a href="images.html" class="u-text-hover-200">Images</a></li>
+          <li class="u-head__ff u-head__size u-head__weight u-head__height">
+            <a href="design-system.html" class="u-secondary-text">Home</a>
+          </li>
+          <li class="u-head__ff u-head__size u-head__weight u-head__height">
+            <a href="card.html" class="u-text-hover-200">Cards</a>
+          </li>
         </ul>
-    </nav>
-    <h1 class="u-head__ff u-head__size u-head__weight u-head__height">Images</h1><br>
-    <p class="u-context__font u-context__size u-context__weight u-context__height">Images are a crucial component of good web design since they establish brand identity, aid in communication, increase user engagement, boost visual appeal, and provide SEO advantages.</p>
-
-    <!--Image and its code-->
-    <div class="image__container l-mt-200 l-mr-200">
-        <div class="card-image__container l-flex l-flex-row l-p-100 u-card">
-            <img src="images/seasonal favs/cedrus-deodara.jpg" alt="card-image" style="width: 300px; height: 300px">
-            <div class="c-img__code l-flex l-flex-column l-justify-space-between l-align-start">
-                <p class="u-context__font u-context__size u-context__weight u-context__height">
-                    <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-100">Html code</h3>
-                    <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center">
-                        &lt;img src="images/seasonal favs/cedrus-deodara.jpg" alt="card-image"&gt;
-                    </pre>
-                    <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-100">CSS style</h3>
-                    <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center l-ml-100">
-                    .c-card__image{ 
-                        width: 300px; 
-                        height: 300px; 
-                    }
-                    </pre>
-                </p>
+      </nav>
+      <h1 class="u-head__ff u-head__size u-head__weight u-head__height">
+        Cards
+      </h1>
+      <br />
+      <p
+        class="u-context__font u-context__size u-context__weight u-context__height"
+      ></p>
+      <div class="cards--container l-flex l-align-center l-justify-center l-flex-column">
+        <div class="testimonial-card">
+          <div class="testimonial l-flex l-align-center">
+            <img src="images/testimonials/avatar1.jpg" alt="Profile Picture" />
+            <div class="text">
+              <div
+                class="name subheading u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-justify-center l-flex l-align-center l-justify-center l-flex l-align-center l-justify-center"
+              >
+                Joey Witman
+              </div>
+              <div
+                class="quote subheading u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-justify-center l-flex l-align-center l-justify-center l-flex l-align-center l-justify-center l-ml-100"
+              >
+                "Choosing [Your Company Name] was one of the best decisions I've
+                made. Their expertise and dedication helped me achieve
+                remarkable results. I couldn't be happier."
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards--code">
+          <h3
+            class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-200 l-ml-100"
+          >
+            HTML code
+          </h3>
+          <button
+            onclick="copyToClipboard()"
+            class="c-clip--button u-button u-primary-text l-mt-200"
+          >
+            Copy code
+          </button>
+          <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center l-ml-100">
+          &lt;div class="testimonial-card"&gt; &lt;div class="testimonial l-flex
+          l-align-center"&gt; &lt;img src="images/testimonials/avatar1.jpg"
+          alt="Profile Picture"&gt; &lt;div class="text"&gt; &lt;div class="name
+          subheading u-secondary-text u-context__font u-context__size
+          u-context__weight u-context__height l-justify-center l-flex
+          l-align-center l-justify-center l-flex l-align-center
+          l-justify-center"&gt; Joey Witman &lt;/div&gt; &lt;div class="quote
+          subheading u-secondary-text u-context__font u-context__size
+          u-context__weight u-context__height l-justify-center l-flex
+          l-align-center l-justify-center l-flex l-align-center l-justify-center
+          l-ml-100"&gt; "Choosing [Your Company Name] was one of the best
+          decisions I've made. Their expertise and dedication helped me achieve
+          remarkable results. I couldn't be happier." &lt;/div&gt; &lt;/div&gt;
+          &lt;/div&gt; &lt;/div&gt;
+          </pre>
+          <div class="css-card--style l-flex l-flex-column l-align-center l-justify-center">
+            <div class="mobile-css-accordion l-flex l-flex-column">
+                <h3
+        class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-100">
+        CSS for Mobile view</h3>
+        <button onclick="copyToClipboard()" class="c-clip--button u-button u-primary-text l-p-100">Copy code</button>
+            <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center l-ml-100">
+                .testimonial-card {
+                    border: 1px solid #ccc;
+                    border-radius: 8px;
+                    margin-bottom: 20px;
+                    padding: 20px;
+                  }
+                  .testimonial {
+                    display: flex;
+                    flex-direction: column;
+                  }
+                  .quote {
+                    font-style: italic;
+                  }
+                  
+                  .testimonial img {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                  }
+            </pre>
+            </div>
+            <div class="desktop-css--card l-flex l-flex-column">
+                <h3
+            class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-100">
+            CSS for Desktop view</h3>
+            <button onclick="copyToClipboard()" class="c-clip--button u-button u-primary-text l-p-100">Copy code</button>
+            <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center l-ml-100">
+                .testimonial-card {
+                    width: calc(33.33% - 40px);
+                    margin-right: 20px;
+                  }
+                
+                  .testimonial-card:nth-child(3n) {
+                    margin-right: 0;
+                  }
+            </pre>
             </div>
             
         </div>
-        <div class="card-image__container l-flex l-flex-row l-mt-200 u-card l-p-100">
-            <img src="images/plant-guide.jpg" alt="card-image" style="max-width: 500px; height: auto;">
-            <div class="c-img__code l-flex l-flex-column l-justify-space-between l-align-start">
-                <p class="u-context__font u-context__size u-context__weight u-context__height">
-                    <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-100">Html code</h3>
-                    <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center l-ml-100">
-                        &lt;img src="images/plant-guide.jpg" alt="card-image"&gt;
-                    </pre>
-                    <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-100">CSS style</h3>
-                    <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center l-ml-100">
-                    .c-card__image{ 
-                        width: 500px; 
-                        height: auto; 
-                    }
-                    </pre>
-                </p>
-            </div>
         </div>
-        <div class="card-image__container l-flex l-flex-row l-mt-200 u-card l-p-100">
-            <img src="images/testimonials/avatar1.jpg" alt="testimonial-image" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
-            <div class="c-img__code l-flex l-flex-column l-justify-space-between l-align-start">
-                <p class="u-context__font u-context__size u-context__weight u-context__height">
-                    <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-300">HTML code</h3>
-                    <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center">
-                        &lt;img src="images/plant-guide.jpg" alt="card-image"&gt;
-                    </pre>
-                    <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-300">CSS style</h3>
-                    <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center">
-                        .c-card__image{
-                            width: 80px;
-                            height: 80px;
-                            border-radius: 50%;
-                            object-fit: cover;
-                        }
-                    </pre>
-                </p>
-            </div>
-        </div>
-        <div class="card-image__container l-flex l-flex-row l-mt-200 u-card l-p-100">
-            <img src="images/icons/faq.png" alt="faq" class="l-flex l-justify-center l-align-center l-ml-100 l-mb-200" width="30" height="30">
-            <div class="c-img__code l-flex l-flex-column l-justify-space-between l-align-start">
-                <p class="u-context__font u-context__size u-context__weight u-context__height">
-                    <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-300">HTML code</h3>
-                    <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center">
-                        &lt;img src="images/icons/faq.png" alt="faq" class="l-flex l-justify-center l-align-center l-ml-100 l-mb-200"&gt;
-                    </pre>
-                    <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-300">CSS style</h3>
-                    <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center">
-                    No css style for icons
-                    </pre>
-                </p>
-            </div>
-        </div>
+      </div>
     </div>
     <script src="design-system.js"></script>
   </body>
