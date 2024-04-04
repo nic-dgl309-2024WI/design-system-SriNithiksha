@@ -424,7 +424,12 @@ ol {
 .l-align-stretch {
   align-items: stretch;
 }
-
+.l-text-align--right{
+  text-align: right;
+}
+.l-text-align--left{
+  text-align: left;
+}
 /* Flex Direction */
 .l-flex-row {
   flex-direction: row;
