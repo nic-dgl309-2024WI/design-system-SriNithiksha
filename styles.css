@@ -613,18 +613,64 @@ ol {
 }
 
 /* Product section - 02 */
-/* Card container styles */
-.category__cards-container {
-  overflow-x: auto; /* Enable horizontal scrollbar */
-  white-space: nowrap; /* Prevent cards from wrapping */
-  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-  padding-bottom: 15px; /* Add padding to create gap */
+.c-category__container {
+  max-width: 100%;
+  overflow-x: hidden;
 }
-/* Card styles */
+
+.c-category--cards {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+
 .c-card {
-  flex: 0 0 auto; /* Adjust as needed */
-  display: inline-block;
+  flex: 0 0 auto;
+  width: 300px;
+  height: 315px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.c-card {
+  position: relative;
+  width: 300px; /* Full width on mobile */
+  height: auto; /* Adjust height based on content */
+  margin-bottom: 20px;
+}
+.c-card__image{
+  width: 300px;
+  height: 300px;
+}
+.c-card__overlay {
+  position: absolute;
+  top: 10;
+  left: 20;
+  bottom: 20;
+  width: 300px;
+  height: 315px;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-card__overlay h3 {
+  color: white;
+  font-size: 20px; /* Adjust font size as needed */
+  text-align: center;
+}
+
+.c-card__image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+}
+
 /* services */
 .services-card {
   width: 350px;
@@ -804,7 +850,7 @@ ol {
     display: flex;
     margin-top: 3.5rem;
   }
-
+  /* Carousel section - products */
   .carousel-container {
     display: flex;
     flex-direction: column;
@@ -836,10 +882,19 @@ ol {
 
   /* Our Categories section */
   .c-card {
-    width: calc(33.33% - 20px);
-    /* Adjust width to fit 3 cards, considering margins */
-    margin-right: 30px; /* Adjust margin between cards */
+    width: calc(33.33% - 20px); /* Display three cards per row with margins */
+    height: 300px; /* Adjust height based on content */
+    margin: 10px;
+    margin-bottom: 0;
   }
+  .c-card__overlay {
+    display: none; /* Hide overlay on desktop */
+  }
+
+  .c-card:hover .c-card__overlay {
+    display: flex; /* Show overlay on hover */
+  }
+  
 
   /* Our Services */
   .c-services {
