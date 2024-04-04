@@ -169,7 +169,7 @@
             type of menu that displays a list of headers stacked on top of one another. When clicked on (or triggered by
             a keyboard interaction or screen reader), these headers will either reveal or hide associated content.</p>
         <!--Example accordion-->
-        <div class="accordion--example l-flex l-mt-300">
+        <div class="accordion--example l-flex l-ml-200 l-mt-300">
             <div class="faq-container l-flex l-flex-column">
                 <div class="faq-item">
                     <div
@@ -209,21 +209,19 @@
             </div>
 
         </div>
-
-        <div class="accordion--code">
+        <div class="code-snippet-container u-bg-primary-light l-p-200 l-ml-100">
             <h3
-                class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-100">
-                HTML code</h3>
-                <button onclick="copyToClipboard()" class="c-clip--button u-button u-primary-text">Copy code</button>
-            <pre
-                class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center l-ml-100">
+              class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-200 l-ml-100">
+              HTML code</h3>
+              <pre id="codeSnippet"
+                class="u-context__font u-context__size u-context__weight u-context__height">
                     &lt;div class="faq-container l-flex l-flex-column"&gt;
-                      &lt;div class="faq-item"&gt;
-                        &lt;div class="faq-question u-primary-bg u-primary-text u-context__font u-context__size 
+                      &lt;div class="c-faq-item"&gt;
+                        &lt;div class="c-faq-question u-primary-bg u-primary-text u-context__font u-context__size 
                         u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
                           What is Lorem Ipsum?
                         &lt;/div&gt;
-                        &lt;div class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size 
+                        &lt;div class="c-faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size 
                         u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
                           &lt;p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height 
                           l-flex l-justify-center l-align-center l-p-100 l-mb-200"&gt;
@@ -231,12 +229,12 @@
                           &lt;/p&gt;
                         &lt;/div&gt;
                       &lt;/div&gt;
-                      &lt;div class="faq-item"&gt;
-                        &lt;div class="faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight 
+                      &lt;div class="c-faq-item"&gt;
+                        &lt;div class="c-faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight 
                         u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
                           Why do we use it?
                         &lt;/div&gt;
-                        &lt;div class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight 
+                        &lt;div class="c-faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight 
                         u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
                           &lt;p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex 
                           l-justify-center l-align-center l-p-100 l-mb-200"&gt;
@@ -245,12 +243,12 @@
                           &lt;/p&gt;
                         &lt;/div&gt;
                       &lt;/div&gt;
-                      &lt;div class="faq-item"&gt;
-                        &lt;div class="faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight
+                      &lt;div class="c-faq-item"&gt;
+                        &lt;div class="c-faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight
                          u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
                           Where does it come from?
                         &lt;/div&gt;
-                        &lt;div class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight 
+                        &lt;div class="c-faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight 
                         u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
                           &lt;p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex 
                           l-justify-center l-align-center l-p-100 l-mb-200"&gt;
@@ -260,10 +258,8 @@
                       &lt;/div&gt;
                     &lt;/div&gt;
                     </pre>
- 
-                      
-                        
-        </div>
+            <button onclick="copyToClipboard()" class="c-clip--button u-button u-primary-text l-p-100">Copy Code</button>
+          </div>
     </div>
     <script src="design-system.js"></script>
 </body>
