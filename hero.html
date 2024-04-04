@@ -164,45 +164,47 @@
             typically the large, prominent area at the top of the homepage. It's often the first thing visitors see when
             they land on the site. The hero section is crucial for making a strong first impression and quickly
             communicating the purpose or main message of the website.</p>
-        <div class="hero-section l-mt-200">
-            <section class="hero-section l-flex l-flex-column l-justify-center l-align-center">
-                <img class="hero-image" src="images/japanese-maple-tree.jpg" alt="Background Image">
-                <div class="hero-content l-flex l-flex-column l-align-center l-justify-center">
-                    <h1
-                        class="u-primary-text u-head__ff u-head__size u-head__weight u-head__height l-flex l-align-center l-justify-center">
-                        Welcome to Outback Nursery</h1>
-                    <p
-                        class="u-context__font u-primary-text u-context__size u-context__weight u-context__height l-mt-100 l-flex l-align-center l-justify-center">
-                        Stop by often to enjoy the ever changing foliage and blooms.</p>
-                    <a href="#"
-                        class="cta__button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-flex l-align-center l-justify-center">Explore
-                        our Plant Collections
-                    </a>
-                </div>
-            </section>
-
+            <div class="c-hero__container l-mt-100 l-mr-200">
+                <div class="hero__section l-flex l-flex-column l-justify-center l-align-center">
+                    <div class="c-overlay"></div>
+                    <div class="hero__content l-flex l-flex-column l-justify-center l-align-center">
+                      <h1 class="u-primary-text u-head__ff u-head__size u-head__weight u-head__height">
+                        Welcome to Outback Nursery
+                      </h1>
+                      <p class="u-context__font u-primary-text u-context__size u-context__weight u-context__height l-mt-100">
+                        Stop by often to enjoy the ever changing foliage and blooms.
+                      </p>
+                      <a href="#"
+                        class="cta__button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100">Explore
+                        our Plant Collections</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="code-snippet-container u-bg-primary-light l-p-100">
+                <h3
+                    class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-200 l-ml-100">
+                    HTML code</h3>
+                <pre id="codeSnippet"
+                    class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center">
+                        &lt;div class="c-hero__section l-flex l-flex-column l-justify-center l-align-center"&gt;
+                            &lt;div class="c-overlay"&gt;&lt;/div&gt;
+                            &lt;div class="c-hero__content l-flex l-flex-column l-justify-center l-align-center"&gt;
+                              &lt;h1 class="u-primary-text u-head__ff u-head__size u-head__weight u-head__height"&gt;
+                                Welcome to Outback Nursery
+                              &lt;/h1&gt;
+                              &lt;p class="u-context__font u-primary-text u-context__size u-context__weight u-context__height l-mt-100"&gt;
+                                Stop by often to enjoy the ever changing foliage and blooms.
+                              &lt;/p&gt;
+                              &lt;a href="#"
+                                class="c-cta__button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100"&gt;Explore
+                                our Plant Collections&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </pre>
+                <button onclick="copyToClipboard()" class="c-clip--button u-button u-primary-text l-p-100">Copy Code</button>
+            </div>
         </div>
-        <div class="hero-section__code u-card l-flex l-flex-column l-justify-space-between l-align-start l-mr-200">
-            <h3
-                class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-100">
-                Html code</h3>
-            <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex">
-            &lt;section class="hero-section l-flex l-flex-column l-justify-center l-align-center"&gt;
-                &lt;img class="hero-image" src="images/japanese-maple-tree.jpg" alt="Background Image"&gt;
-                &lt;div class="hero-content l-flex l-flex-column l-align-center l-justify-center"&gt;
-                    &lt;h1 class="u-primary-text u-head__ff u-head__size u-head__weight u-head__height l-flex l-align-center l-justify-center"&gt;
-                    Welcome to Outback Nursery&lt;/h1&gt;
-                    &lt;p class="u-context__font u-primary-text u-context__size u-context__weight u-context__height l-mt-100 l-flex l-align-center 
-                    l-justify-center"&gt;Stop by often to enjoy the ever-changing foliage and blooms.&lt;/p&gt;
-                    &lt;a href="#" class="cta__button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height 
-                    l-mt-300 l-p-100 l-flex l-align-center l-justify-center"&gt;Explore our Plant Collections&lt;/a&gt;
-                &lt;/div&gt;
-            &lt;/section&gt;
-            </pre>
-            
-        </div>
-    </div>
-    <script src="design-system.js"></script>
+        <script src="design-system.js"></script>
 </body>
 
 </html>
