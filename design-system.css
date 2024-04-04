@@ -687,6 +687,9 @@ cursor: pointer;
     margin-left: 250px;
     padding-top: 25px;
   }
+  .desktop__breadcrumbs{
+    margin-right: 1.5rem;
+  }
   /* Style for Breadcrumbs */
   .c-breadcrumbs li:not(:last-child):after {
     content: "/";
