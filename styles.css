@@ -484,6 +484,18 @@ ol {
 .topnav__links {
   display: none;
 }
+/* Style for the call-to-action button */
+.c-cta__button {
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+/* Hover effect for the button */
+.c-cta__button:hover {
+  background-color: var(--primary-bg);
+}
 /* Hero section */
 .hero__section {
   position: relative;
@@ -508,17 +520,7 @@ ol {
 .hero__content {
   z-index: 1;
 }
-/* Style for the call-to-action button */
-.cta__button {
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-/* Hover effect for the button */
-.cta__button:hover {
-  background-color: var(--clr-button-hover);
-}
+
 /* Scroll animation for announcement section */
 .l-announcement {
   position: fixed; /* Change to fixed */
@@ -609,14 +611,7 @@ ol {
     --clr-light
   ); /* Use variable for active dot background color */
 }
-.carousel-button {
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  width: fit-content; /* Make button width fit its content */
-  margin: auto; /* Center the button horizontally */
-}
+
 /* Product section - 02 */
 /* Card container styles */
 .category__cards-container {
