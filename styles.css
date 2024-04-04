@@ -659,12 +659,6 @@ ol {
   justify-content: center;
 }
 
-.c-card__overlay h3 {
-  color: white;
-  font-size: 20px; /* Adjust font size as needed */
-  text-align: center;
-}
-
 .c-card__image {
   width: 100%;
   height: auto; /* Maintain aspect ratio */
