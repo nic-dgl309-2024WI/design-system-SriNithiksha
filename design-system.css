@@ -354,6 +354,17 @@ td {
 .cta__button:hover {
   background-color: var(--text-hover-100);
 }
+/* Interactive page */
+.interactive {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+.cta__button:hover{
+  background-color: var(--primary-bg);
+}
 /* Breadcrumbs */
 .breadcrumbs {
   display: flex;
@@ -362,7 +373,6 @@ td {
   margin-top: 70px;
   margin-bottom: 10px;
 }
-
 /* Breadcrumb styles for mobile */
 .c-breadcrumbs ul {
   padding: 0;
@@ -658,7 +668,17 @@ cursor: pointer;
   .mobile-desktop--style{
     flex-direction: row;
   }
+  /* INteractive page */
+  .interactive {
+    margin-right: 0;
+    margin-left: 250px;
+    padding-top: 25px;
+  }
 
+  .cta__button:hover{
+    background-color: var(--primary-bg);
+
+  }
   /* Breadcrumbs */
   .breadcrumbs {
     margin-right: 0;
