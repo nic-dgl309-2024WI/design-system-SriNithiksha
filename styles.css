@@ -301,7 +301,6 @@ ol {
 .l-p-300 {
   padding: 2rem;
 }
-
 /* Padding for left, right, top and bottop separately */
 /* Padding left */
 .l-pl-100 {
@@ -354,7 +353,6 @@ ol {
 .l-pb-300 {
   padding-bottom: 2rem;
 }
-
 /* Padding X and Y axis */
 /* Padding X-axis */
 .l-px-100 {
@@ -443,73 +441,6 @@ ol {
 .l-flex-column-reverse {
   flex-direction: column-reverse;
 }
-
-/* Grid Layout */
-.l-grid {
-  display: grid;
-}
-
-/* Grid Template Columns */
-.l-grid-col-2 {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.l-grid-col-3 {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.l-grid-col-4 {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-/* Grid Template Rows */
-.l-grid-rows-2 {
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.l-grid-rows-3 {
-  grid-template-rows: repeat(3, 1fr);
-}
-
-.l-grid-rows-4 {
-  grid-template-rows: repeat(4, 1fr);
-}
-
-/* Grid Auto Columns and Rows */
-.l-grid-auto-col {
-  grid-auto-columns: minmax(100px, auto);
-}
-
-.l-grid-auto-rows {
-  grid-auto-rows: minmax(100px, auto);
-}
-
-/* Grid Gap */
-.l-grid-gap-1 {
-  gap: 1rem;
-}
-
-.l-grid-gap-2 {
-  gap: 2rem;
-}
-
-.l-grid-gap-3 {
-  gap: 3rem;
-}
-
-/* Grid Justify Content */
-.l-grid-justify-start {
-  justify-content: start;
-}
-
-.l-grid-justify-end {
-  justify-content: end;
-}
-
-.l-grid-justify-center {
-  justify-content: center;
-}
-
 /* Container Class */
 .c-container-head {
   max-width: 100%;
@@ -535,7 +466,6 @@ ol {
 }
 .topnavbar__link {
   text-decoration: none;
-  color: inherit;
 }
 .hamburger-menu {
   display: block;
@@ -860,6 +790,10 @@ ol {
     align-items: center;
     margin-left: 10px;
     margin-right: 20px; /* Add margin between links */
+  }
+  .topnavbar__link:hover{
+    color: var(--text-hover-100);
+    text-decoration: underline;
   }
 
   .hamburger-menu {
