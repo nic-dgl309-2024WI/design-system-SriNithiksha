@@ -236,7 +236,7 @@
 
       <!--DESKTOP Breadcrumbs-->
       <div
-        class="desktop__breadcrumbs u-card l-mt-300 l-mb-300 l-p-300 l-flex l-flex-column l-align-center l-mr-300"
+        class="desktop__breadcrumbs u-card l-mt-300 l-mb-300 l-p-300 l-flex l-flex-column l-align-center"
       >
         <h2
           class="u-subhead__ff u-text-hover-200 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100"
@@ -256,16 +256,9 @@
             </ul>
           </nav>
         </div>
-
-        <div
-          class="l-code l-mt-200 u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height"
-        >
-          <h3
-            class="u-subhead__100 u-title__size u-title__weight u-head__height"
-          >
-            HTML Code
-          </h3>
-          <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center l-ml-100">
+        <div class="code-snippet-container u-bg-primary-light l-p-200">
+          <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-200 l-ml-100">HTML code</h3>
+          <pre id="codeSnippet" class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center">
             &lt;div class="bread__crumbs"&gt;
               &lt;nav class="c-breadcrumbs l-flex l-flex-column"&gt;
                 &lt;ul&gt;
@@ -275,10 +268,9 @@
               &lt;/nav&gt;
             &lt;/div&gt;
           </pre>
+          <button onclick="copyToClipboard()" class="c-clip--button u-button u-primary-text l-p-100">Copy Code</button>
         </div>
-
-        
-    </div>
+      </div>
 
     <script src="design-system.js"></script>
   </body>
