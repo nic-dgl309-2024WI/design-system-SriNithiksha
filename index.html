@@ -32,16 +32,19 @@
       <a href="index.html"
         class="topnavbar__link topnav__link--logo active u-primary-text u-head__ff u-head__size u-head__weight u-head__height">Outback
         Nursery</a>
-  
-      <!-- Hamburger Menu -->
-      <div class="hamburger-menu">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
+
+        <!-- Hamburger icon -->
+      <span
+      class="toggle-nav u-primary-bg u-primary-text"
+      onclick="toggleNav()"
+    >
+      <span class="hamburger">&#9776;</span>
+      <!-- Cancel icon initially hidden -->
+      <span class="cancel " style="display: none">&#10006;</span>
+    </span>
   
       <!--Menu-->
-      <div class="topnav__links l-flex">
+      <div id="myTopnav" class="topnav__links l-flex-row">
         <a href="coming-soon.html"
           class="topnavbar__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height">Products</a>
         <a href="coming-soon.html"
