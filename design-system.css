@@ -305,13 +305,6 @@ td {
   margin-bottom: 10px;
 }
 
-.images{
-  display: flex;
-  flex-direction: column;
-  margin-left: 0;
-  margin-top: 70px;
-  margin-bottom: 10px;
-}
 /* Mobile navbar */
 .toggle-nav {
   margin-right: 10px;
@@ -390,6 +383,39 @@ td {
 
 .c-breadcrumbs a:hover {
   text-decoration: underline;
+}
+/* Images page */
+.images{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.card-image__container{
+  align-items: center; /* Align items horizontally */
+  text-align: center; /* Align text content inside the container */
+}
+/* Cards page */
+.code-snippet-container {
+  align-items: center;
+  position: relative;
+  overflow-x: hidden; /* Enable horizontal scrolling if needed */
+  width: calc(100% - 40px); /* Adjust width to fit within the screen */
+}
+#codeSnippet{
+text-align: left;
+}
+.code-snippet-container pre {
+overflow-x: auto;
+}
+.code-snippet-container button {
+position: absolute;
+top: 5px;
+right: 5px;
+width: auto;
+cursor: pointer;
 }
 /* List Page */
 .list{
@@ -580,10 +606,16 @@ td {
     padding-top: 25px;
   }
 
+  /* Images page */
   .images {
     margin-right: 0;
     margin-left: 250px;
     padding-top: 25px;
+  }
+  .card-image__container{
+    flex-direction: row;
+    align-items: center; /* Align items horizontally */
+    text-align: center; /* Align text content inside the container */
   }
   /* Navbar */
   .navbar {
@@ -656,6 +688,14 @@ td {
   }
   .faq-question:hover::after {
     transform: translateY(-50%) rotate(90deg);
+  }
+  /*Cards Page */
+  .cards--container{
+    flex-direction: row;
+  }
+  .code-snippet-container{
+    overflow-x: hidden;
+    overflow-y: hidden; /* Hide vertical scrollbar */
   }
   /* List page */
   .list {

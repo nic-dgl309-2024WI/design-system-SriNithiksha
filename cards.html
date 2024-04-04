@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
@@ -9,283 +10,214 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
     <title>Design System</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <!--Top navbar-->
     <div class="topnav u-primary-bg u-primary-text" id="myTopnav">
-      <a
-        href="design-system.html"
-        class="topnav__link topnav__link--logo u-primary-text u-head__ff u-head__size u-head__weight u-head__height"
-        >Design System</a
-      >
+        <a href="design-system.html"
+            class="topnav__link topnav__link--logo u-primary-text u-head__ff u-head__size u-head__weight u-head__height">Design
+            System</a>
 
-      <!-- Hamburger icon -->
-      <span
-        class="toggle-nav u-primary-bg u-primary-text"
-        onclick="toggleNav()"
-      >
-        <span class="hamburger">&#9776;</span>
-        <!-- Cancel icon initially hidden -->
-        <span class="cancel" style="display: none">&#10006;</span>
-      </span>
+        <!-- Hamburger icon -->
+        <span class="toggle-nav u-primary-bg u-primary-text" onclick="toggleNav()">
+            <span class="hamburger">&#9776;</span>
+            <!-- Cancel icon initially hidden -->
+            <span class="cancel" style="display: none">&#10006;</span>
+        </span>
 
-      <!--Other pages-->
-      <div class="topnav__links u-primary-bg">
-        <a
-          href="about-me.html"
-          class="topnav__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__heigh"
-          >About Me</a
-        >
-        <a
-          href="index.html"
-          class="topnav__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__heigh"
-          >Demo Site</a
-        >
-      </div>
+        <!--Other pages-->
+        <div class="topnav__links u-primary-bg">
+            <a href="about-me.html"
+                class="topnav__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__heigh">About
+                Me</a>
+            <a href="index.html"
+                class="topnav__link u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__heigh">Demo
+                Site</a>
+        </div>
     </div>
 
     <!--Side navbar-->
     <div class="sidenav u-primary-bg" id="mySidenav">
-      <ul
-        class="sidenav__list u-primary-bg l-flex l-ml-100 l-flex-column l-justify-space-between l-mb-300 l-align-start"
-      >
-        <!--For mobile view-->
-        <a
-          href="about-me.html"
-          class="sidenav__links u-primary-bg u-primary-text"
-          >About Me</a
-        >
-        <a href="index.html" class="sidenav__links u-primary-bg u-primary-text"
-          >Demo Site</a
-        >
-        <p
-          class="Branding u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height"
-        >
-          Branding
-        </p>
-        <li>
-          <a
-            href="colors.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >01 Colors</a
-          >
-        </li>
-        <li>
-          <a
-            href="typography.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >02 Typography</a
-          >
-        </li>
+        <ul
+            class="sidenav__list u-primary-bg l-flex l-ml-100 l-flex-column l-justify-space-between l-mb-300 l-align-start">
+            <!--For mobile view-->
+            <a href="about-me.html" class="sidenav__links u-primary-bg u-primary-text">About Me</a>
+            <a href="index.html" class="sidenav__links u-primary-bg u-primary-text">Demo Site</a>
+            <p class="Branding u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height">
+                Branding
+            </p>
+            <li>
+                <a href="colors.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">01
+                    Colors</a>
+            </li>
+            <li>
+                <a href="typography.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">02
+                    Typography</a>
+            </li>
 
-        <p
-          class="Utilities u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height"
-        >
-          Utilities
-        </p>
-        <li>
-          <a
-            href="spacing.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >03 Spacing</a
-          >
-        </li>
-        <li>
-          <a
-            href="containers.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >04 Containers</a
-          >
-        </li>
-        <li>
-          <a
-            href="images.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >05 Images</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >06 Interactive</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-          >
-            07 Pages</a
-          >
-        </li>
-        <p
-          class="Navigation u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height"
-        >
-          Navigation
-        </p>
-        <li>
-          <a
-            href="navbar.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >08 Navbar</a
-          >
-        </li>
-        <li>
-          <a
-            href="breadcrumbs.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >09 Breadcrumbs</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >10 Pagination</a
-          >
-        </li>
-        <p
-          class="Blocks u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height"
-        >
-          Blocks
-        </p>
-        <li>
-          <a
-            href="hero.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >11 Hero</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >12 Carousel</a
-          >
-        </li>
+            <p class="Utilities u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height">
+                Utilities
+            </p>
+            <li>
+                <a href="spacing.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">03
+                    Spacing</a>
+            </li>
+            <li>
+                <a href="containers.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">04
+                    Containers</a>
+            </li>
+            <li>
+                <a href="images.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">05
+                    Images</a>
+            </li>
+            <li>
+                <a href="#"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">06
+                    Interactive</a>
+            </li>
+            <li>
+                <a href="#"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">
+                    07 Pages</a>
+            </li>
+            <p class="Navigation u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height">
+                Navigation
+            </p>
+            <li>
+                <a href="navbar.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">08
+                    Navbar</a>
+            </li>
+            <li>
+                <a href="breadcrumbs.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">09
+                    Breadcrumbs</a>
+            </li>
+            <li>
+                <a href="#"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">10
+                    Pagination</a>
+            </li>
+            <p class="Blocks u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height">
+                Blocks
+            </p>
+            <li>
+                <a href="hero.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">11
+                    Hero</a>
+            </li>
+            <li>
+                <a href="#"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">12
+                    Carousel</a>
+            </li>
 
-        <li>
-          <a
-            href="footer.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >13 Footer</a
-          >
-        </li>
-        <p
-          class="Components u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height"
-        >
-          Components
-        </p>
-        <li>
-          <a
-            href="cards.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >14 Cards</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >15 Forms</a
-          >
-        </li>
-        <li>
-          <a
-            href="accordion.html"
-            class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >16 Accordion</a
-          >
-        </li>
-        <li>
-          <a
-            href="list.html"
-            class="sidenav__link active u-primary-text u-context__font u-context__size u-context__weight u-context__height"
-            >17 lists</a
-          >
-        </li>
-      </ul>
+            <li>
+                <a href="footer.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">13
+                    Footer</a>
+            </li>
+            <p class="Components u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height">
+                Components
+            </p>
+            <li>
+                <a href="cards.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">14
+                    Cards</a>
+            </li>
+            <li>
+                <a href="#"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">15
+                    Forms</a>
+            </li>
+            <li>
+                <a href="accordion.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">16
+                    Accordion</a>
+            </li>
+            <li>
+                <a href="list.html"
+                    class="sidenav__link u-primary-text u-context__font u-context__size u-context__weight u-context__height">17
+                    lists</a>
+            </li>
+        </ul>
     </div>
     <div class="list l-ml-100 l-mr-200">
-      <!--Breadcrumbs-->
-      <nav class="c-breadcrumbs l-flex l-flex-column">
-        <ul>
-          <li class="u-head__ff u-head__size u-head__weight u-head__height">
-            <a href="design-system.html" class="u-secondary-text">Home</a>
-          </li>
-          <li class="u-head__ff u-head__size u-head__weight u-head__height">
-            <a href="card.html" class="u-text-hover-200">Cards</a>
-          </li>
-        </ul>
-      </nav>
-      <h1 class="u-head__ff u-head__size u-head__weight u-head__height">
-        Cards
-      </h1>
-      <br />
-      <p
-        class="u-context__font u-context__size u-context__weight u-context__height"
-      ></p>
-      <div class="cards--container l-flex l-align-center l-justify-center l-flex-column">
-        <div class="testimonial-card">
-          <div class="testimonial l-flex l-align-center">
-            <img src="images/testimonials/avatar1.jpg" alt="Profile Picture" />
-            <div class="text">
-              <div
-                class="name subheading u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-justify-center l-flex l-align-center l-justify-center l-flex l-align-center l-justify-center"
-              >
-                Joey Witman
-              </div>
-              <div
-                class="quote subheading u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-justify-center l-flex l-align-center l-justify-center l-flex l-align-center l-justify-center l-ml-100"
-              >
-                "Choosing [Your Company Name] was one of the best decisions I've
-                made. Their expertise and dedication helped me achieve
-                remarkable results. I couldn't be happier."
-              </div>
+        <!--Breadcrumbs-->
+        <nav class="c-breadcrumbs l-flex l-flex-column">
+            <ul>
+                <li class="u-head__ff u-head__size u-head__weight u-head__height">
+                    <a href="design-system.html" class="u-secondary-text">Home</a>
+                </li>
+                <li class="u-head__ff u-head__size u-head__weight u-head__height">
+                    <a href="card.html" class="u-text-hover-200">Cards</a>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="u-head__ff u-head__size u-head__weight u-head__height">
+            Cards
+        </h1>
+        <br />
+        <p class="u-context__font u-context__size u-context__weight u-context__height"></p>
+        <div class="c-card--examples"></div>
+        
+        <div class="cards--container l-flex l-flex-column l-align-center l-justify-center l-flex-column l-mr-100">
+            <div class="testimonial-card">
+                <div class="testimonial l-flex l-align-center">
+                    <img src="images/testimonials/avatar1.jpg" alt="Profile Picture" />
+                    <div class="text">
+                        <div
+                            class="name subheading u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-justify-center l-flex l-align-center l-justify-center l-flex l-align-center l-justify-center">
+                            Joey Witman
+                        </div>
+                        <div
+                            class="quote subheading u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-justify-center l-flex l-align-center l-justify-center l-flex l-align-center l-justify-center l-ml-100">
+                            "Choosing [Your Company Name] was one of the best decisions I've
+                            made. Their expertise and dedication helped me achieve
+                            remarkable results. I couldn't be happier."
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="code-snippet-container u-bg-primary-light">
+                <h3
+                    class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-200 l-ml-100">
+                    HTML code</h3>
+                <pre id="codeSnippet"
+                    class="u-context__font u-context__size u-context__weight u-context__height l-p-100">
+                    &lt;div class="testimonial-card"&gt;
+                      &lt;div class="testimonial l-flex l-align-center"&gt;
+                         &lt;img src="images/testimonials/avatar1.jpg" alt="Profile Picture" /&gt;
+                            &lt;div class="text"&gt;
+                                &lt;div class="name subheading u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-justify-center l-flex l-align-center l-justify-center l-flex l-align-center l-justify-center"&gt;
+                                 Joey Witman
+                               &lt;/div&gt;
+                            &lt;div class="quote subheading u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-justify-center l-flex l-align-center l-justify-center l-flex l-align-center l-justify-center l-ml-100"&gt;
+                            "Choosing [Your Company Name] was one of the best decisions I've 
+                            made. Their expertise and dedication helped me achieve
+                            remarkable results. I couldn't be happier."
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                </pre>
+                <button onclick="copyToClipboard()" class="c-clip--button u-button u-primary-text l-p-100">Copy Code</button>
+            </div>
         </div>
-        <div class="cards--code">
-          <h3
-            class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-200 l-ml-100"
-          >
-            HTML code
-          </h3>
-          <button
-            onclick="copyToClipboard()"
-            class="c-clip--button u-button u-primary-text l-mt-200"
-          >
-            Copy code
-          </button>
-          <pre class="u-context__font u-context__size u-context__weight u-context__height l-flex l-align-center l-justify-center l-ml-100">
-          &lt;div class="testimonial-card"&gt; &lt;div class="testimonial l-flex
-          l-align-center"&gt; &lt;img src="images/testimonials/avatar1.jpg"
-          alt="Profile Picture"&gt; &lt;div class="text"&gt; &lt;div class="name
-          subheading u-secondary-text u-context__font u-context__size
-          u-context__weight u-context__height l-justify-center l-flex
-          l-align-center l-justify-center l-flex l-align-center
-          l-justify-center"&gt; Joey Witman &lt;/div&gt; &lt;div class="quote
-          subheading u-secondary-text u-context__font u-context__size
-          u-context__weight u-context__height l-justify-center l-flex
-          l-align-center l-justify-center l-flex l-align-center l-justify-center
-          l-ml-100"&gt; "Choosing [Your Company Name] was one of the best
-          decisions I've made. Their expertise and dedication helped me achieve
-          remarkable results. I couldn't be happier." &lt;/div&gt; &lt;/div&gt;
-          &lt;/div&gt; &lt;/div&gt;
-          </pre>
-          
-      </div>
-    </div>
-    <script src="design-system.js"></script>
-  </body>
+        <script src="design-system.js"></script>
+</body>
+
 </html>
