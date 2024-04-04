@@ -616,12 +616,14 @@ ol {
 .c-category__container {
   max-width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden; /* Disable vertical scrolling */
 }
 
 .c-category--cards {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  overflow-y: hidden; /* Disable vertical scrolling */
   margin-right: 2.5rem;
   margin-left: 2.5rem;
 }
