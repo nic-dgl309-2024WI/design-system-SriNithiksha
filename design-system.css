@@ -123,8 +123,18 @@
 }
 /* Primary color */
 .c-color {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 500px;
   height: 250px;
+}
+
+.c-color-white{
+  width: 500px;
+  height: 250px;
+  border: 1.5px solid var(--clr-card);
 }
 
 /* Typography */
