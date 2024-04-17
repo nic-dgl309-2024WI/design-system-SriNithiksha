@@ -164,97 +164,71 @@
             type of menu that displays a list of headers stacked on top of one another. When clicked on (or triggered by
             a keyboard interaction or screen reader), these headers will either reveal or hide associated content.</p>
         <!--Example accordion-->
-        <div class="accordion--example l-flex l-ml-200 l-mt-300">
-            <div class="faq-container l-flex l-flex-column">
-                <div class="faq-item">
-                    <div
-                        class="faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
-                        What is Lorem Ipsum?</div>
-                    <div
-                        class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
-                        <p
-                            class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-p-100 l-mb-200">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <!--Examples of interactive components-->
+                <div class="c-interactive__container l-mt-100 l-mr-200">
+                    <div class="c-interactive__egcontainer l-flex l-flex-column u-card l-p-200">
+                        <h3
+                            class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100">
+                            Button Interaction Example</h3>
+                            <div class="c-accordion-container l-flex l-flex-column l-ml-100 l-mr-100">
+                                <div class="c-accordion-column">
+                                  <button
+                                    class="c-accordion l-text-align--left u-primary-bg u-primary-text l-mt-100 u-context__font u-context__size u-context__weight u-context__height">What are your regular opening hours?</button>
+                                  <div class="c-panel u-bg-primary-light">
+                                    <p class="l-mt-100 l-mb-100 u-context__font u-context__size u-context__weight u-context__height">We are open every day, including statutory holidays, from 9:00 AM to 5:00 PM.</p>
+                                  </div>
+                          
+                                  <button
+                                    class="c-accordion l-text-align--left u-primary-bg u-primary-text l-mt-100 u-context__font u-context__size u-context__weight u-context__height">Are your plants and products organic or sustainably sourced?</button>
+                                  <div class="c-panel u-bg-primary-light">
+                                    <p class="l-mt-100 l-mb-100 u-context__font u-context__size u-context__weight u-context__height">We prioritize offering environmentally friendly options whenever possible. While not all of our plants and products are certified organic, we strive to partner with suppliers who prioritize sustainability and eco-friendly practices.</p>
+                                  </div>
+                          
+                                  <button
+                                    class="c-accordion l-text-align--left u-primary-bg u-primary-text l-mt-100 u-context__font u-context__size u-context__weight u-context__height">Are
+                                    your plants guaranteed to be pest and disease-free?
+                                  </button>
+                                  <div class="c-panel u-bg-primary-light">
+                                    <p class="l-mt-100 l-mb-100 u-context__font u-context__size u-context__weight u-context__height">While we take
+                                      great care to provide healthy plants, it is impossible to guarantee that they will be completely free of
+                                      pests or diseases. However, if you encounter any issues with your plants, please contact us, and we will do
+                                      our best to assist you.</p>
+                                  </div>
+                                </div>
+                                </div>
+                        <div class="code-snippet-container u-bg-primary-light l-mt-200 l-ml-100 l-p-200">
+                            <h3
+                                class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-200 l-ml-100">
+                                HTML code</h3>
+                            <pre id="codeSnippet"
+                                class="u-context__font u-context__size u-context__weight u-context__height l-flex l-text-align--left">
+                                
+                                    &lt;div class="c-accordion-container l-flex l-flex-column l-ml-100 l-mr-100"&gt;
+                                      &lt;div class="c-accordion-column"&gt;
+                                        &lt;button class="c-accordion l-text-align--left u-primary-bg u-primary-text l-mt-100 u-context__font u-context__size u-context__weight u-context__height"&gt;What are your regular opening hours?&lt;/button&gt;
+                                        &lt;div class="c-panel u-bg-primary-light"&gt;
+                                          &lt;p class="l-mt-100 l-mb-100 u-context__font u-context__size u-context__weight u-context__height"&gt;We are open every day, including statutory holidays, from 9:00 AM to 5:00 PM.&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    
+                                        &lt;button class="c-accordion l-text-align--left u-primary-bg u-primary-text l-mt-100 u-context__font u-context__size u-context__weight u-context__height"&gt;Are your plants and products organic or sustainably sourced?&lt;/button&gt;
+                                        &lt;div class="c-panel u-bg-primary-light"&gt;
+                                          &lt;p class="l-mt-100 l-mb-100 u-context__font u-context__size u-context__weight u-context__height"&gt;We prioritize offering environmentally friendly options whenever possible. While not all of our plants and products are certified organic, we strive to partner with suppliers who prioritize sustainability and eco-friendly practices.&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    
+                                        &lt;button class="c-accordion l-text-align--left u-primary-bg u-primary-text l-mt-100 u-context__font u-context__size u-context__weight u-context__height"&gt;Are your plants guaranteed to be pest and disease-free?&lt;/button&gt;
+                                        &lt;div class="c-panel u-bg-primary-light"&gt;
+                                          &lt;p class="l-mt-100 l-mb-100 u-context__font u-context__size u-context__weight u-context__height"&gt;While we take great care to provide healthy plants, it is impossible to guarantee that they will be completely free of pests or diseases. However, if you encounter any issues with your plants, please contact us, and we will do our best to assist you.&lt;/p&gt;
+                                        &lt;/div&gt;
+                                      &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    
+                            </pre>
+                            <button onclick="copyToClipboard()" class="c-clip--button u-button u-primary-text l-p-100">Copy
+                                Code</button>
+                        </div>
                     </div>
                 </div>
-                <div class="faq-item">
-                    <div
-                        class="faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
-                        Why do we use it?</div>
-                    <div
-                        class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
-                        <p
-                            class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-p-100 l-mb-200">
-                            It is a long established fact that a reader will be distracted by the readable content of a
-                            page when
-                            looking at its layout.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div
-                        class="faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
-                        Where does it come from?</div>
-                    <div
-                        class="faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200">
-                        <p
-                            class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex l-justify-center l-align-center l-p-100 l-mb-200">
-                            Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-        <div class="code-snippet-container u-bg-primary-light l-p-200 l-ml-100">
-            <h3
-                class="u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-200 l-ml-100">
-                HTML code</h3>
-            <pre id="codeSnippet" class="u-context__font u-context__size u-context__weight u-context__height">
-                    &lt;div class="faq-container l-flex l-flex-column"&gt;
-                      &lt;div class="c-faq-item"&gt;
-                        &lt;div class="c-faq-question u-primary-bg u-primary-text u-context__font u-context__size 
-                        u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
-                          What is Lorem Ipsum?
-                        &lt;/div&gt;
-                        &lt;div class="c-faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size 
-                        u-context__weight u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
-                          &lt;p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height 
-                          l-flex l-justify-center l-align-center l-p-100 l-mb-200"&gt;
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                          &lt;/p&gt;
-                        &lt;/div&gt;
-                      &lt;/div&gt;
-                      &lt;div class="c-faq-item"&gt;
-                        &lt;div class="c-faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight 
-                        u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
-                          Why do we use it?
-                        &lt;/div&gt;
-                        &lt;div class="c-faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight 
-                        u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
-                          &lt;p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex 
-                          l-justify-center l-align-center l-p-100 l-mb-200"&gt;
-                            It is a long established fact that a reader will be distracted by the readable content of a page when 
-                            looking at its layout.
-                          &lt;/p&gt;
-                        &lt;/div&gt;
-                      &lt;/div&gt;
-                      &lt;div class="c-faq-item"&gt;
-                        &lt;div class="c-faq-question u-primary-bg u-primary-text u-context__font u-context__size u-context__weight
-                         u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
-                          Where does it come from?
-                        &lt;/div&gt;
-                        &lt;div class="c-faq-answer u-bg-primary-light u-secondary-text u-context__font u-context__size u-context__weight 
-                        u-context__height l-flex l-justify-center l-align-center l-mb-200"&gt;
-                          &lt;p class="u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-flex 
-                          l-justify-center l-align-center l-p-100 l-mb-200"&gt;
-                            Contrary to popular belief, Lorem Ipsum is not simply random text.
-                          &lt;/p&gt;
-                        &lt;/div&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                    </pre>
-            <button onclick="copyToClipboard()" class="c-clip--button u-button u-primary-text l-p-100">Copy
-                Code</button>
-        </div>
     </div>
     <script src="design-system.js"></script>
 </body>
