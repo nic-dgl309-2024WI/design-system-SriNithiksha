@@ -72,7 +72,35 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 //////////////////
-////////////////
+/////////////////
+//script for carousel example
+const carousel = document.querySelector('.c-carousel');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+const numCardsToShow = 3;
+
+let currentIndex = 0;
+const card = document.querySelectorAll('.c-sf__card');
+
+nextBtn.addEventListener('click', () => {
+  if (currentIndex < cards.length - numCardsToShow) {
+    currentIndex += numCardsToShow;
+    updateCarousel();
+  }
+});
+
+prevBtn.addEventListener('click', () => {
+  if (currentIndex >= numCardsToShow) {
+    currentIndex -= numCardsToShow;
+    updateCarousel();
+  }
+});
+
+function updateCarousel() {
+  const cardWidth = cards[0].offsetWidth;
+  const newPosition = -currentIndex * cardWidth;
+  carousel.style.transform = `translateX(${newPosition}px)`;
+}
 //copy to clipboard functionality
 function copyToClipboard() {
   // Get the text from the pre element

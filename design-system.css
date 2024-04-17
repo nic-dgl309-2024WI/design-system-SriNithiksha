@@ -131,7 +131,7 @@
   height: 250px;
 }
 
-.c-color-white{
+.c-color-white {
   width: 500px;
   height: 250px;
   border: 1.5px solid var(--clr-card);
@@ -336,8 +336,16 @@ td {
   margin-top: 70px;
   margin-bottom: 10px;
 }
-.cta__button:hover{
+.cta__button:hover {
   background-color: var(--primary-bg);
+}
+
+/* Carousel page */
+.carousel {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 10px;
 }
 /* Breadcrumbs Page*/
 .breadcrumbs {
@@ -370,14 +378,14 @@ td {
   text-decoration: underline;
 }
 /* Images page */
-.images{
+.images {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
   margin-bottom: 10px;
 }
 
-.card-image__container{
+.card-image__container {
   align-items: center; /* Align items horizontally */
   text-align: center; /* Align text content inside the container */
 }
@@ -394,21 +402,22 @@ td {
   overflow-x: hidden; /* Enable horizontal scrolling if needed */
   width: calc(100% - 40px); /* Adjust width to fit within the screen */
 }
-#codeSnippet{
-text-align: left;
+#codeSnippet {
+  text-align: left;
 }
 .code-snippet-container pre {
-overflow-x: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 .code-snippet-container button {
-position: absolute;
-top: 5px;
-right: 5px;
-width: auto;
-cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: auto;
+  cursor: pointer;
 }
 /* Accordion page */
-.accordion{
+.accordion {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
@@ -455,13 +464,13 @@ cursor: pointer;
   background-color: var(--primary-bg-light);
   color: var(--secondary-text);
 }
-.c-clip--button{
+.c-clip--button {
   padding: 5px;
   border-color: transparent;
   cursor: pointer;
 }
 /* List Page */
-.list{
+.list {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
@@ -597,7 +606,7 @@ cursor: pointer;
     margin-left: 250px;
     padding-top: 25px;
   }
-  .card-image__container{
+  .card-image__container {
     flex-direction: row;
     align-items: center; /* Align items horizontally */
     text-align: center; /* Align text content inside the container */
@@ -633,12 +642,12 @@ cursor: pointer;
     padding-top: 25px;
   }
 
-  .hero-section__code{
+  .hero-section__code {
     width: 400;
     height: 200;
   }
 
-  .mobile-desktop--style{
+  .mobile-desktop--style {
     flex-direction: row;
   }
   /* Cards Page */
@@ -654,9 +663,15 @@ cursor: pointer;
     padding-top: 25px;
   }
 
-  .cta__button:hover{
+  .cta__button:hover {
     background-color: var(--primary-bg);
+  }
 
+  /* Carousel page */
+  .carousel {
+    margin-right: 0;
+    margin-left: 250px;
+    padding-top: 25px;
   }
   /* Breadcrumbs */
   .breadcrumbs {
@@ -664,7 +679,7 @@ cursor: pointer;
     margin-left: 250px;
     padding-top: 25px;
   }
-  .desktop__breadcrumbs{
+  .desktop__breadcrumbs {
     margin-right: 1.5rem;
   }
   /* Style for Breadcrumbs */
@@ -677,10 +692,10 @@ cursor: pointer;
     margin-left: 250px;
     padding-top: 25px;
   }
-  .css-accordion--style{
+  .css-accordion--style {
     flex-direction: row;
   }
-  .faq-item{
+  .faq-item {
     width: 1200px;
   }
   .faq-question:hover {
@@ -694,10 +709,10 @@ cursor: pointer;
     transform: translateY(-50%) rotate(90deg);
   }
   /*Cards Page */
-  .cards--container{
+  .cards--container {
     flex-direction: row;
   }
-  .code-snippet-container{
+  .code-snippet-container {
     overflow-x: hidden;
     overflow-y: hidden; /* Hide vertical scrollbar */
   }
@@ -708,15 +723,12 @@ cursor: pointer;
     padding-top: 25px;
   }
   .c-footer {
-   flex-direction: row;
-}
+    flex-direction: row;
+  }
   /* Footer */
   .footer {
     margin-right: 0;
     margin-left: 250px;
     padding-top: 25px;
   }
-
 }
-
-
