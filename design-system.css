@@ -434,7 +434,7 @@ td {
 }
 
 .c-accordion:after {
-  content: '\002B';
+  content: "\002B";
   color: var(--clr-white);
   font-weight: bold;
   float: right;

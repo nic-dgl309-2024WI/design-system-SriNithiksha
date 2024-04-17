@@ -106,7 +106,7 @@ ol {
   color: var(--secondary-text);
 }
 
-.u-teritiary-text{
+.u-teritiary-text {
   color: var(--tertiay-text);
 }
 
@@ -114,7 +114,7 @@ ol {
   background-color: var(--sec-text-eg);
 }
 
-.u-teritiary-text-eg{
+.u-teritiary-text-eg {
   background-color: var(--tertiay-text);
 }
 /* Accent Colors */
@@ -762,7 +762,7 @@ ol {
 }
 
 .c-accordion:after {
-  content: '\002B';
+  content: "\002B";
   color: var(--clr-white);
   font-weight: bold;
   float: right;
@@ -779,7 +779,6 @@ ol {
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
-
 
 /* About us */
 .c-about__image {
@@ -958,7 +957,7 @@ ol {
   }
 
   /* FAQ section */
-  .c-accordion-container{
+  .c-accordion-container {
     display: flex;
     flex-direction: row;
     gap: 10px;
