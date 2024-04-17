@@ -122,40 +122,7 @@
   padding-right: 10px;
 }
 /* Primary color */
-.c-color1 {
-  width: 500px;
-  height: 250px;
-}
-
-.c-color2 {
-  width: 500px;
-  height: 250px;
-}
-
-.c-color3 {
-  border: 1px solid #000;
-  width: 500px;
-  height: 250px;
-}
-
-/* Secondary color */
-.c-color4 {
-  width: 500px;
-  height: 250px;
-}
-
-/* Accent color */
-.c-color5 {
-  width: 500px;
-  height: 250px;
-}
-
-.c-color6 {
-  width: 500px;
-  height: 250px;
-}
-
-.c-color7 {
+.c-color {
   width: 500px;
   height: 250px;
 }

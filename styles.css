@@ -110,6 +110,9 @@ ol {
   background-color: var(--sec-text-eg);
 }
 
+.u-teritiary-text-eg{
+  background-color: var(--tertiay-text);
+}
 /* Accent Colors */
 .u-card {
   background-color: var(--clr-card);
