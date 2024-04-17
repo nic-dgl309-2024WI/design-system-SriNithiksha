@@ -424,10 +424,10 @@ ol {
 .l-align-stretch {
   align-items: stretch;
 }
-.l-text-align--right{
+.l-text-align--right {
   text-align: right;
 }
-.l-text-align--left{
+.l-text-align--left {
   text-align: left;
 }
 /* Flex Direction */
@@ -492,7 +492,7 @@ ol {
   cursor: pointer;
   padding: 15px;
 }
-.cancel{
+.cancel {
   display: flex;
   flex-direction: column;
   font-size: 2rem;
@@ -564,71 +564,82 @@ ol {
   }
 }
 /* Products section -01 */
-/* carousel style */
-.carousel-container {
-  display: flex;
-  flex-direction: column;
+
+.c-carousel--sf {
   width: 100%;
   overflow: hidden;
   position: relative;
-  overflow-x: hidden; /* Prevent horizontal scrollbar */
 }
-.carousel {
+
+.c-carousel {
   display: flex;
+  transition: transform 0.5s ease;
 }
-.navigation {
-  display: block; /* Show navigation buttons on desktop */
+/* Styles for each card */
+.c-sf__card {
+  flex: 0 0 calc(100% - 40px);
+  max-width: calc(100% - 30px);
+  border: 1px solid var(--clr-secondary);
+  margin: 20px;
+  text-align: center;
+  scroll-snap-align: center;
+  height: 450px; /* Adjust card height */
+  background-color: #f4f4f4; /* Add background color */
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+/* Hover effect for card */
+.c-sf__card:hover {
+  transform: translateY(-10px); /* Move card up slightly on hover */
+}
+
+/* Styles for image in each card */
+.c-sf__card img {
+  width: 100%; /* Set image width to match card width */
+  height: 75%; /* Set image height to 75% of card height */
+  border: 2.5px solid var(--clr-secondary);
+  border-radius: 0 0 15px 15px;
+  object-fit: inherit; /* Maintain aspect ratio without stretching */
+}
+
+/* Styles for pagination buttons */
+.c-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.c-pagination button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.card {
-  padding: 5px;
-  scroll-snap-align: start;
-  background-color: var(--clr-card); /* Use variable for card color */
-  color: var(--clr-primary); /* Use variable for card text color */
-}
-.card img {
-  width: 300px;
-  height: 300px;
-}
-.navigation button {
+  padding: 10px 20px;
   border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.navigation button:hover {
-  background-color: var(
-    --primary-bg-light
-  ); /* Use variable for button hover background color */
-}
-.pagination {
-  text-align: center;
-  margin-top: 10px;
-}
-.dot {
-  height: 10px;
-  width: 10px;
-  background-color: var(
-    --clr-secondary
-  ); /* Use variable for dot background color */
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0 5px;
+  background-color: var(--primary-bg);
+  color: #fff;
   cursor: pointer;
 }
-.dot.active {
-  background-color: var(
-    --clr-light
-  ); /* Use variable for active dot background color */
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
 }
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+
 
 /* Product section - 02 */
 .c-category__container {
@@ -662,7 +673,7 @@ ol {
   height: auto; /* Adjust height based on content */
   margin-bottom: 20px;
 }
-.c-card__image{
+.c-card__image {
   width: 300px;
   height: 300px;
 }
@@ -851,19 +862,19 @@ ol {
     margin-left: 10px;
     margin-right: 20px; /* Add margin between links */
   }
-  .topnavbar__link:hover{
+  .topnavbar__link:hover {
     color: var(--text-hover-100);
     text-decoration: underline;
   }
 
-    /* Hamburger icon */
-    .hamburger {
-      display: none;
-    }
-  
-    .cancel {
-      display: none;
-    }
+  /* Hamburger icon */
+  .hamburger {
+    display: none;
+  }
+
+  .cancel {
+    display: none;
+  }
 
   .hamburger-menu {
     display: none;
@@ -873,34 +884,33 @@ ol {
     display: flex;
     margin-top: 3.5rem;
   }
-  /* Carousel section - products */
-  .carousel-container {
+
+  /* Seasonal Favourites */
+  /* Adjust card width for desktop view */
+  .c-carousel {
+    transition: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .c-sf__card {
+    flex: 0 0 calc(33.33% - 40px);
+    max-width: calc(33.33% - 40px);
+  }
+  .c-pagination {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    justify-content: center;
+    margin-top: 20px;
   }
 
-  .carousel {
-    overflow-x: hidden; /* Allow horizontal scrolling */
-    white-space: nowrap; /* Prevent cards from wrapping */
+  .prev-btn {
+    text-align: center;
+    left: -10px; /* Adjust the left positioning */
   }
 
-  .card {
-    flex: 0 0 calc(33.33% - 30px); /* Adjust width to fit 3 cards, considering margins */
-    margin: 0 15px; /* Adjust margin between cards */
-  }
-
-  .navigation {
-    display: block; /* Show navigation buttons on larger screens */
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  .next-btn {
+    text-align: center;
+    right: -10px; /* Adjust the right positioning */
   }
 
   /* Our Categories section */
@@ -917,7 +927,6 @@ ol {
   .c-card:hover .c-card__overlay {
     display: flex; /* Show overlay on hover */
   }
-  
 
   /* Our Services */
   .c-services {

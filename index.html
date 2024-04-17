@@ -28,21 +28,19 @@
 <body>
   <div class="c-header l-flex l-flex-column">
     <!--Logo-->
-    <div class="topnavbar u-primary-bg u-primary-text l-flex l-align-center l-justify-space-between l-p-300" id="myTopnav">
+    <div class="topnavbar u-primary-bg u-primary-text l-flex l-align-center l-justify-space-between l-p-300"
+      id="myTopnav">
       <a href="index.html"
         class="topnavbar__link topnav__link--logo active u-primary-text u-head__ff u-head__size u-head__weight u-head__height">Outback
         Nursery</a>
 
-        <!-- Hamburger icon -->
-      <span
-      class="toggle-nav u-primary-bg u-primary-text"
-      onclick="toggleNav()"
-    >
-      <span class="hamburger">&#9776;</span>
-      <!-- Cancel icon initially hidden -->
-      <span class="cancel " style="display: none">&#10006;</span>
-    </span>
-  
+      <!-- Hamburger icon -->
+      <span class="toggle-nav u-primary-bg u-primary-text" onclick="toggleNav()">
+        <span class="hamburger">&#9776;</span>
+        <!-- Cancel icon initially hidden -->
+        <span class="cancel " style="display: none">&#10006;</span>
+      </span>
+
       <!--Menu-->
       <div id="myTopnav" class="topnav__links l-flex-row">
         <a href="coming-soon.html"
@@ -88,63 +86,45 @@
   </div>
 
   <!--Seasonal Favourites-->
-  <section class="seasonal__fav l-flex l-flex-column l-align-center l-justify-center l-mt-300 l-mb-200 l-ml-300 l-mr-300">
+  <section
+    class="seasonal__fav l-flex l-flex-column l-align-center l-justify-center l-mt-300 l-mb-200 l-ml-300 l-mr-300">
     <h2
       class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-100">
       Our Seasonal Favourites
     </h2>
-
-    <div class="carousel-container">
-      <div class="carousel">
-        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
-          <img src="images/seasonal favs/blue arrow juniper.jpg" alt="img1" />
-          <p
-            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center l-m-200">
-            Blue arrow juniper
-          </p>
+    <div class="c-carousel--sf">
+      <div class="c-carousel">
+        <div class="c-sf__card">
+          <img src="images/seasonal favs/blue arrow juniper.jpg" alt="Image 1">
+          <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height">Blue arrow juniper</h3>
         </div>
-        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
-          <img src="images/seasonal favs/cryptomeria.jpg" alt="img2" />
-          <p
-            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center l-m-200">
-            Cryptomeria
-          </p>
+        <div class="c-sf__card">
+          <img src="images/seasonal favs/cedar.jpg" alt="Image 2">
+          <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height">Cedar</h3>
         </div>
-        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
-          <img src="images/seasonal favs/cypress.jpg" alt="img3" />
-          <p
-            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center l-m-200">
-            Cypress
-          </p>
+        <div class="c-sf__card">
+          <img src="images/seasonal favs/cedrus-deodara.jpg" alt="Image 3">
+          <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height">Cedrus</h3>
         </div>
-        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
-          <img src="images/seasonal favs/japanese umbrella pine.jpg" alt="img4" />
-          <p
-            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center l-m-200">
-            Japanese Umbrella Pine
-          </p>
+        <div class="c-sf__card">
+          <img src="images/seasonal favs/cryptomeria.jpg" alt="Image 4">
+          <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height">Cryptomeria</h3>
         </div>
-        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
-          <img src="images/seasonal favs/cedar.jpg" alt="img5" />
-          <p
-            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center l-m-200">
-            Cedar
-          </p>
+        <div class="c-sf__card">
+          <img src="images/seasonal favs/cypress.jpg" alt="Image 5">
+          <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height">Cypress</h3>
         </div>
-        <div class="card l-flex l-flex-column l-justify-space-between l-align-center">
-          <img src="images/seasonal favs/cedrus-deodara.jpg" alt="img6" />
-          <p
-            class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center l-m-200">
-            Cedrus Deodara
-          </p>
+        <div class="c-sf__card">
+          <img src="images/seasonal favs/japanese umbrella pine.jpg" alt="Image 6">
+          <h3 class="u-subhead__100 u-title__size u-title__weight u-head__height">Japanese umbrella pine</h3>
         </div>
       </div>
-      <div class="navigation">
-        <button class="u-primary-bg u-primary-text" id="prevBtn">&lt;</button>
-        <button class="u-primary-bg u-primary-text" id="nextBtn">&gt;</button>
+      <div class="c-pagination">
+        <button class="prev-btn u-context__font u-context__size u-context__weight u-context__height">❮ Prev</button>
+        <button class="next-btn u-context__font u-context__size u-context__weight u-context__height">Next ❯</button>
       </div>
-      <div class="pagination" id="pagination"></div>
     </div>
+
     <a href="#"
       class="c-cta__button u-button u-primary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Discover
       our Seasonal Greenary</a>
@@ -155,69 +135,76 @@
     <h2
       class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-100">
       Our Plants Categories</h2>
-      <div class="c-category__container">
-        <div class="c-category--cards">
-          <div class="c-card">
-            <div class="c-card__overlay">
-              <h3 class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
-                Conifers
-              </h3>
-            </div>
-            <img src="images/plant-category/plant3.jpg" class="c-card__image" alt="conifers">
+    <div class="c-category__container">
+      <div class="c-category--cards">
+        <div class="c-card">
+          <div class="c-card__overlay">
+            <h3
+              class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
+              Conifers
+            </h3>
           </div>
-          <div class="c-card">
-            <div class="c-card__overlay">
-              <h3 class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
-                Deciduous
-              </h3>
-            </div>
-            <img src="images/plant-category/plant2.jpg" class="c-card__image" alt="conifers">
+          <img src="images/plant-category/plant3.jpg" class="c-card__image" alt="conifers">
+        </div>
+        <div class="c-card">
+          <div class="c-card__overlay">
+            <h3
+              class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
+              Deciduous
+            </h3>
           </div>
-          <div class="c-card">
-            <div class="c-card__overlay">
-              <h3 class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
-                Evergreen
-              </h3>
-            </div>
-            <img src="images/plant-category/plant4.jpg" class="c-card__image" alt="conifers">
+          <img src="images/plant-category/plant2.jpg" class="c-card__image" alt="conifers">
+        </div>
+        <div class="c-card">
+          <div class="c-card__overlay">
+            <h3
+              class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
+              Evergreen
+            </h3>
           </div>
-          <div class="c-card">
-            <div class="c-card__overlay">
-              <h3 class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
-                Grasses and Bamboo
-              </h3>
-            </div>
-            <img src="images/plant-category/plant1.jpg" class="c-card__image" alt="conifers">
+          <img src="images/plant-category/plant4.jpg" class="c-card__image" alt="conifers">
+        </div>
+        <div class="c-card">
+          <div class="c-card__overlay">
+            <h3
+              class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
+              Grasses and Bamboo
+            </h3>
           </div>
-          <div class="c-card">
-            <div class="c-card__overlay">
-              <h3 class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
-                Vines
-              </h3>
-            </div>
-            <img src="images/plant-category/plant5.jpeg" class="c-card__image" alt="conifers">
+          <img src="images/plant-category/plant1.jpg" class="c-card__image" alt="conifers">
+        </div>
+        <div class="c-card">
+          <div class="c-card__overlay">
+            <h3
+              class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
+              Vines
+            </h3>
           </div>
-          <div class="c-card">
-            <div class="c-card__overlay">
-              <h3 class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
-                Edibles
-              </h3>
-            </div>
-            <img src="images/plant-category/plant6.jpeg" class="c-card__image" alt="conifers">
+          <img src="images/plant-category/plant5.jpeg" class="c-card__image" alt="conifers">
+        </div>
+        <div class="c-card">
+          <div class="c-card__overlay">
+            <h3
+              class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
+              Edibles
+            </h3>
           </div>
-          <div class="c-card">
-            <div class="c-card__overlay">
-              <h3 class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
-                Japanese Maples
-              </h3>
-            </div>
-            <img src="images/plant-category/plant7.jpg" class="c-card__image" alt="conifers">
+          <img src="images/plant-category/plant6.jpeg" class="c-card__image" alt="conifers">
+        </div>
+        <div class="c-card">
+          <div class="c-card__overlay">
+            <h3
+              class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
+              Japanese Maples
+            </h3>
           </div>
+          <img src="images/plant-category/plant7.jpg" class="c-card__image" alt="conifers">
         </div>
       </div>
-      
+    </div>
 
-      <a href="coming-soon.html"
+
+    <a href="coming-soon.html"
       class="c-cta__button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Explore
       our Plant Categories</a>
 
@@ -225,56 +212,88 @@
 
   <!--our services-->
   <div class="c-services l-flex l-flex-column l-align-center l-justify-center">
-    <h2 class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">Our Services</h2>
+    <h2
+      class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center">
+      Our Services</h2>
     <div class="service-card__container l-flex l-flex-column l-align-center l-justify-center l-mb-300">
       <div class="services-card">
         <div class="card-inner">
           <div class="card-front u-primary-bg u-primary-text l-flex l-flex-column">
             <img src="images/icons/gift-certificate.png" alt="Gift Certificate Icon" width="50" height="50">
-            <h2 class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-300">Gift Certificate</h2>
+            <h2
+              class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-300">
+              Gift Certificate</h2>
             <p></p>
           </div>
-          <div class="card-back u-bg-primary-light u-secondary-text l-flex l-flex-column l-text-align--left l-justify-space-around">
-            <h2 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-align-start l-ml-100 l-mr-100">Get your Gift Certificates in 3 steps</h2>
-            <p class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-mt-100 l-ml-100 l-mr-100">1. Send an email to info@outbacknursery.ca with your particulars.</p>
-            <p class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-align-start l-ml-100 l-mr-100">2. Send us an e-transfer to info@outbacknursery.ca with your chosen amount.</p>
-            <p class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-align-start l-ml-100 l-mr-100">3. On successful payment, we will send a voucher to the email of your choosing.</p>
-            <a href="coming-soon.html" class="c-cta__button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Get your gift certificates today!</a>
+          <div
+            class="card-back u-bg-primary-light u-secondary-text l-flex l-flex-column l-text-align--left l-justify-space-around">
+            <h2
+              class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-align-start l-ml-100 l-mr-100">
+              Get your Gift Certificates in 3 steps</h2>
+            <p
+              class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-mt-100 l-ml-100 l-mr-100">
+              1. Send an email to info@outbacknursery.ca with your particulars.</p>
+            <p
+              class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-align-start l-ml-100 l-mr-100">
+              2. Send us an e-transfer to info@outbacknursery.ca with your chosen amount.</p>
+            <p
+              class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-align-start l-ml-100 l-mr-100">
+              3. On successful payment, we will send a voucher to the email of your choosing.</p>
+            <a href="coming-soon.html"
+              class="c-cta__button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Get
+              your gift certificates today!</a>
           </div>
         </div>
       </div>
-    
+
       <div class="services-card">
         <div class="card-inner">
           <div class="card-front u-primary-bg u-primary-text">
             <img src="images/icons/delivery.png" alt="Gift Certificate Icon" width="50" height="50">
-            <h2 class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-300">Delivery Services</h2>
+            <h2
+              class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-300">
+              Delivery Services</h2>
             <p></p>
           </div>
           <div class="card-back u-bg-primary-light u-secondary-text">
-            <h2 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-start l-justify-center l-ml-100 l-mr-100">Get your plants delivered at your doorstep</h2>
-            <p class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center l-mt-100">Delivery and planting of your new trees and shrubs (for those items that won't fit in your hatchback)</p>
-            <a href="coming-soon.html" class="c-cta__button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Visit us to know more!</a>
+            <h2
+              class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-start l-justify-center l-ml-100 l-mr-100">
+              Get your plants delivered at your doorstep</h2>
+            <p
+              class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center l-mt-100">
+              Delivery and planting of your new trees and shrubs (for those items that won't fit in your hatchback)</p>
+            <a href="coming-soon.html"
+              class="c-cta__button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Visit
+              us to know more!</a>
           </div>
         </div>
       </div>
-    
+
       <div class="services-card">
         <div class="card-inner">
           <div class="card-front u-primary-bg u-primary-text">
             <img src="images/icons/refund-policy.png" alt="Gift Certificate Icon" width="50" height="50">
-            <h2 class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-300">Refund Policy</h2>
+            <h2
+              class="u-primary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-300">
+              Refund Policy</h2>
             <p></p>
           </div>
           <div class="card-back u-bg-primary-light u-secondary-text">
-            <h2 class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-100 l-mr-100">Our Refund Policy</h2>
-            <p class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center l-mt-200">We have a no refund or return policy on live plant material. Our plants are healthy when leaving the Nursery. Please insure they remain that way with proper care.</p>
-            <a href="coming-soon.html" class="c-cta__button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Visit us to learn more</a>
+            <h2
+              class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-ml-100 l-mr-100">
+              Our Refund Policy</h2>
+            <p
+              class="u-secondary-text u-context__font u-primary-text u-context__size u-context__weight u-context__height l-flex l-justify-space-between l-align-center l-mt-200">
+              We have a no refund or return policy on live plant material. Our plants are healthy when leaving the
+              Nursery. Please insure they remain that way with proper care.</p>
+            <a href="coming-soon.html"
+              class="c-cta__button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-300 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Visit
+              us to learn more</a>
           </div>
         </div>
       </div>
     </div>
-    
+
   </div>
   <!--Plant Care guide-->
   <section class="c-guide u-bg-primary-light l-flex l-flex-column l-align-center l-justify-center l-mt-300 l-mb-300">
@@ -282,7 +301,8 @@
       <div class="c-guide__image l-flex l-justify-center l-mb-100">
         <img src="images/plant-guide.jpg" alt="plant-guide" style="max-width: 500px; height: auto;">
       </div>
-      <div class="c-plant--guide l-flex l-flex-column l-justify-center l-align-center l-mt-100 l-mb-100 l-ml-300 l-mr-300">
+      <div
+        class="c-plant--guide l-flex l-flex-column l-justify-center l-align-center l-mt-100 l-mb-100 l-ml-300 l-mr-300">
         <h2
           class="u-secondary-text u-subhead__ff u-title__size u-title__weight u-head__height l-flex l-justify-center l-align-center l-mt-200 l-mb-200">
           We Want to help you grow plants</h2>
@@ -301,7 +321,7 @@
           class="c-cta__button u-button u-secondary-text u-context__font u-context__size u-context__weight u-context__height l-mt-200 l-p-100 l-align-center l-justify-center l-mt-200 l-mb-200">Click
           View Tips & Tricks</a>
       </div>
-      
+
     </div>
 
   </section>
@@ -362,7 +382,8 @@
       Who we are?</h2>
     <div class="c-about__us u-bg-primary-light l-flex l-flex-row l-align-center l-justify-center l-m-300 l-p-300">
 
-      <div class="c-about--guide l-flex l-flex-column l-justify-center l-align-center l-mt-100 l-mb-100 l-ml-300 l-mr-300">
+      <div
+        class="c-about--guide l-flex l-flex-column l-justify-center l-align-center l-mt-100 l-mb-100 l-ml-300 l-mr-300">
         <h3
           class="u-secondary-text u-subhead__100 u-title__size u-title__weight u-head__height l-flex l-align-center l-justify-center l-mt-100 l-mb-200">
           The Evolution of Outback Nursery</h3>
