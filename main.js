@@ -97,34 +97,21 @@ const cardsContainer = document.querySelector('.c-category--cards');
 //////////////////////////////////////////////////////////////////////////////////////
 
 // Script for accordion
+var acc = document.getElementsByClassName("c-accordion");
+var i;
 
-document.addEventListener('DOMContentLoaded', function() {
-  const faqQuestions = document.querySelectorAll('.faq-question');
-
-  faqQuestions.forEach(question => {
-    question.addEventListener('click', () => {
-      const item = question.parentNode;
-      const answer = item.querySelector('.faq-answer');
-      
-      item.classList.toggle('expanded');
-
-      if (item.classList.contains('expanded')) {
-        answer.style.display = 'block';
-      } else {
-        answer.style.display = 'none';
-      }
-    });
-
-    question.addEventListener('mouseenter', () => {
-      const item = question.parentNode;
-      item.classList.add('expanded');
-    });
-
-    question.addEventListener('mouseleave', () => {
-      const item = question.parentNode;
-      item.classList.remove('expanded');
-    });
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
   });
-});
+}
+
+
 //////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////
