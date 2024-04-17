@@ -584,7 +584,7 @@ ol {
   text-align: center;
   scroll-snap-align: center;
   height: 450px; /* Adjust card height */
-  background-color: #f4f4f4; /* Add background color */
+  background-color: var(--clr-card); /* Add background color */
   transition: transform 0.3s ease; /* Add transition effect */
 }
 
@@ -597,7 +597,7 @@ ol {
 .c-sf__card img {
   width: 100%; /* Set image width to match card width */
   height: 75%; /* Set image height to 75% of card height */
-  border: 2.5px solid var(--clr-secondary);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
   border-radius: 0 0 15px 15px;
   object-fit: inherit; /* Maintain aspect ratio without stretching */
 }
