@@ -313,6 +313,10 @@ ol {
 .l-p-300 {
   padding: 2rem;
 }
+
+.l-p-400 {
+  padding: 3rem;
+}
 /* Padding for left, right, top and bottop separately */
 /* Padding left */
 .l-pl-100 {
@@ -562,9 +566,9 @@ ol {
   z-index: 1000; /* Ensure it's above other content */
 }
 .scroll__text {
-  display: inline-block; /* Display text in a single line */
+  display: flex; /* Display text in a single line */
   padding: 0 20px; /* Add padding to the scrolling text */
-  animation: scrollText 20s linear infinite; /* Apply the scrollText animation */
+  animation: scrollText 30s linear infinite; /* Apply the scrollText animation */
 }
 /* Define the animation */
 @keyframes scrollText {
