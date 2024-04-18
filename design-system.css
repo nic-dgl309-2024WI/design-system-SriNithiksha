@@ -432,6 +432,8 @@ td {
   margin-top: 70px;
   margin-bottom: 10px;
 }
+
+/* Code snippet style */
 .code-snippet-container {
   align-items: center;
   position: relative;
@@ -440,6 +442,9 @@ td {
 }
 #codeSnippet {
   text-align: left;
+}
+.c-clip--button{
+  border: var(--clr-button);
 }
 .code-snippet-container pre {
   overflow-x: auto;
@@ -757,7 +762,7 @@ td {
   }
   /*Cards Page */
   .cards--container {
-    flex-direction: row;
+    flex-direction: column;
   }
   .code-snippet-container {
     overflow-x: hidden;
