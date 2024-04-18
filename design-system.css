@@ -77,6 +77,42 @@
 .topnav__link.active {
   color: var(--text-hover-100);
 }
+
+/* Introduction section in design-system.html */
+.c-introduction{
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.c-introduction-container {
+  max-width: 100%;
+}
+
+.c-intro p {
+  margin-bottom: 20px;
+  width: 60ch; /* Limiting width to 60 characters */
+}
+
+.c-intro ol {
+  list-style-type: decimal;
+  width: 60ch;
+}
+
+.c-intro ol li:last-child {
+  margin-bottom: 0;
+}
+
+.c-why-choose ul {
+  list-style: disc;
+  width: 60ch;
+}
+
+.c-why-choose ul li strong {
+  font-weight: bold;
+}
+
 /* About Me */
 
 .bio {
@@ -498,6 +534,28 @@ td {
     display: none;
   }
 
+  /* Introduction section in design-system.html */
+  .c-introduction {
+    margin-right: 0;
+    margin-left: 250px;
+    padding-top: 25px;
+  }
+
+  .c-intro {
+    width: 100%; /* Adjust as needed */
+  }
+
+  .c-intro ol li{
+    list-style-type: decimal;
+  }
+  
+  .c-intro ol li:last-child {
+    margin-bottom: 0;
+  }
+
+  .c-why-choose li{
+    list-style: disc;
+  }
   /* About me */
 
   .myskills {
