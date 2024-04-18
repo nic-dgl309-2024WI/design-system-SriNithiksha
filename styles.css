@@ -548,7 +548,7 @@ ol {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.591);
+  background-color: #0f0c0c30;
 }
 /* Style for the hero content */
 .hero__content {
@@ -568,7 +568,7 @@ ol {
 .scroll__text {
   display: flex; /* Display text in a single line */
   padding: 0 20px; /* Add padding to the scrolling text */
-  animation: scrollText 30s linear infinite; /* Apply the scrollText animation */
+  animation: scrollText 20s linear infinite; /* Apply the scrollText animation */
 }
 /* Define the animation */
 @keyframes scrollText {
@@ -712,11 +712,15 @@ ol {
 }
 
 /* services */
+.c-services{
+  width: 100%;
+  height: auto;
+}
 .services-card {
-  width: 350px;
-  height: 350px;
+  width: 600px;
+  height: 450px;
   perspective: 1000px;
-  margin: 20px;
+  margin: 15px;
 }
 .card-inner {
   width: 100%;
@@ -950,13 +954,12 @@ ol {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto; /* Centering the content */
   }
 
   .service-card__container {
     flex: 1 1 33.33%; /* Each container occupies 1/3 of the available space */
-    margin: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -964,8 +967,8 @@ ol {
   }
 
   .services-card {
-    width: 350px;
-    height: 350px;
+    width: 420px;
+    height: 450px;
     perspective: 1000px;
     margin-top: 20px;
   }
