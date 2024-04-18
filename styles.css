@@ -755,6 +755,9 @@ ol {
 }
 
 /* Plant care guide */
+.c-plant--guide p{
+  width: 60ch; /* Limiting width to 60 characters */
+}
 .c-guide__image {
   display: none;
 }
