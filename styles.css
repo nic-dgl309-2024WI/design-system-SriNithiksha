@@ -789,6 +789,9 @@ ol {
 }
 
 /* About us */
+.c-about--guide p{
+  width: 60ch; /* Limiting width to 60 characters */
+}
 .c-about__image {
   display: none;
 }
