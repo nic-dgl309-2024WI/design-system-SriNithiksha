@@ -487,6 +487,13 @@ td {
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
+/* Forms page */
+.c-forms {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
 /* List Page */
 .list {
   display: flex;
@@ -756,6 +763,12 @@ td {
     overflow-x: hidden;
     overflow-y: hidden; /* Hide vertical scrollbar */
   }
+  /* Forms Page */
+    .c-forms {
+      margin-right: 0;
+      margin-left: 250px;
+      padding-top: 25px;
+    }
   /* List page */
   .list {
     margin-right: 0;
