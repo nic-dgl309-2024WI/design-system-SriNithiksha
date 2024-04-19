@@ -660,6 +660,57 @@ ol {
   right: 10px;
 }
 
+/* Categories section */
+  /* Card container */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Card */
+  .card {
+    width: calc(100% - 20px);
+    position: relative;
+    overflow: hidden;
+    transition: filter 0.5s ease;
+  }
+
+  /* Background image */
+  .card img {
+    width: 450px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  /* Text on top of the image */
+  .card .card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+  }
+
+  /* Hover effect */
+  .card:hover img {
+    filter: blur(5px);
+  }
+  /* Responsive styles */
+  @media (min-width: 768px) {
+    .card {
+      width: calc(33.33% - 20px);
+    }
+  }
+
 /* Product section - 02 */
 .c-category__container {
   max-width: 100%;
