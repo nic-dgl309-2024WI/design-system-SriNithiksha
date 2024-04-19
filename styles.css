@@ -721,10 +721,8 @@ ol {
   height: auto;
 }
 .services-card {
-  width: 580px;
+  width: 450px;
   height: 450px;
-  perspective: 1000px;
-  margin: 15px;
 }
 .card-inner {
   width: 100%;
