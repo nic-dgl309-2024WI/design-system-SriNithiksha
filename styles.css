@@ -976,7 +976,9 @@ ol {
   }
 
   /* Plant care guide*/
-
+  .c-plant--guide p{
+    width: 60ch;
+  }
   .c-plant__guide {
     flex-direction: row;
   }
