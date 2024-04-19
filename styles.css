@@ -186,11 +186,11 @@ ol {
 }
 
 .u-titile__weight {
-  font-size: var(--fw--body-title);
+  font-size: var(--fw--body-title, 180);
 }
 
 .u-context__weight {
-  font-size: var(--fw-body-context);
+  font-size: var(--fw-body-context, normal);
 }
 
 /* Line height */
@@ -698,9 +698,9 @@ ol {
 }
 .c-card__overlay {
   position: absolute;
-  top: 10;
-  left: 20;
-  bottom: 20;
+  top: 10px;
+  left: 20px;
+  bottom: 20px;
   width: 300px;
   height: 315px;
   background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
