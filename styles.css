@@ -993,10 +993,10 @@ ol {
   }
 
   /* About us */
-
-  .c-about__guide {
-    flex-direction: row;
+  .c-about-guide p{
+    width: 60ch;
   }
+
 
   .c-about__image {
     display: block;
@@ -1035,7 +1035,7 @@ ol {
     margin-bottom: 0;
   }
 
-  .info {
+  .c-info {
     width: 45%;
   }
   /* Footer Map */
