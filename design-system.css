@@ -90,22 +90,12 @@
   max-width: 100%;
 }
 
-.c-intro p {
-  width: 60ch; /* Limiting width to 60 characters */
-}
-
-.c-intro ol {
-  list-style-type: decimal;
-  width: 60ch;
-}
-
 .c-intro ol li:last-child {
   margin-bottom: 0;
 }
 
 .c-why-choose ul {
   list-style: disc;
-  width: 60ch;
 }
 
 .c-why-choose ul li strong {

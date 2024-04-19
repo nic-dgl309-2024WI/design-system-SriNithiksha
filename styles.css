@@ -468,11 +468,15 @@ ol {
 }
 
 .c-continer-sidenav {
-  max-width: 30%;
+  max-width: 100%;
 }
 
 .c-container-content {
   max-width: fit-content;
+}
+
+.c-text-width{
+  width: 60ch; /* Limiting width to 60 characters */
 }
 /***** Outback Nursery Site *****/
 /* Topnav */
@@ -755,9 +759,6 @@ ol {
 }
 
 /* Plant care guide */
-.c-plant--guide p{
-  width: 60ch; /* Limiting width to 60 characters */
-}
 .c-guide__image {
   display: none;
 }
@@ -792,9 +793,6 @@ ol {
 }
 
 /* About us */
-.c-about--guide p{
-  width: 60ch; /* Limiting width to 60 characters */
-}
 .c-about__image {
   display: none;
 }
