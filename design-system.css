@@ -79,7 +79,7 @@
 }
 
 /* Introduction section in design-system.html */
-.c-introduction{
+.c-introduction {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
@@ -177,7 +177,7 @@
 .u-fontfamily {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  justify-content: flex-start; /* Align items to the left */
   width: 100%;
   text-align: left;
 }
@@ -192,7 +192,7 @@
 .u-fontclass {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  justify-content: flex-start; /* Align items to the left */
   width: 100%;
   text-align: left;
 }
@@ -222,7 +222,7 @@
 .u-margin {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  justify-content: flex-start; /* Align items to the left */
   width: 100%;
   text-align: left;
 }
@@ -237,7 +237,7 @@
 .u-padding {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  justify-content: flex-start; /* Align items to the left */
   width: 100%;
   text-align: left;
 }
@@ -260,7 +260,7 @@
 .u-flex {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  justify-content: flex-start; /* Align items to the left */
   width: 100%;
   text-align: left;
 }
@@ -275,7 +275,7 @@
 .u-container {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  justify-content: flex-start; /* Align items to the left */
   width: 100%;
   text-align: left;
 }
@@ -432,7 +432,7 @@ td {
 #codeSnippet {
   text-align: left;
 }
-.c-clip--button{
+.c-clip--button {
   border: var(--clr-button);
 }
 .code-snippet-container pre {
@@ -546,15 +546,15 @@ td {
     width: 100%; /* Adjust as needed */
   }
 
-  .c-intro ol li{
+  .c-intro ol li {
     list-style-type: decimal;
   }
-  
+
   .c-intro ol li:last-child {
     margin-bottom: 0;
   }
 
-  .c-why-choose li{
+  .c-why-choose li {
     list-style: disc;
   }
   /* About me */
@@ -758,11 +758,11 @@ td {
     overflow-y: hidden; /* Hide vertical scrollbar */
   }
   /* Forms Page */
-    .c-forms {
-      margin-right: 0;
-      margin-left: 250px;
-      padding-top: 25px;
-    }
+  .c-forms {
+    margin-right: 0;
+    margin-left: 250px;
+    padding-top: 25px;
+  }
   /* List page */
   .list {
     margin-right: 0;
