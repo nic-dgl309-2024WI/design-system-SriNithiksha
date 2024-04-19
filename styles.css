@@ -13,7 +13,7 @@
   --clr-white: #ffffff;
 
   /* Primary Colors */
-  --primary-bg: #4a7295;
+  --primary-bg: #25547d;
   --primary-bg-light: rgba(74, 114, 149, 35%);
   --primary-text: #fff;
 
@@ -186,11 +186,11 @@ ol {
 }
 
 .u-titile__weight {
-  font-size: var(--fw--body-title, 180);
+  font-size: var(--fw--body-title);
 }
 
 .u-context__weight {
-  font-size: var(--fw-body-context, normal);
+  font-size: var(--fw-body-context);
 }
 
 /* Line height */
