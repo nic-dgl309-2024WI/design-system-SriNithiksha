@@ -437,8 +437,8 @@ ol {
   align-items: baseline;
 }
 
-.l-align-stretch {
-  align-items: stretch;
+.l-text-align-justify{
+  text-align: justify;
 }
 .l-text-align--right {
   text-align: right;
