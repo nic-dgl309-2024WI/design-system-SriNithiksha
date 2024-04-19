@@ -13,7 +13,7 @@
   --clr-white: #ffffff;
 
   /* Primary Colors */
-  --primary-bg: #25547d;
+  --primary-bg: #3a72a0;
   --primary-bg-light: rgba(74, 114, 149, 35%);
   --primary-text: #fff;
 
@@ -28,7 +28,7 @@
   --clr-button: #f87c7c;
   --clr-button-hover: #f8bcbc;
   --text-hover-100: #f87c7c;
-  --text-hover-200: #4a7295;
+  --text-hover-200: #3a72a0;
 
   /*font variables*/
   /* Font family for Heading and body */
