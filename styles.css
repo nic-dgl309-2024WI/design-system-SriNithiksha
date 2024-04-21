@@ -706,9 +706,7 @@ ol {
   }
   /* Responsive styles */
   @media (min-width: 768px) {
-    .card {
-      width: calc(33.33% - 20px);
-    }
+
   }
 
 /* Product section - 02 */
@@ -988,6 +986,9 @@ ol {
   }
 
   /* Our Categories section */
+  .card {
+    width: calc(33.33% - 20px);
+  }
   .c-card {
     width: calc(33.33% - 20px); /* Display three cards per row with margins */
     height: 300px; /* Adjust height based on content */
