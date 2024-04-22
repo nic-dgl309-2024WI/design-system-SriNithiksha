@@ -28,7 +28,7 @@
   --clr-button: #f87c7c;
   --clr-button-hover: #f8bcbc;
   --text-hover-100: #f87c7c;
-  --text-hover-200: #3a72a0;
+  --text-hover-200: #4a7295;
 
   /*font variables*/
   /* Font family for Heading and body */
@@ -480,6 +480,7 @@ ol {
 }
 /***** Outback Nursery Site *****/
 /* Topnav */
+
 .topnavbar {
   position: fixed;
   top: 0;
@@ -569,7 +570,10 @@ ol {
   white-space: nowrap; /* Prevent text wrapping */
   z-index: 1000; /* Ensure it's above other content */
 }
-.scroll__text {
+.c-scroll-p{
+  margin-top: 1rem;
+}
+.c-scroll__text {
   display: flex; /* Display text in a single line */
   padding: 0 20px; /* Add padding to the scrolling text */
   animation: scrollText 20s linear infinite; /* Apply the scrollText animation */
@@ -660,55 +664,6 @@ ol {
   right: 10px;
 }
 
-/* Categories section */
-  /* Card container */
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-  }
-
-  /* Card */
-  .card {
-    width: calc(100% - 20px);
-    position: relative;
-    overflow: hidden;
-    transition: filter 0.5s ease;
-  }
-
-  /* Background image */
-  .card img {
-    width: 450px;
-    height: 200px;
-    object-fit: cover;
-  }
-
-  /* Text on top of the image */
-  .card .card-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    padding: 20px;
-    transition: background-color 0.5s ease;
-  }
-
-  /* Hover effect */
-  .card:hover img {
-    filter: blur(5px);
-  }
-  /* Responsive styles */
-  @media (min-width: 768px) {
-
-  }
-
 /* Product section - 02 */
 .c-category__container {
   max-width: 100%;
@@ -726,11 +681,6 @@ ol {
 }
 
 .c-card {
-  flex: 0 0 auto;
-  width: 300px;
-  height: 315px;
-  margin-left: 20px;
-  margin-right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -747,9 +697,9 @@ ol {
 }
 .c-card__overlay {
   position: absolute;
-  top: 10px;
-  left: 20px;
-  bottom: 20px;
+  top: 10;
+  left: 20;
+  bottom: 20;
   width: 300px;
   height: 315px;
   background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
@@ -954,7 +904,7 @@ ol {
   /* aanouncement */
   .l-announcement {
     display: flex;
-    margin-top: 3.5rem;
+    margin-top: 2.7rem;
   }
 
   /* Seasonal Favourites */
@@ -986,15 +936,16 @@ ol {
   }
 
   /* Our Categories section */
-  .card {
-    width: calc(33.33% - 20px);
+  .c-category--cards{
+    display: flex;
+    flex-direction: row;
   }
   .c-card {
     width: calc(33.33% - 20px); /* Display three cards per row with margins */
-    height: 300px; /* Adjust height based on content */
+    height: 240px; /* Adjust height based on content */
     margin: 10px;
-    margin-bottom: 0;
   }
+
   .c-card__overlay {
     display: none; /* Hide overlay on desktop */
   }

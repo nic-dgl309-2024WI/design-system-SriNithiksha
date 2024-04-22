@@ -733,22 +733,6 @@ td {
     margin-left: 250px;
     padding-top: 25px;
   }
-  .css-accordion--style {
-    flex-direction: row;
-  }
-  .faq-item {
-    width: 1200px;
-  }
-  .faq-question:hover {
-    background-color: var(--primary-bg-light);
-    color: var(--secondary-text);
-  }
-  .faq-question:hover .faq-answer {
-    display: block;
-  }
-  .faq-question:hover::after {
-    transform: translateY(-50%) rotate(90deg);
-  }
   /*Cards Page */
   .cards--container {
     flex-direction: column;
